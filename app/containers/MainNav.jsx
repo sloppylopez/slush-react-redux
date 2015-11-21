@@ -22,11 +22,11 @@ class MainNav extends Component {
                     </div>
                     <div className='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
                         <ul className='nav navbar-nav navbar-right'>
-                            <li><a ng-href='/#/blog'>Blog</a></li>
-                            <li><a ng-href='/#/authwithpassword'>Login</a></li>
-                            <li><a ng-href='/#/createuser'>Sign Up</a></li>
-                            <li><a ng-href='/#/resetpassword'>Reset Password</a></li>
-                            <li><a ng-show='authData' ng-href='/#/logout'>Logout</a></li>
+                            <li><a href='/#/blog'>Blog</a></li>
+                            <li><a href='/#/authwithpassword'>Login</a></li>
+                            <li><a href='/#/createuser'>Sign Up</a></li>
+                            <li><a href='/#/resetpassword'>Reset Password</a></li>
+                            <li><a ng-show='authData' href='/#/logout'>Logout</a></li>
                         </ul>
                     </div>
                 </div>
