@@ -8,6 +8,7 @@ export default
 class MainNav extends Component {
 
     render() {
+
         return (
             <nav className='navbar navbar-default navbar-custom navbar-fixed-top navbar-custom'>
                 <div className='container-fluid'>
@@ -28,9 +29,10 @@ class MainNav extends Component {
                             <li><a href='/#/resetpassword'>Reset Password</a></li>
                             <li><a ng-show='authData' href='/#/logout'>Logout</a></li>
                         </ul>
-                    </div>
+                </div>
                 </div>
             </nav>
         )
     }
+
 }
