@@ -8,7 +8,7 @@ var port = process.env.PORT || 9090
 var app = express()
 
 var compiler = webpack(config)
-
+app.use(express.static('./app/assets'));
 app.use(require('webpack-hot-middleware')(compiler))
 
 var devMiddleware = app.use(require('webpack-dev-middleware')(compiler, {

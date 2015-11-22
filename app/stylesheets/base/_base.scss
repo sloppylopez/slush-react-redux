@@ -1,6 +1,8 @@
 // -----------------------------------------------------------------------------
 // This file contains very basic styles.
 // -----------------------------------------------------------------------------
+//TODO fix me
+$pinky-color: #FC7878;
 
 /**
  * Set up a decent box model on the root element
@@ -19,15 +21,55 @@ html {
   box-sizing: inherit;
 }
 
-/**
- * Basic styles for links
- */
-a {
-  color: $brand-color;
-  text-decoration: none;
+//Main body styles
+body {
+  background-color: $pinky-color;
+  p {
+    margin: 0 0 10px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  /**
+   * Basic styles for links
+   */
+  a {
+    //color: $brand-color;
+    color: #fff;
+    text-decoration: none;
 
-  @include on-event {
-    color: $text-color;
-    text-decoration: underline;
+    @include on-event {
+      color: $text-color;
+      text-decoration: underline;
+    }
+  }
+  form {
+    width: 50%;
+    margin: 14px auto;
+    padding: 0px;
+    height: 355px;
+  }
+
+  label {
+    font-size: 19px;
+  }
+
+  .caption p {
+    font-size: 13px;
+    a {
+      color: $pinky-color;
+    }
+  }
+
+  .error {
+    color: #ff0;
+    margin: 3px 0;
+  }
+
+  .btn-primary {
+    background-color: #1E87E0;
+  }
+
+  .toast-top-full-width {
+    top: 53px;
   }
 }
