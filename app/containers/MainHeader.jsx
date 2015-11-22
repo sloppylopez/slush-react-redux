@@ -17,10 +17,9 @@ class MainHeader extends Component {
                                 <h1>Slop
                                     Bloggy
                                     Blog</h1>
-                                <hr className='small'>
-                                    <span className='subheading'>Cos ain't no such things as halfway crooks</span>
-                                    <toast></toast>
-                                </hr>
+                                <hr className='small'/>
+                                <span className='subheading'>Cos ain't no such things as halfway crooks</span>
+                                <toast></toast>
                             </div>
                         </div>
                     </div>
