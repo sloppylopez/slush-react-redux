@@ -23,8 +23,8 @@ class MainBody extends Component {
 
                             <p>
                                 It's funny what a Back-End developer like thyself can do nowadays with this <a
-                                href='https://en.wikipedia.org/wiki/JavaScript'>Javascript</a>
-                                frenzy we are living lately.
+                                href='https://en.wikipedia.org/wiki/JavaScript'>Javascript</a> frenzy we are living
+                                lately.
                                 I remember in ye olde times with the old good 1.6 JDK running the 'war' with <a
                                 href='http://ant.apache.org/'>Apache Ant</a> tasks,
                                 going for a coffee and after a fair amount of minutes having the web in your local up
@@ -86,8 +86,7 @@ class MainBody extends Component {
                                 <br></br>
                                 Then you have this entire eco-system of FOSS Js libraries supported by the community
                                 that work every now and then which let you solve the problem of optimizing static
-                                resources client side with a
-                                <a
+                                resources client side with a <a
                                     href='http://gruntjs.com/'>Grunt</a> vs <a
                                 href='http://gulpjs.com/'>Gulp</a> kind of dichotomy if it weren't for <a
                                 href='http://broccolijs.com/'>Broccoli</a> or <a
@@ -111,7 +110,10 @@ class MainBody extends Component {
                                 it's part of the bargain, some might say it's the charm of it, like having to chose
                                 between:
                                 <br></br>
-                                (naming few of them)<br></br>
+                                <br></br>
+                                (naming few of them)
+                                <br></br>
+                                <br></br>
                                 <a
                                     href='https://angularjs.org/'>AngularJS</a> vs <a
                                 href='https://facebook.github.io/react/'>React</a>
@@ -170,6 +172,7 @@ class MainBody extends Component {
                                     href='https://github.com/petkaantonov/bluebird'>Bluebird</a> vs <a
                                 href='https://www.npmjs.com/package/q'>Q</a>
                                 <br></br>
+                                <br></br>
                                 As you can see the permutations of this elements leads us to 100 trillion different
                                 collars to put in our 'branch new dawg', and even though they say 'Variety is the spice
                                 of life' I would suggest:
@@ -178,7 +181,7 @@ class MainBody extends Component {
                                 have
                                 few talks and decide whether it's the most convenient way of doing things for the most
                                 common tasks across the dev/release cycle and try to
-                                standardize few things to start with?'.
+                                standardize few things to start with?'.<br></br>
                                 <br></br>Having said that it seems for some strange reason <a
                                 href='https://en.wikipedia.org/wiki/JavaScript'>Javascript</a> is getting sexy.
                             </p>

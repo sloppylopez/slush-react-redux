@@ -8,6 +8,8 @@ import MainHeader from './MainHeader'
 import MainBody from './MainBody'
 import MainFooter from './MainFooter'
 
+require('!style!css!sass!../stylesheets/main.scss');
+
 @connect()
 export default
 class HomePage extends Component {
