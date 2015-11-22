@@ -35,9 +35,12 @@
     "webpack-hot-middleware": "^2.4.1"
   },
   "dependencies": {
+    "bootstrap": "^3.3.5",
     "classnames": "^2.1.5",
+    "font-awesome": "^4.4.0",
     "history": "^1.12.5",
     "immutable": "^3.7.5",
+    "jquery": "^2.1.4",
     "material-ui": "^0.13.3",
     "react": "^0.14.0",
     "react-dom": "^0.14.0",

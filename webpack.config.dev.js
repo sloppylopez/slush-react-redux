@@ -31,6 +31,11 @@ module.exports = {
         new webpack.DefinePlugin({
             'process.env.NODE_ENV': JSON.stringify('development'),
             '__DEV__': JSON.stringify(process.env.NODE_ENV)
+        }),
+        new webpack.ProvidePlugin({
+            $: "jquery",
+            jQuery: "jquery",
+            "window.jQuery": "jquery"
         })
     ],
     module: {
@@ -55,6 +60,9 @@ module.exports = {
         }, {
             test: /\.(otf|eot|png|gif|svg|ttf|woff|woff2)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
             loader: 'url?limit=8192'
+        }, {
+            test: /\.scss$/,
+            loaders: ["style", "css", "sass"]
         }]
     }
 }

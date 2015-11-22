@@ -1,0 +1,1 @@
+TODO sprite images and/or resize them automatically

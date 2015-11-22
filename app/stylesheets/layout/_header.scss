@@ -2,7 +2,11 @@
 .intro-header {
   height: 340px;
   margin-top: 30px;
-  background-image: url('/assets/images/home-bg-1920x340.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-image: url('../assets/images/home-bg-1920x340.png');
+  //TODO there is a bug with the background image possition
 }
 
 .site-heading {
