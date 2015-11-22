@@ -30,7 +30,7 @@ class MainBody extends Component {
                                 going for a coffee and after a fair amount of minutes having the web in your local up
                                 and
                                 running.
-                                <br/><br/>
+                                <br></br>
                                 Your 'perfectly' object oriented model is sent to the <a
                                 href='https://en.wikipedia.org/wiki/JavaServer_Pages'>Jsp</a> and gets rendered with
                                 'Jsp-esque'
@@ -41,7 +41,7 @@ class MainBody extends Component {
                                 write
                                 in your CV that you knew <a
                                 href='https://en.wikipedia.org/wiki/JavaScript'>Javascript</a>.
-                                <br/><br/>
+                                <br></br>
                                 But your life can flip in a matter of seconds...
                                 One day you wake up in the morning but you can't help yourself
                                 tasting the flavour of <a
@@ -49,7 +49,7 @@ class MainBody extends Component {
                                 all of a sudden you see people
                                 speaking about <a
                                 href='https://en.wikipedia.org/wiki/JavaScript'>Javascript</a> inside the office.
-                                <br/><br/>
+                                <br></br>
                                 You run terrified towards your desk to find that <a
                                 href='https://www.jetbrains.com/idea/'>Intellij</a> now is called <a
                                 href='https://www.jetbrains.com/webstorm/'>Webstorm</a>,
@@ -67,23 +67,23 @@ class MainBody extends Component {
                                 href='https://angularjs.org/'>AngularJS</a> but also <a
                                 href='https://www.mysql.com/'>MySql</a> becomes <a
                                 href='https://www.mongodb.org/'>Mongo</a> and so forth.
-                                <br/><br/>
+                                <br></br>
                                 Finally <a
                                 href='https://en.wikipedia.org/wiki/JavaScript'>Javascript</a> meets Server Side!, how
                                 did I get here? I am not surprised they decided to call this stack <a
                                 href='https://en.wikipedia.org/wiki/MEAN_(software_bundle)'>MEAN</a>.
-                                <br/><br/>
+                                <br></br>
                                 Since you can't fight back you decide to unite them and discover marvelous
                                 things like for example that I can do the same as before! Yuhuuu, what else?.
-                                <br/><br/>
+                                <br></br>
                                 Asynchrony 4 all!, Ok, <a
                                 href='https://java.com/en/download/'>Java</a> multi-threading complexity problem solved,
-                                what else?.<br/><br/>
+                                what else?.<br></br>
                                 Ludicrous speed builds, niceee (Problem solved in <a
                                 href='https://java.com/en/download/'>Java</a> today with <a
-                                href='https://buckbuild.com/'>Buck</a> so, meh).<br/><br/>
+                                href='https://buckbuild.com/'>Buck</a> so, meh).<br></br>
                                 Run the same code language across the whole app, I'll buy that.
-                                <br/><br/>
+                                <br></br>
                                 Then you have this entire eco-system of FOSS Js libraries supported by the community
                                 that work every now and then which let you solve the problem of optimizing static
                                 resources client side with a
@@ -93,11 +93,11 @@ class MainBody extends Component {
                                 href='http://broccolijs.com/'>Broccoli</a> or <a
                                 href='http://brunch.io/'>Brunch</a> or <a
                                 href='http://coffeescript.org/documentation/docs/cake.html'>Cake</a> and
-                                whatnot.<br/><br/>
+                                whatnot.<br></br>
                                 Eventually you are forced to choose, learn, test and integrate
                                 all this bunch of tools just to put a website online with 5-10 views and 2-3
                                 payment methods in most cases.
-                                <br/><br/>
+                                <br></br>
                                 I though well, I hope we are not sacrificing proper modelling...
                                 Object modelling? you write 1 input markup using ng-model in <a
                                 href='https://angularjs.org/'>AngularJS</a> and it's in the model per se, this
@@ -105,83 +105,81 @@ class MainBody extends Component {
                                 discussing
                                 15 minutes about why we need an extra attribute in this object,
                                 as instead the model is the Wild West.
-                                <br/><br/>
+                                <br></br>
                                 No cowboy in your team knows exactly how many fields
                                 it has or what's going on inside of it, seems rather frustrating because
                                 it's part of the bargain, some might say it's the charm of it, like having to chose
                                 between:
-                                <br/><br/>
-                                (naming few of them)<br/>
-                                <br/>
+                                <br></br>
+                                (naming few of them)<br></br>
                                 <a
                                     href='https://angularjs.org/'>AngularJS</a> vs <a
                                 href='https://facebook.github.io/react/'>React</a>
-                                <br/><br/>
+                                <br></br>
                                 <a
                                     href='http://gruntjs.com/'>Grunt</a> vs <a
                                 href='http://gulpjs.com/'>Gulp</a> vs <a
                                 href='http://broccolijs.com/'>Broccoli</a> vs <a
                                 href='http://brunch.io/'>Brunch</a> vs <a
                                 href='http://coffeescript.org/documentation/docs/cake.html'>Cake</a>
-                                <br/><br/>
+                                <br></br>
                                 <a
                                     href='http://coffeescript.org/'>CoffeeScript</a> vs <a
                                 href='http://www.typescriptlang.org/'>TypeScript</a> vs <a
                                 href='https://en.wikipedia.org/wiki/JavaScript'>Javascript</a>
-                                <br/><br/>
+                                <br></br>
                                 <a
                                     href='https://nodejs.org/en/'>NodeJS</a> vs <a
                                 href='https://iojs.org/en/'>IO.js</a>
-                                <br/><br/>
+                                <br></br>
                                 <a
                                     href='https://mochajs.org/'>Mocha</a> vs <a
                                 href='http://jasmine.github.io/'>Jasmine</a>
-                                <br/><br/>
+                                <br></br>
                                 <a
                                     href='http://handlebarsjs.com/'>Handlebars</a> vs <a
                                 href='http://jade-lang.com/'>Jade</a>
-                                <br/><br/>
+                                <br></br>
 
                                 In a deeper level of granularity:
-                                <br/><br/>
+                                <br></br>
                                 <a
                                     href='http://expressjs.com/'>Express</a> vs <a
                                 href='http://hapijs.com/'>Hapi</a>
-                                <br/><br/>
+                                <br></br>
                                 <a
                                     href='https://www.npmjs.com/package/request'>Request</a> vs <a
                                 href='https://visionmedia.github.io/superagent/'>Superagent</a>
-                                <br/><br/>
+                                <br></br>
                                 <a
                                     href='http://underscorejs.org/'>Underscore</a> vs <a
                                 href='https://lodash.com/'>Lodash</a>
-                                <br/><br/>
+                                <br></br>
                                 <a
                                     href='http://chaijs.com/'>Chai</a> vs <a
                                 href='https://shouldjs.github.io/'>Should</a>
-                                <br/><br/>
+                                <br></br>
                                 <a
                                     href='http://requirejs.org/'>RequireJS</a>
                                 vs <a
                                 href='https://webpack.github.io/'>Webpack</a> vs
                                 <a
                                     href='http://browserify.org/'>Browserify</a>
-                                <br/><br/>
+                                <br></br>
                                 <a
                                     href='https://github.com/petkaantonov/bluebird'>Bluebird</a> vs <a
                                 href='https://www.npmjs.com/package/q'>Q</a>
-                                <br/><br/>
+                                <br></br>
                                 As you can see the permutations of this elements leads us to 100 trillion different
                                 collars to put in our 'branch new dawg', and even though they say 'Variety is the spice
                                 of life' I would suggest:
-                                <br/><br/>
+                                <br></br>
                                 'Guys... why don't you stop rowing in different directions for a second, sit together,
                                 have
                                 few talks and decide whether it's the most convenient way of doing things for the most
                                 common tasks across the dev/release cycle and try to
                                 standardize few things to start with?'.
-                                <br/><br/>
-                                Having said that it seems for some strange reason <a
+                                <br></br>Having said that it seems for some strange reason <a
                                 href='https://en.wikipedia.org/wiki/JavaScript'>Javascript</a> is getting sexy.
                             </p>
                             <footer><p className='pink'><b>ڪ.</b></p></footer>
@@ -202,19 +200,18 @@ class MainBody extends Component {
 
                             <p>
                                 It all began with this <a
-                                href='http://thepracticalsysadmin.com/running-elk-on-docker/'>article</a>.<br/><br/>
+                                href='http://thepracticalsysadmin.com/running-elk-on-docker/'>article</a>.<br></br>
                                 Was really exciting to see what <a href='https://www.docker.com/'>Docker</a> is able to
                                 do, ELK stack was
                                 quick
                                 and easy to build following the tutorial, but soon I though maybe we could do something
                                 interesting with the
                                 <a
-                                    href='https://www.elastic.co/'>Elastic Search</a>.<br/>
+                                    href='https://www.elastic.co/'>Elastic Search</a>.<br></br>
                                 So taking some random but useful data, in this case RSS news to persist on the Elastic
                                 Search, gave me the
                                 need
-                                for a Client/Server scenario, therefore it came the <a href='https://angularjs.org/'>AngularJS</a>
-                                client
+                                for a Client/Server scenario, therefore it came the <a href='https://angularjs.org/'>AngularJS</a> client
                                 and the <a href='https://nodejs.org/'>NodeJS</a> API to communicate the back-end
                                 docker-based virtual
                                 machines
@@ -238,11 +235,8 @@ class MainBody extends Component {
                                 I promised <a href='http://es.linkedin.com/in/sloppylopez'>myself</a> the next project
                                 must have a CI-CD
                                 cycle, it was very easy to achieve using the
-                                wonders of <a href='https://travis-ci.org/sloppylopez/angulpar'>Travis</a> mixed up with
-                                <a
-                                    href='https://www.firebase.com/'>Firebase</a>
-                                <a href='http://en.wikipedia.org/wiki/Mobile_Backend_as_a_service'>BaaS</a>
-                                features.<br/>
+                                wonders of <a href='https://travis-ci.org/sloppylopez/angulpar'>Travis</a> mixed up with <a href='https://www.firebase.com/'>Firebase</a> <a href='http://en.wikipedia.org/wiki/Mobile_Backend_as_a_service'>BaaS</a>
+                                features.<br></br>
                                 If we include <a href='https://github.com/sloppylopez'>Github</a> in the process, we
                                 have
                                 version control
@@ -254,9 +248,7 @@ class MainBody extends Component {
                             <p>
                                 If we add 100% unit test coverage and e2e testing to the mix, topped up with <a
                                 href='https://www.npmjs.com/package/istanbul'>Istambul</a> test coverage <a
-                                href='https://codeclimate.com/github/sloppylopez/angulpar/coverage'>reports</a>
-                                and <a href='https://codeclimate.com/github/sloppylopez/angulpar'>Code Climate</a>
-                                quality
+                                href='https://codeclimate.com/github/sloppylopez/angulpar/coverage'>reports</a> and <a href='https://codeclimate.com/github/sloppylopez/angulpar'>Code Climate</a> quality
                                 checks, we find ourselves with a project resistant to human mistakes
                                 across the whole cycle of dev/release.
 
@@ -269,9 +261,8 @@ class MainBody extends Component {
                                 the business value added for that feature, in that particular pull request.
                                 We can measure how affects the performance of the web with tools like <a
                                 href='https://gtmetrix.com/reports/sloppylopez.com/MDmkiX0B'>GTmetrix</a> and how
-                                affects the
-                                <a
-                                    href='https://codeclimate.com/github/sloppylopez/angulpar'>quality</a> of code.<br/>
+                                affects the <a href='https://codeclimate.com/github/sloppylopez/angulpar'>quality</a> of
+                                code.<br></br>
                                 if the pull
                                 request diminishes the quality, the deployment will not happen and Travis will
                                 automatically generate a
@@ -281,10 +272,10 @@ class MainBody extends Component {
                             <p>
                                 After achieving this milestone we can focus on just adding business value to our
                                 project,
-                                that's <a href='http://en.wikipedia.org/wiki/Agile_management'>Agile</a>.<br/>
+                                that's <a href='http://en.wikipedia.org/wiki/Agile_management'>Agile</a>.<br></br>
                                 We built a bare bones seed, with the minimum number of features to make the whole stack
                                 work,
-                                which also is ready for future growth and unavoidable human failures.<br/>
+                                which also is ready for future growth and unavoidable human failures.<br></br>
                                 We also have a clear and well defined process that anyone can follow and is documented,
                                 idempotent,
                                 automated and generates reports out-of-the-box.
