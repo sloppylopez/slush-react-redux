@@ -8,7 +8,7 @@ import MainHeader from './MainHeader'
 import MainBody from './MainBody'
 import MainFooter from './MainFooter'
 
-require('../stylesheets/main.scss');
+require('!style!css!sass!../stylesheets/main.scss');
 
 @connect()
 export default

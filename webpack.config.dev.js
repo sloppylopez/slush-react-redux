@@ -55,10 +55,6 @@ module.exports = {
         }, {
             test: /\.(otf|eot|png|gif|svg|ttf|woff|woff2)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
             loader: 'url?limit=8192'
-        }, {
-            test: /\.scss$/,
-            loaders: ["style", "css", "sass"]
-        }
-        ]
+        }]
     }
 }
