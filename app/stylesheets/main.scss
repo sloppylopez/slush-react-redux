@@ -5,7 +5,8 @@
 'utils/functions',
 'utils/mixins';
 // 2. Vendors
-@import 'vendor/normalize';
+@import 'vendor/normalize',
+'vendor/tetromimo';
 // 3. Base stuff
 @import 'base/base',
 'base/fonts',
@@ -13,7 +14,8 @@
 'base/helpers';
 // 4. Layout-related sections
 @import 'layout/header',
-'layout/footer';
+'layout/footer',
+'layout/navbar';
 // 5. Components
 @import 'components/buttons';
 // 6. Page-specific styles

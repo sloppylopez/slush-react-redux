@@ -1,3 +1,130 @@
-// -----------------------------------------------------------------------------
-// This file contains styles that are specific to the home page.
-// -----------------------------------------------------------------------------
+$navbar-inverse-link-color: #5AADBB;
+$pinky-color: #FC7878;
+//TODO fixme
+//$icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+//
+//@import "../../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+//@import "../../bower_components/font-awesome/scss/font-awesome.scss";
+
+body {
+  background-color: $pinky-color;
+  p {
+    margin: 0 0 10px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  a {
+    color: #fff;
+  }
+  form {
+    width: 50%;
+    margin: 14px auto;
+    padding: 0px;
+    height: 355px;
+  }
+
+  label {
+    font-size: 19px;
+  }
+
+  .caption p {
+    font-size: 13px;
+    a {
+      color: $pinky-color;
+    }
+  }
+
+  .error {
+    color: #ff0;
+    margin: 3px 0;
+  }
+
+  .btn-primary {
+    background-color: #1E87E0;
+  }
+
+  .toast-top-full-width {
+    top: 53px;
+  }
+}
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.thumbnail {
+  height: 200px;
+}
+
+.container {
+  max-width: 1000px;
+  h1 {
+    font: 900 59px/1 'Source Sans Pro', Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(241, 240, 247, 1);
+    text-align: center;
+    width: 47%;
+    margin: 0 auto;
+    letter-spacing: 0px;
+    text-shadow: 0 1px 0 #c9cfce, 0 2px 0 #bcc2c2, 0 3px 0 #afb6b6, 0 4px 0 #a4adac, 0 5px 0 #9fa8a7, 0 6px 0 #99a3a2, 0 7px 0 #97a1a0, 0 8px 0 #949e9d, 0 0 5px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.2), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.3);
+  }
+  h2 {
+    font-weight: 800;
+    font-size: 30px;
+  }
+}
+
+/* Fixing scraped rss TODO refactor*/
+.small-font {
+  font-size: 19px;
+}
+
+.fixrss {
+  margin-bottom: 43px;
+}
+
+.fixrss img {
+  margin-right: 7px;
+}
+
+.navcontainer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.form-group {
+  padding-top: 25px;
+  margin-bottom: 28px;
+  height: 80px;
+}
+
+.form-control {
+  height: 43px;
+  background-color: rgb(250, 255, 189);
+  background-image: none;
+  color: rgb(0, 0, 0);
+}
+
+//FONTS
+/* latin */
+//TODO fixme
+//@font-face {
+//  font-family: 'Cookie';
+//  font-style: normal;
+//  font-weight: 400;
+//  src: local('Cookie-Regular'), url(../../assets/fonts/crMuSvy3krjox1JAKfe7Ew.woff2) format('woff2');
+//  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+//}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    h1 {
+      width: 47%;
+    }
+  }
+}

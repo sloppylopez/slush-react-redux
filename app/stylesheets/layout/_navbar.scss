@@ -1,0 +1,41 @@
+/* Custom page navbar */
+.navbar-default .navbar-nav li a, .navbar-default .navbar-brand, .glyphicon {
+  color: #EC7777;
+  font-size: 20px;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-brand a:hover {
+  color: #428bca;
+}
+
+.navbar-default .navbar-nav li a:active {
+  color: #D21866;
+}
+
+.nav li {
+  padding-top: 5px;
+}
+
+.navbar-custom {
+  z-index: 999;
+  background: #000;
+  border: 0;
+  padding: 0;
+  opacity: 0.85;
+  height: 50px;
+}
+
+.ngview-frame {
+  min-height: 323px;
+}
+
+.navbar-default .navbar-collapse {
+  padding-left: 35px;
+  background-color: #000;
+}
+
+.navbar-nav li a {
+  padding-top: 9px;
+  background-color: #000;
+  text-align: center;
+}
