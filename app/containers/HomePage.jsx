@@ -8,8 +8,8 @@ import MainHeader from './MainHeader'
 import MainBody from './MainBody'
 import MainFooter from './MainFooter'
 
-require('!style!css!../../node_modules/bootstrap/dist/css/bootstrap.css');
-require('!style!css!sass!../stylesheets/main.scss');
+require('bootstrap/dist/css/bootstrap.css');
+require('../stylesheets/main.scss');
 
 @connect()
 export default
