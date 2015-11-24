@@ -1,4 +1,4 @@
-import 'babel-core/polyfill'
+//import 'babel-core/polyfill'
 
 import React from 'react'
 import ReactDOM from 'react-dom'
@@ -13,9 +13,12 @@ import configureStore from './store/configureStore'
 import App from './containers/App'
 import HomePage from './containers/HomePage'
 
+require('bootstrap/dist/css/bootstrap.css');
+require('font-awesome/scss/font-awesome.scss');
+require('./stylesheets/main.scss');
 
-const history = createBrowserHistory()
-const store = configureStore()
+const history = createBrowserHistory();
+const store = configureStore();
 
 ReactDOM.render(
     <Provider store={store}>
@@ -26,4 +29,4 @@ ReactDOM.render(
         </Router>
     </Provider>,
     document.getElementById('root')
-)
+);
