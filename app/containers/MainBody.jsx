@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
+import TechnologiesTable from './TechnologiesTable'
 
 @connect()
 export default
@@ -314,6 +315,7 @@ class MainBody extends Component {
                         </div>
                     </div>
                 </article>
+                <TechnologiesTable/>
             </div>
         )
     }

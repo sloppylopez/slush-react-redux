@@ -29,7 +29,7 @@ class MainNav extends Component {
                             <li><a href='/#/resetpassword'>Reset Password</a></li>
                             <li><a ng-show='authData' href='/#/logout'>Logout</a></li>
                         </ul>
-                </div>
+                    </div>
                 </div>
             </nav>
         )

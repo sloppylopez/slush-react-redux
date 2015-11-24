@@ -1,15 +1,15 @@
-var express = require('express')
-var webpack = require('webpack')
-var config = require('./webpack.config.dev')
+var express = require('express');
+var webpack = require('webpack');
+var config = require('./webpack.config.dev');
 
-var host = process.env.HOST || 'localhost'
-var port = process.env.PORT || 9090
+var host = process.env.HOST || 'localhost';
+var port = process.env.PORT || 9090;
 
-var app = express()
+var app = express();
 
-var compiler = webpack(config)
-app.use(express.static('./app/assets'));
-app.use(require('webpack-hot-middleware')(compiler))
+var compiler = webpack(config);
+app.use('/assets', express.static('./app/assets'));
+app.use(require('webpack-hot-middleware')(compiler));
 
 var devMiddleware = app.use(require('webpack-dev-middleware')(compiler, {
     headers: {'access-control-allow-origin': '*'},
@@ -24,7 +24,7 @@ var devMiddleware = app.use(require('webpack-dev-middleware')(compiler, {
         chuncks: false,
         chunkModules: false
     }
-}))
+}));
 
 /*Temp Hack to support react-router's history api
  * https://github.com/webpack/webpack-dev-middleware/issues/39
@@ -41,7 +41,7 @@ app.use(function (req, res, next) {
     } else {
         next()
     }
-})
+});
 
 
 app.listen(port, host, (err) => {
@@ -50,4 +50,4 @@ app.listen(port, host, (err) => {
     }
 
     console.info('==> 🚧  webpack development server listening on %s:%s', host, port)
-})
+});
