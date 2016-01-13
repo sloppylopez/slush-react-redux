@@ -44,7 +44,7 @@ app.use(function (req, res, next) {
 });
 
 
-app.listen(port, host, (err) => {
+app.listen(port, host, function (err) {
     if (err) {
         console.log(err)
     }
