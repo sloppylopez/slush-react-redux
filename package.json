@@ -1,10 +1,10 @@
 {
-  "name": "rrs",
+  "name": "slush-react-redux",
   "version": "0.1.0",
   "description": "",
   "main": "app/index.jsx",
   "scripts": {
-    "dev": "node --use_strict devServer",
+    "dev": "node devServer",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sergio Lopez <sloppy@sloppylopez.com> (https://sloppylopez.com)",

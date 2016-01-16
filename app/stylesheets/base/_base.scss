@@ -1,8 +1,7 @@
 // -----------------------------------------------------------------------------
 // This file contains very basic styles.
 // -----------------------------------------------------------------------------
-//TODO fix me
-$pinky-color: #FC7878;
+
 
 /**
  * Set up a decent box model on the root element
@@ -34,7 +33,7 @@ body {
    */
   a {
     //color: $brand-color;
-    color: #fff;
+    color: #FF4B8A;
     text-decoration: none;
 
     @include on-event {
