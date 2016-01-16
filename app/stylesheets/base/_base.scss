@@ -22,11 +22,12 @@ html {
 
 //Main body styles
 body {
-  background-color: $pinky-color;
+  background-color: $dark-grey;
   p {
     margin: 0 0 10px;
     font-size: 17px;
     font-weight: 600;
+    color: #fff;
   }
   /**
    * Basic styles for links
