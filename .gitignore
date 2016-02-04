@@ -4,6 +4,7 @@ node_modules
 results.tap
 results.xml
 config.json
+main.css
 .DS_Store
 */.DS_Store
 */*/.DS_Store
@@ -11,3 +12,4 @@ config.json
 */._*
 */*/._*
 coverage.*
+jspm_packages
