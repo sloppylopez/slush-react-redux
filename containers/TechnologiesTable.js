@@ -14,7 +14,6 @@ class TechnologiesTable extends Component {
                 <div className='col-sm-6 col-md-4 ng-scope'>
                     <div className='thumbnail'>
                         <img width='100' height='100' className='pull-right'
-                             src='assets/images/protractor.png'
                              alt='Protractor' src='assets/images/protractor.png'/>
 
                         <div className='caption'><h3 >Protractor</h3>
@@ -23,7 +22,7 @@ class TechnologiesTable extends Component {
                                 of
                                 WebDriverJS.</p>
 
-                            <p><a href='https://github.com/angular/protractor'
+                            <p><a
                                   href='https://github.com/angular/protractor'>https://github.com/angular/protractor</a>
                             </p>
                         </div>
@@ -38,7 +37,7 @@ class TechnologiesTable extends Component {
 
                             <p >The streaming build system.</p>
 
-                            <p><a href='http://gulpjs.com/' href='http://gulpjs.com/'>http://gulpjs.com/</a>
+                            <p><a href='http://gulpjs.com/'>http://gulpjs.com/</a>
                             </p>
                         </div>
                     </div>

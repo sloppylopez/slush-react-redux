@@ -16,16 +16,16 @@ class MainFooter extends Component {
                     <h3>ڪloπ<span>Lopez</span></h3>
 
                     <p className='footer-links'>
-                        <a href='/#/blog'>Blog</a>
-                        <a ng-show='authData' href='/#/addpost'>· Add Post</a>
-                        ·
-                        <a href='/#/rssfeeder'>Rss Viewer</a>
-                        ·
-                        <a href='/#/authwithpassword'>Login</a>
-                        ·
-                        <a href='/#/createuser'>Sign up</a>
+                        <a href='#'>{'Live'}</a>
+                        <a href='#'>{' > Code '} </a>
 
-                        <a ng-show='authData' href='/#/logout'>· Logout</a>
+                        <a href='#'>{' > Enjoy'} </a>
+
+                        <a href='#'>{' > Rest '}</a>
+
+                        <a href='#'>{' > Meditate'} </a>
+
+                        <a href='#'>{' > Repeat '}</a>
                     </p>
 
                     <p className='footer-company-name'>If you came to learn how to make fire, I'ma make it burn.</p>

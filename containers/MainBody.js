@@ -270,7 +270,7 @@ class MainBody extends Component {
                                      vs <a
                                     href='https://webpack.github.io/'>Webpack</a> vs
                                     <a
-                                        href='http://browserify.org/'> Browserife</a> vs <a
+                                        href='http://browserify.org/'> Browserify</a> vs <a
                                     href='http://jspm.io/'> Jspm</a>
                                     <br></br>
                                 </li>
