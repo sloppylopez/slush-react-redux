@@ -17,14 +17,14 @@ class MainBody extends Component {
 
                         <div>
                             <p>
-                                This time I was missing in action for three months... a big opportunity
+                                A big opportunity
                                 came to my life, I changed job, house and city all at the same time!,
                                 it wasn't really easy because I moved alone, even though my girl
                                 came a month after.
                             </p>
                             <p>
                                 I have very good memories of London for the last 3 years, it's a marvelous
-                                city to live but I felt in love with Amsterdam long time ago when I came
+                                city to live but I fell in love with Amsterdam long time ago when I came
                                 with friends.<br></br>
                                 I promised myself one day I will work here somehow, it took me more than 7
                                 years programming to reach being offered a job here.
@@ -60,7 +60,8 @@ class MainBody extends Component {
                             </p>
                             <p>
                                 <a
-                                    href='https://webpack.github.io/'>Webpack</a> it's gorgeous, with minimum configuration you get a lot of goodies out of the
+                                    href='https://webpack.github.io/'>Webpack</a> it's gorgeous, with minimum
+                                configuration you get a lot of goodies out of the
                                 box.
                                 this website has been rebuild 3 times, first was Angruntlar, then Angulpar, and now it's
                                 called Slush-React-Redux.
