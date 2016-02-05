@@ -17,44 +17,50 @@ class MainBody extends Component {
 
                         <div>
                             <p>
-                                Hello again, I was missing in action for three months... a big opportunity
-                                came to my life, I changed job, house and city all the same time!,
-                                it wasn't really easy this time because I moved alone, even though my girl
+                                This time I was missing in action for three months... a big opportunity
+                                came to my life, I changed job, house and city all at the same time!,
+                                it wasn't really easy because I moved alone, even though my girl
                                 came a month after.
                             </p>
                             <p>
-                                I had very good memories of London for the last 3 years, it's a marvelous
-                                city to live but I couldn't help felt in love with Amsterdam when I first came
-                                with friends.I promised myself one day I'll work here somehow, I never really
-                                though I will make it, took me more than 7 years programming to reach being
-                                offered a job here.
+                                I have very good memories of London for the last 3 years, it's a marvelous
+                                city to live but I felt in love with Amsterdam long time ago when I came
+                                with friends.<br></br>
+                                I promised myself one day I will work here somehow, it took me more than 7
+                                years programming to reach being offered a job here.
                             </p>
                             <p>
-                                I had tough times the first 3 weeks though, It was challenging to find a house
-                                to rent, Airbnb saved my life, but I was roaming from house to house for 3 weeks,
-                                it was a nightmare, I recall sleeping in the bed with the puffy snow jacket chilling
-                                to the bone because the host did not switch the heating on.
+                                The first 3 weeks were rought though, It was challenging to find a house
+                                to rent, <a href='https://www.airbnb.com/'>Airbnb</a> saved my life, but
+                                I was forced to roam from house to house every 2-3 days, it wasn't funny,
+                                I recall sleeping in the bed with the puffy jacket chilling to the bone
+                                because the host did not switch the heating on.
                             </p>
                             <p>
-                                Fortunately I found a very small and pricey flat, off course that wasn't the
+                                Fortunately I found a very small and pricey flat but off course that wasn't the
                                 end of the problems.<br></br>
                                 It's a first floor and they were building a 'restaurant' in the down floor,
                                 so I got 2 months of nice drilling included in the price, thanks God I was going
                                 to work and the noise was avoided half of the day, my girlfriend wasn't that lucky.
                             </p>
                             <p>
-                                Nobody said it will be easy, I was 2 months at home without internet as all over the
-                                top, imagine a web developer without internet in a new team.
-                                <br></br>
+                                Nobody said it will be easy, I did not have internet at home at all the first 2 months,
+                                imagine a web developer without internet in a new team.<br></br>
                                 Finally after all the problems I have a place to rest and work, so I decided
-                                to continue the work where I left it.
+                                to continue to work where I left it.
                             </p>
                             <p>
                                 In this 3 months I had time to do 2 things, the first one is to migrate my website again
-                                to Webpack and React/Redux, and to develop a NPM module called Slush-jspm-react-seed.
+                                to <a
+                                href='https://webpack.github.io/'>Webpack</a> and <a
+                                href='https://facebook.github.io/react/'>React</a>/<a
+                                href='https://github.com/rackt/redux'>Redux</a>, and then finally to Jspm,
+                                and to develop a NPM module called <a
+                                href='https://elephantseed.firebaseapp.com/'>Slush-jspm-react-seed</a>.
                             </p>
                             <p>
-                                Webpack it's gorgeous, with minimum configuration you get a lot of goodies out of the
+                                <a
+                                    href='https://webpack.github.io/'>Webpack</a> it's gorgeous, with minimum configuration you get a lot of goodies out of the
                                 box.
                                 this website has been rebuild 3 times, first was Angruntlar, then Angulpar, and now it's
                                 called Slush-React-Redux.
@@ -140,8 +146,7 @@ class MainBody extends Component {
                                 You run terrified towards your desk to find that <a
                                 href='https://www.jetbrains.com/idea/'>Intellij</a> now is called <a
                                 href='https://www.jetbrains.com/webstorm/'>Webstorm</a>,
-                                <a
-                                    href='http://www.apache.org/'>Apache</a> is <a
+                                <a href='http://www.apache.org/'>Apache</a> is <a
                                 href='https://www.nginx.com/'>Nginx</a> and <a
                                 href='http://tomcat.apache.org/'>Apache Tomcat</a> is known by the name of <a
                                 href='https://nodejs.org/en/'>NodeJS</a>,

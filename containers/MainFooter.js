@@ -44,7 +44,7 @@ class MainFooter extends Component {
                 <div className='footer-right'>
                     <p className='footer-company-about'>
                         <span>About me</span>
-                        Full Stack Developer since 2008,<br/> VBlogger and Futurama enthusiast.<br/>Smiling as they
+                        Full Stack Developer since 2008,<br/> Travelling around the world<br/>Smiling as they
                         laugh
                     </p>
 
