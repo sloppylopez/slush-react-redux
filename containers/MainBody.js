@@ -266,11 +266,12 @@ class MainBody extends Component {
                                 </li>
                                 <li>
                                     <a
-                                        href='http://requirejs.org/'>RequireJS</a>
-                                    vs <a
+                                        href='http://requirejs.org/'>RequireJS </a>
+                                     vs <a
                                     href='https://webpack.github.io/'>Webpack</a> vs
                                     <a
-                                        href='http://browserify.org/'>Browserify</a>
+                                        href='http://browserify.org/'> Browserife</a> vs <a
+                                    href='http://jspm.io/'> Jspm</a>
                                     <br></br>
                                 </li>
                                 <li>
@@ -279,7 +280,6 @@ class MainBody extends Component {
                                     href='https://www.npmjs.com/package/q'>Q</a>
                                 </li>
                             </ul>
-                            <br></br>
                             <br></br>
                             <p>As you can see the permutations of this elements leads us to 100 trillion different
                                 collars to put in our 'branch new dawg', and even though they say 'Variety is the

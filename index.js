@@ -2,13 +2,16 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-//import BootstrapCss from 'bootstrap/css/bootstrap.css!css'
+import main from 'stylesheets/main.css!css'
+import BootstrapCss from 'bootstrap/css/bootstrap.css!css'
+import FontAwesome from 'font-awesome/css/font-awesome.css!css'
 
-import { render } from 'react-dom'
+
+//import { render } from 'react-dom'
 import { Router, Route, IndexRoute, RouteHandler } from 'react-router'
-import { hashHistory } from 'history'
+import { browserHistory } from 'react-router'
 
-import createBrowserHistory from 'history/lib/createBrowserHistory'
+//import createBrowserHistory from 'history/lib/createBrowserHistory'
 
 //import { Provider } from 'react-redux'
 //
@@ -16,13 +19,13 @@ import createBrowserHistory from 'history/lib/createBrowserHistory'
 import App from './containers/App'
 import HomePage from './containers/HomePage'
 
-//require('font-awesome/scss/font-awesome.scss');
+//require('font-awesome/css/font-awesome.css');
 
 //const history = browserHistory();
 //const store = configureStore();
 
 ReactDOM.render(
-    <Router history={hashHistory}>
+    <Router history={browserHistory}>
         <Route path='/' component={App}>
             <IndexRoute component={HomePage}/>
         </Route>
