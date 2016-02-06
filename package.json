@@ -54,8 +54,7 @@
       "clean-css": "npm:clean-css@^3.4.9",
       "core-js": "npm:core-js@^1.1.4",
       "eslint": "npm:eslint@^1.10.3",
-      "express": "npm:express@^4.13.4",
-      "firebase-token-generator": "npm:firebase-token-generator@^2.0.0"
+      "express": "npm:express@^4.13.4"
     }
   }
 }

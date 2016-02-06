@@ -70,25 +70,55 @@ class MainBody extends Component {
                                 performance in better in practically every aspect surely.
                             </p>
                             <p>
-                                The second project it's called <a href='https://elephantseed.firebaseapp.com/'>Elephant Seed</a>, I got into it after speaking with one of the developers
-                                of my team, he showed me JSPM and I got interested, it tries to solve one of my major complaints about Javascript
+                                The second project it's called <a href='https://elephantseed.firebaseapp.com/'>Elephant
+                                Seed</a>, I got into it after speaking with one of the developers
+                                of my team, he showed me JSPM and I got interested, it tries to solve one of my major
+                                complaints about Javascript
                                 in the first article I wrote here, unifying the module dependency management
                                 of your project, and your builds, and your bundling everything under the same roof.
                             </p>
                             <p>
-                                In theory, with JSPM you don't need <a href='http://gulpjs.com/'>Gulp</a>, that's when I decided to make a front-end
+                                In theory, with JSPM you don't need <a href='http://gulpjs.com/'>Gulp</a>, that's when I
+                                decided to make a front-end
                                 project without Gulp, just to see if it's possible to get the same goodies without
                                 it.
                             </p>
                             <p>
-                                My colleague also showed me <a href='http://slushjs.github.io/#/'>Slush</a>, it's a scaffolding tool like <a href='http://yeoman.io/'>Yeoman</a> based on Gulp, so I decided
-                                to create a seed for removing the boiler-plate of a front-end project using all this technologies
-                                and including all the features developers like, for example live reloading, bundling, minifying
+                                My colleague also showed me <a href='http://slushjs.github.io/#/'>Slush</a>, it's a
+                                scaffolding tool like <a href='http://yeoman.io/'>Yeoman</a> based on Gulp, so I decided
+                                to create a seed for removing the boiler-plate of a front-end project using all this
+                                technologies
+                                and including all the features developers like, for example live reloading, bundling,
+                                minifying
                                 and so forth, all without the need to depend on Gulp and 20 different plug-ins.
                             </p>
                             <p>
-                                In the end you want to develop your project with the minimum ammount of dependencies but maintianing certains
-                                features that are very usefull and time saving for dev's in the development time and even on production release phase.
+                                In the end you want to develop your project with the minimum ammount of dependencies but
+                                maintianing certains
+                                features that are very usefull and time saving for dev's in the development time and
+                                even on production release phase.
+                            </p>
+                            <p>
+                                I am very happy I managed to settle and get my stuff together today,
+                                because tomorrow it's Big Pun's dead
+                                anniversary and I want to dedicate this last words to him.<br></br>
+                                <br></br>
+                                Christopher Lee Rios from the Boogie Down (Bronx), teenage father of 3 kids, he had so
+                                much struggles he even had to sleep
+                                in the streets, despite all that and being considered the underdog for his Latin Rapper
+                                condition, he managed to become a legend in New York,
+                                the first Latin Rapper to get a platinum Rap solo album, he tragedically died on
+                                February 7, 2000 by a heart attack due
+                                to his excesive overweight, 317 Kg.<br></br><br></br>
+                                He is a great inspiration for me and lots of Latin people all over the World, he was
+                                famous for rapping without pauses to breathe despite of his condition.<br></br>
+                                <br></br>
+                            </p>
+                            <p ><b>
+                                "Ever since I was young, I wasn't always Big Pun,<br></br>
+                                it wasn't always this fun. Ayo I rose from the Slums"<br></br>
+                                -Big pun-
+                            </b>
                             </p>
                             <footer><p className='pink'><b>ڪ.</b></p></footer>
                         </div>

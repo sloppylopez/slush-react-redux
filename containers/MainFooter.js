@@ -29,6 +29,7 @@ class MainFooter extends Component {
                     </p>
 
                     <p className='footer-company-name'>If you came to learn how to make fire, I'ma make it burn.</p>
+                    <p className='footer-company-name'>R.I.P Big Pun the greatest February 7, 2000</p>
                 </div>
 
                 <div className='footer-center'>
