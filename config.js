@@ -23,6 +23,7 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.20",
     "eslint": "npm:eslint@1.10.3",
     "express": "npm:express@4.13.4",
+    "firebase-token-generator": "npm:firebase-token-generator@2.0.0",
     "font-awesome": "npm:font-awesome@4.5.0",
     "history": "npm:history@2.0.0",
     "immutable": "npm:immutable@3.7.6",
@@ -607,6 +608,10 @@ System.config({
       "on-finished": "npm:on-finished@2.3.0",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "unpipe": "npm:unpipe@1.0.0"
+    },
+    "npm:firebase-token-generator@2.0.0": {
+      "assert": "github:jspm/nodelibs-assert@0.1.0",
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0"
     },
     "npm:flat-cache@1.0.10": {
       "del": "npm:del@2.2.0",
