@@ -44,7 +44,7 @@ class MainBody extends Component {
                             <p>
                                 Nobody said it will be easy, I didn't have internet at home at all the first 2 months,
                                 imagine a Web Developer without internet connection in a new team with new technologies
-                                trying to catch up with your colleagues.
+                                trying to catch up with his colleagues.
                                 Finally after all the problems I have a place to rest and work, so I decided
                                 to continue working where I left it before leaving.
                             </p>
@@ -81,7 +81,7 @@ class MainBody extends Component {
                                 it.
                             </p>
                             <p>
-                                My colleague also showed me Slush, it's a build tool like Yeoman based on Gulp, so I decided
+                                My colleague also showed me <a href='http://slushjs.github.io/#/'>Slush</a>, it's a scaffolding tool like <a href='http://yeoman.io/'>Yeoman</a> based on Gulp, so I decided
                                 to create a seed for removing the boiler-plate of a front-end project using all this technologies
                                 and including all the features developers like, for example live reloading, bundling, minifying
                                 and so forth, all without the need to depend on Gulp and 20 different plug-ins.
