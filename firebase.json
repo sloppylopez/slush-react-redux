@@ -8,7 +8,10 @@
     "**/.*",
     ".*ignore",
     "**/node_modules/**",
-    "bin/**"
+    "bin/**",
+    "LICENSE",
+    "*.md",
+    ".eslintrc"
   ],
   "headers": [
     {

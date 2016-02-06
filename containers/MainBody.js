@@ -14,6 +14,7 @@ class MainBody extends Component {
                 <article>
                     <div>
                         <h2>Good Bye London, Hello Amsterdam</h2>
+                        <span>6/2/2016</span>
 
                         <div>
                             <p>
@@ -75,7 +76,7 @@ class MainBody extends Component {
                                 of your project, and your builds, and your bundling everything under the same roof.
                             </p>
                             <p>
-                                In theory, with JSPM you don't need Gulp, that's when I decided to make a front-end
+                                In theory, with JSPM you don't need <a href='http://gulpjs.com/'>Gulp</a>, that's when I decided to make a front-end
                                 project without Gulp, just to see if it's possible to get the same goodies without
                                 it.
                             </p>
@@ -87,7 +88,7 @@ class MainBody extends Component {
                             </p>
                             <p>
                                 In the end you want to develop your project with the minimum ammount of dependencies but maintianing certains
-                                features that are very usefull and time saving for dev's in the development phase and even on production release.
+                                features that are very usefull and time saving for dev's in the development time and even on production release phase.
                             </p>
                             <footer><p className='pink'><b>ڪ.</b></p></footer>
                         </div>
@@ -98,7 +99,7 @@ class MainBody extends Component {
                 <article>
                     <div>
                         <h2>Javascript is the new Apache</h2>
-
+                        <span>6/9/2015</span>
                         <div>
                             <p>
                                 Well well, I'm finally back, I was stuck because of the holiday in Spain and problems
@@ -303,7 +304,7 @@ class MainBody extends Component {
                 <article>
                     <div>
                         <h2>Click &amp; Live, Bang!</h2>
-
+                        <span>6/6/2015</span>
                         <div>
                             <p>
                                 This is the brand new project I am working on lately, started on 23/04/2015, that's 9
@@ -325,7 +326,7 @@ class MainBody extends Component {
                                 So taking some random but useful data, in this case RSS news to persist on the Elastic
                                 Search, gave me the
                                 need
-                                for a Client/Server scenario, therefore it came the <a href='https://angularjs.org/'>AngularJS</a>
+                                for a Client/Server scenario, therefore it came the <a href='https://angularjs.org/'>AngularJS </a>
                                 client
                                 and the <a href='https://nodejs.org/'>NodeJS</a> API to communicate the back-end
                                 docker-based virtual
