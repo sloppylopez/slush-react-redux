@@ -13,6 +13,18 @@
     "*.md",
     ".eslintrc"
   ],
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rules": "config/security-rules.json",
+  "redirects": [ {
+    "source" : "/elephantseed",
+    "destination" : "/microsites/elephantseed",
+    "type" : 301
+  }],
+  "rewrites": [ {
+    "source": "/elephantseed",
+    "destination": "/microsites/elephantseed/index.html"
+  } ],
   "headers": [
     {
       "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",

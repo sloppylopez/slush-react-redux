@@ -54,7 +54,7 @@ class MainBody extends Component {
                                 href='https://webpack.github.io/'>Webpack</a> and <a
                                 href='https://facebook.github.io/react/'>React</a> / <a
                                 href='https://github.com/rackt/redux'>Redux</a>, but also I developed a NPM
-                                module called <a href='https://elephantseed.firebaseapp.com/'>Slush-Jspm-React-Seed</a>.
+                                module called <a href='https://elephantseed.firebaseapp.com/'>Elephant Seed</a>.
                             </p>
                             <p>
                                 <a href='http://jspm.io/'>JSPM</a> it's gorgeous, you get a lot of goodies out of
@@ -71,8 +71,8 @@ class MainBody extends Component {
                             </p>
 
                             <p>
-                                The second project it's called <a href='https://elephantseed.firebaseapp.com/'>Elephant
-                                Seed</a>, I got into it after speaking with one of the developers
+                                I started <a href='https://elephantseed.firebaseapp.com/'>Elephant
+                                Seed</a> after speaking with one of the developers
                                 of my team, he showed me JSPM and I got interested, it tries to solve one of my major
                                 complaints about Javascript
                                 in the first article I wrote here, unifying the module dependency management
@@ -118,7 +118,7 @@ class MainBody extends Component {
                             <p ><b>
                                 "Ever since I was young, I wasn't always Big Pun,<br></br>
                                 it wasn't always this fun. Ayo I rose from the Slums"<br></br>
-                                -Big pun-
+                                -Big Punisher-
                             </b>
                             </p>
                             <footer><p className='pink'><b>ڪ.</b></p></footer>

@@ -10,24 +10,11 @@ class MainNav extends Component {
         return (
             <Navbar inverse>
                 <Navbar.Header>
-                    <Navbar.Brand>
-                        <a href="/">Elephant Seed</a>
-                    </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>
                 <Navbar.Collapse>
-                    <Nav>
-                        <NavItem eventKey={1} href="#">Link</NavItem>
-                        <NavDropdown eventKey={2} title="Dropdown" id="basic-nav-dropdown">
-                            <MenuItem eventKey={2.1} href="/#/createuser">Action</MenuItem>
-                            <MenuItem eventKey={2.2} href="/#/createuser">Another action</MenuItem>
-                            <MenuItem eventKey={2.3} href="/#/createuser">Something else here</MenuItem>
-                            <MenuItem divider/>
-                            <MenuItem eventKey={2.3} href="/#/createuser">Separated link</MenuItem>
-                        </NavDropdown>
-                    </Nav>
                     <Nav pullRight>
-                        <NavItem eventKey={1} href="#">Link Right</NavItem>
+                        <NavItem eventKey={1} href="https://elephantseed.firebaseapp.com/">Elephant Seed</NavItem>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
