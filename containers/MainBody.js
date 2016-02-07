@@ -61,13 +61,13 @@ class MainBody extends Component {
                                 the box practically doing nothing.
                                 This website has been rebuilt 3 times, first was <a
                                 href='https://github.com/sloppylopez/angruntlar'>Angruntlar</a>, then <a
-                                href='https://github.com/sloppylopez/angruntlar'>Angulpar</a>, and now it's
+                                href='https://github.com/sloppylopez/angulpar'>Angulpar</a>, and now it's
                                 called <a href='https://github.com/sloppylopez/slush-react-redux'>Slush-React-Redux</a>.
                                 In the end I decided to use <a href='http://jspm.io/'>JSPM</a> with <a
                                 href='http://jspm.io/'>Babel</a> to have ES6 Sugar and minimum configuration.
                                 This version has practically the same features as the other 2 but with much less files
                                 and fewer lines of code, and even though I have not measured it yet, the
-                                performance in better in practically every aspect surely.
+                                performance is better in practically every aspect surely.
                             </p>
                             <p>
                                 The second project it's called <a href='https://elephantseed.firebaseapp.com/'>Elephant
@@ -95,7 +95,7 @@ class MainBody extends Component {
                             <p>
                                 In the end you want to develop your project with the minimum ammount of dependencies but
                                 maintianing certains
-                                features that are very usefull and time saving for dev's in the development time and
+                                features that are very usefull and time saving for dev's in development time and
                                 even on production release phase.
                             </p>
                             <p>
@@ -107,7 +107,7 @@ class MainBody extends Component {
                                 much struggles he even had to sleep
                                 in the streets, despite all that and being considered the underdog for his Latin Rapper
                                 condition, he managed to become a legend in New York,
-                                the first Latin Rapper to get a platinum Rap solo album, he tragedically died on
+                                the first Latin Rapper to get a platinum Rap solo album, he tragically died on
                                 February 7, 2000 by a heart attack due
                                 to his excesive overweight, 317 Kg.<br></br><br></br>
                                 He is a great inspiration for me and lots of Latin people all over the World, he was
