@@ -69,6 +69,7 @@ class MainBody extends Component {
                                 and fewer lines of code, and even though I have not measured it yet, the
                                 performance is better in practically every aspect surely.
                             </p>
+
                             <p>
                                 The second project it's called <a href='https://elephantseed.firebaseapp.com/'>Elephant
                                 Seed</a>, I got into it after speaking with one of the developers
