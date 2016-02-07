@@ -6,6 +6,7 @@
     "package.json",
     "server.js",
     "**/.*",
+    "*.log",
     ".*ignore",
     "**/node_modules/**",
     "bin/**",
@@ -13,15 +14,7 @@
     "*.md",
     ".eslintrc",
     ".travis.yml",
-    "microsites/**/firebase.json",
-    "microsites/**/package.json",
-    "microsites/**/server.js",
-    "microsites/**/**/.*",
-    "microsites/**/.*ignore",
-    "microsites/**/LICENSE",
-    "microsites/**/*.md",
-    "microsites/**/.eslintrc",
-    "microsites/**/.travis.yml"
+    "Guardfile"
   ],
   "cleanUrls": true,
   "trailingSlash": false,
@@ -32,10 +25,6 @@
     "type" : 301
   }
   ],
-  "rewrites": [ {
-    "source": "/elephantseed",
-    "destination": "/microsites/elephantseed/index.html"
-  } ],
   "headers": [
     {
       "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
