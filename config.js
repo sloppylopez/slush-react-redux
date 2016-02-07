@@ -24,8 +24,8 @@ System.config({
       "containers/App.js",
       "containers/HomePage.js"
     ],
-    "npm:react-router@2.0.0-rc5.js": [
-      "npm:react-router@2.0.0-rc5/lib/index.js"
+    "npm:react-dom@0.14.7.js": [
+      "npm:react-dom@0.14.7/index.js"
     ],
     "containers/App.js": [
       "npm:babel-runtime@5.8.35/helpers/get.js",
@@ -34,21 +34,22 @@ System.config({
       "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
       "npm:react@0.14.7.js"
     ],
-    "npm:react@0.14.7.js": [
-      "npm:react@0.14.7/react.js"
-    ],
-    "npm:react-dom@0.14.7.js": [
-      "npm:react-dom@0.14.7/index.js"
-    ],
     "containers/HomePage.js": [
       "npm:babel-runtime@5.8.35/helpers/get.js",
       "npm:babel-runtime@5.8.35/helpers/inherits.js",
       "npm:babel-runtime@5.8.35/helpers/create-class.js",
       "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
       "npm:react@0.14.7.js",
+      "containers/MainNav.js",
       "containers/MainHeader.js",
       "containers/MainBody.js",
       "containers/MainFooter.js"
+    ],
+    "npm:react-router@2.0.0-rc5.js": [
+      "npm:react-router@2.0.0-rc5/lib/index.js"
+    ],
+    "npm:react@0.14.7.js": [
+      "npm:react@0.14.7/react.js"
     ],
     "npm:babel-runtime@5.8.35/helpers/get.js": [
       "npm:babel-runtime@5.8.35/core-js/object/get-own-property-descriptor.js"
@@ -60,8 +61,40 @@ System.config({
     "npm:babel-runtime@5.8.35/helpers/create-class.js": [
       "npm:babel-runtime@5.8.35/core-js/object/define-property.js"
     ],
-    "npm:react@0.14.7/react.js": [
-      "npm:react@0.14.7/lib/React.js"
+    "containers/MainNav.js": [
+      "npm:babel-runtime@5.8.35/helpers/get.js",
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/create-class.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:jquery@2.2.0.js",
+      "npm:react@0.14.7.js",
+      "npm:react-dom@0.14.7.js",
+      "npm:react-bootstrap@0.28.2.js"
+    ],
+    "containers/MainHeader.js": [
+      "npm:babel-runtime@5.8.35/helpers/get.js",
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/create-class.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:react@0.14.7.js"
+    ],
+    "npm:react-dom@0.14.7/index.js": [
+      "npm:react@0.14.7/lib/ReactDOM.js"
+    ],
+    "containers/MainBody.js": [
+      "npm:babel-runtime@5.8.35/helpers/get.js",
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/create-class.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:react@0.14.7.js",
+      "containers/TechnologiesTable.js"
+    ],
+    "containers/MainFooter.js": [
+      "npm:babel-runtime@5.8.35/helpers/get.js",
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/create-class.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:react@0.14.7.js"
     ],
     "npm:react-router@2.0.0-rc5/lib/index.js": [
       "npm:react-router@2.0.0-rc5/lib/Router.js",
@@ -86,33 +119,11 @@ System.config({
       "npm:react-router@2.0.0-rc5/lib/hashHistory.js",
       "npm:react-router@2.0.0-rc5/lib/createMemoryHistory.js"
     ],
-    "npm:react-dom@0.14.7/index.js": [
-      "npm:react@0.14.7/lib/ReactDOM.js"
+    "npm:react@0.14.7/react.js": [
+      "npm:react@0.14.7/lib/React.js"
     ],
-    "containers/MainFooter.js": [
-      "npm:babel-runtime@5.8.35/helpers/get.js",
-      "npm:babel-runtime@5.8.35/helpers/inherits.js",
-      "npm:babel-runtime@5.8.35/helpers/create-class.js",
-      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
-      "npm:react@0.14.7.js"
-    ],
-    "containers/MainBody.js": [
-      "npm:babel-runtime@5.8.35/helpers/get.js",
-      "npm:babel-runtime@5.8.35/helpers/inherits.js",
-      "npm:babel-runtime@5.8.35/helpers/create-class.js",
-      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
-      "npm:react@0.14.7.js",
-      "containers/TechnologiesTable.js"
-    ],
-    "containers/MainHeader.js": [
-      "npm:babel-runtime@5.8.35/helpers/get.js",
-      "npm:babel-runtime@5.8.35/helpers/inherits.js",
-      "npm:babel-runtime@5.8.35/helpers/create-class.js",
-      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
-      "npm:react@0.14.7.js"
-    ],
-    "npm:react-router@2.0.0-rc5/lib/PropTypes.js": [
-      "npm:react@0.14.7.js"
+    "npm:babel-runtime@5.8.35/core-js/object/get-own-property-descriptor.js": [
+      "npm:core-js@1.2.6/library/fn/object/get-own-property-descriptor.js"
     ],
     "npm:babel-runtime@5.8.35/core-js/object/create.js": [
       "npm:core-js@1.2.6/library/fn/object/create.js"
@@ -123,19 +134,22 @@ System.config({
     "npm:babel-runtime@5.8.35/core-js/object/define-property.js": [
       "npm:core-js@1.2.6/library/fn/object/define-property.js"
     ],
-    "npm:react@0.14.7/lib/React.js": [
-      "npm:react@0.14.7/lib/ReactDOM.js",
-      "npm:react@0.14.7/lib/ReactDOMServer.js",
-      "npm:react@0.14.7/lib/ReactIsomorphic.js",
-      "npm:react@0.14.7/lib/Object.assign.js",
-      "npm:react@0.14.7/lib/deprecated.js"
+    "npm:react-bootstrap@0.28.2.js": [
+      "npm:react-bootstrap@0.28.2/lib/index.js"
+    ],
+    "npm:jquery@2.2.0.js": [
+      "npm:jquery@2.2.0/dist/jquery.js"
+    ],
+    "containers/TechnologiesTable.js": [
+      "npm:babel-runtime@5.8.35/helpers/get.js",
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/create-class.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:react@0.14.7.js"
     ],
     "npm:react-router@2.0.0-rc5/lib/IndexLink.js": [
       "npm:react@0.14.7.js",
       "npm:react-router@2.0.0-rc5/lib/Link.js"
-    ],
-    "npm:babel-runtime@5.8.35/core-js/object/get-own-property-descriptor.js": [
-      "npm:core-js@1.2.6/library/fn/object/get-own-property-descriptor.js"
     ],
     "npm:react-router@2.0.0-rc5/lib/Link.js": [
       "npm:react@0.14.7.js",
@@ -189,6 +203,44 @@ System.config({
       "npm:react@0.14.7.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
+    "npm:react@0.14.7/lib/ReactDOM.js": [
+      "npm:react@0.14.7/lib/ReactCurrentOwner.js",
+      "npm:react@0.14.7/lib/ReactDOMTextComponent.js",
+      "npm:react@0.14.7/lib/ReactDefaultInjection.js",
+      "npm:react@0.14.7/lib/ReactInstanceHandles.js",
+      "npm:react@0.14.7/lib/ReactMount.js",
+      "npm:react@0.14.7/lib/ReactPerf.js",
+      "npm:react@0.14.7/lib/ReactReconciler.js",
+      "npm:react@0.14.7/lib/ReactUpdates.js",
+      "npm:react@0.14.7/lib/ReactVersion.js",
+      "npm:react@0.14.7/lib/findDOMNode.js",
+      "npm:react@0.14.7/lib/renderSubtreeIntoContainer.js",
+      "npm:fbjs@0.6.1/lib/warning.js",
+      "npm:fbjs@0.6.1/lib/ExecutionEnvironment.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react-router@2.0.0-rc5/lib/Router.js": [
+      "npm:history@2.0.0/lib/createHashHistory.js",
+      "npm:history@2.0.0/lib/useQueries.js",
+      "npm:react@0.14.7.js",
+      "npm:react-router@2.0.0-rc5/lib/createTransitionManager.js",
+      "npm:react-router@2.0.0-rc5/lib/PropTypes.js",
+      "npm:react-router@2.0.0-rc5/lib/RouterContext.js",
+      "npm:react-router@2.0.0-rc5/lib/RouteUtils.js",
+      "npm:react-router@2.0.0-rc5/lib/RouterUtils.js",
+      "npm:react-router@2.0.0-rc5/lib/warning.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react-router@2.0.0-rc5/lib/PropTypes.js": [
+      "npm:react@0.14.7.js"
+    ],
+    "npm:react@0.14.7/lib/React.js": [
+      "npm:react@0.14.7/lib/ReactDOM.js",
+      "npm:react@0.14.7/lib/ReactDOMServer.js",
+      "npm:react@0.14.7/lib/ReactIsomorphic.js",
+      "npm:react@0.14.7/lib/Object.assign.js",
+      "npm:react@0.14.7/lib/deprecated.js"
+    ],
     "npm:react-router@2.0.0-rc5/lib/RouteUtils.js": [
       "npm:react@0.14.7.js",
       "npm:react-router@2.0.0-rc5/lib/warning.js",
@@ -209,24 +261,6 @@ System.config({
       "npm:react-router@2.0.0-rc5/lib/warning.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
-    "npm:react-router@2.0.0-rc5/lib/Router.js": [
-      "npm:history@2.0.0/lib/createHashHistory.js",
-      "npm:history@2.0.0/lib/useQueries.js",
-      "npm:react@0.14.7.js",
-      "npm:react-router@2.0.0-rc5/lib/createTransitionManager.js",
-      "npm:react-router@2.0.0-rc5/lib/PropTypes.js",
-      "npm:react-router@2.0.0-rc5/lib/RouterContext.js",
-      "npm:react-router@2.0.0-rc5/lib/RouteUtils.js",
-      "npm:react-router@2.0.0-rc5/lib/RouterUtils.js",
-      "npm:react-router@2.0.0-rc5/lib/warning.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react-router@2.0.0-rc5/lib/useRoutes.js": [
-      "npm:history@2.0.0/lib/useQueries.js",
-      "npm:react-router@2.0.0-rc5/lib/createTransitionManager.js",
-      "npm:react-router@2.0.0-rc5/lib/warning.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
     "npm:react-router@2.0.0-rc5/lib/match.js": [
       "npm:invariant@2.2.0.js",
       "npm:react-router@2.0.0-rc5/lib/createMemoryHistory.js",
@@ -237,6 +271,12 @@ System.config({
     ],
     "npm:react-router@2.0.0-rc5/lib/PatternUtils.js": [
       "npm:invariant@2.2.0.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react-router@2.0.0-rc5/lib/useRoutes.js": [
+      "npm:history@2.0.0/lib/useQueries.js",
+      "npm:react-router@2.0.0-rc5/lib/createTransitionManager.js",
+      "npm:react-router@2.0.0-rc5/lib/warning.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
     "npm:react-router@2.0.0-rc5/lib/useRouterHistory.js": [
@@ -255,28 +295,12 @@ System.config({
       "npm:history@2.0.0/lib/useQueries.js",
       "npm:history@2.0.0/lib/createMemoryHistory.js"
     ],
-    "npm:react@0.14.7/lib/ReactDOM.js": [
-      "npm:react@0.14.7/lib/ReactCurrentOwner.js",
-      "npm:react@0.14.7/lib/ReactDOMTextComponent.js",
-      "npm:react@0.14.7/lib/ReactDefaultInjection.js",
-      "npm:react@0.14.7/lib/ReactInstanceHandles.js",
-      "npm:react@0.14.7/lib/ReactMount.js",
-      "npm:react@0.14.7/lib/ReactPerf.js",
-      "npm:react@0.14.7/lib/ReactReconciler.js",
-      "npm:react@0.14.7/lib/ReactUpdates.js",
-      "npm:react@0.14.7/lib/ReactVersion.js",
-      "npm:react@0.14.7/lib/findDOMNode.js",
-      "npm:react@0.14.7/lib/renderSubtreeIntoContainer.js",
-      "npm:fbjs@0.6.1/lib/warning.js",
-      "npm:fbjs@0.6.1/lib/ExecutionEnvironment.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
+    "npm:core-js@1.2.6/library/fn/object/get-own-property-descriptor.js": [
+      "npm:core-js@1.2.6/library/modules/$.js",
+      "npm:core-js@1.2.6/library/modules/es6.object.get-own-property-descriptor.js"
     ],
-    "containers/TechnologiesTable.js": [
-      "npm:babel-runtime@5.8.35/helpers/get.js",
-      "npm:babel-runtime@5.8.35/helpers/inherits.js",
-      "npm:babel-runtime@5.8.35/helpers/create-class.js",
-      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
-      "npm:react@0.14.7.js"
+    "npm:core-js@1.2.6/library/fn/object/create.js": [
+      "npm:core-js@1.2.6/library/modules/$.js"
     ],
     "npm:core-js@1.2.6/library/fn/object/set-prototype-of.js": [
       "npm:core-js@1.2.6/library/modules/es6.object.set-prototype-of.js",
@@ -285,17 +309,72 @@ System.config({
     "npm:core-js@1.2.6/library/fn/object/define-property.js": [
       "npm:core-js@1.2.6/library/modules/$.js"
     ],
-    "npm:core-js@1.2.6/library/fn/object/create.js": [
-      "npm:core-js@1.2.6/library/modules/$.js"
-    ],
-    "npm:react@0.14.7/lib/ReactDOMServer.js": [
-      "npm:react@0.14.7/lib/ReactDefaultInjection.js",
-      "npm:react@0.14.7/lib/ReactServerRendering.js",
-      "npm:react@0.14.7/lib/ReactVersion.js"
-    ],
-    "npm:core-js@1.2.6/library/fn/object/get-own-property-descriptor.js": [
-      "npm:core-js@1.2.6/library/modules/$.js",
-      "npm:core-js@1.2.6/library/modules/es6.object.get-own-property-descriptor.js"
+    "npm:react-bootstrap@0.28.2/lib/index.js": [
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-wildcard.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/childrenValueInputValidation.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/createChainedFunction.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/ValidComponentChildren.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/Accordion.js",
+      "npm:react-bootstrap@0.28.2/lib/Alert.js",
+      "npm:react-bootstrap@0.28.2/lib/Badge.js",
+      "npm:react-bootstrap@0.28.2/lib/Breadcrumb.js",
+      "npm:react-bootstrap@0.28.2/lib/BreadcrumbItem.js",
+      "npm:react-bootstrap@0.28.2/lib/Button.js",
+      "npm:react-bootstrap@0.28.2/lib/ButtonGroup.js",
+      "npm:react-bootstrap@0.28.2/lib/ButtonInput.js",
+      "npm:react-bootstrap@0.28.2/lib/ButtonToolbar.js",
+      "npm:react-bootstrap@0.28.2/lib/Carousel.js",
+      "npm:react-bootstrap@0.28.2/lib/CarouselItem.js",
+      "npm:react-bootstrap@0.28.2/lib/Col.js",
+      "npm:react-bootstrap@0.28.2/lib/CollapsibleNav.js",
+      "npm:react-bootstrap@0.28.2/lib/Dropdown.js",
+      "npm:react-bootstrap@0.28.2/lib/DropdownButton.js",
+      "npm:react-bootstrap@0.28.2/lib/Glyphicon.js",
+      "npm:react-bootstrap@0.28.2/lib/Grid.js",
+      "npm:react-bootstrap@0.28.2/lib/Image.js",
+      "npm:react-bootstrap@0.28.2/lib/Input.js",
+      "npm:react-bootstrap@0.28.2/lib/Interpolate.js",
+      "npm:react-bootstrap@0.28.2/lib/Jumbotron.js",
+      "npm:react-bootstrap@0.28.2/lib/Label.js",
+      "npm:react-bootstrap@0.28.2/lib/ListGroup.js",
+      "npm:react-bootstrap@0.28.2/lib/ListGroupItem.js",
+      "npm:react-bootstrap@0.28.2/lib/MenuItem.js",
+      "npm:react-bootstrap@0.28.2/lib/Modal.js",
+      "npm:react-bootstrap@0.28.2/lib/ModalBody.js",
+      "npm:react-bootstrap@0.28.2/lib/ModalFooter.js",
+      "npm:react-bootstrap@0.28.2/lib/ModalHeader.js",
+      "npm:react-bootstrap@0.28.2/lib/ModalTitle.js",
+      "npm:react-bootstrap@0.28.2/lib/Nav.js",
+      "npm:react-bootstrap@0.28.2/lib/Navbar.js",
+      "npm:react-bootstrap@0.28.2/lib/NavBrand.js",
+      "npm:react-bootstrap@0.28.2/lib/NavbarBrand.js",
+      "npm:react-bootstrap@0.28.2/lib/NavDropdown.js",
+      "npm:react-bootstrap@0.28.2/lib/NavItem.js",
+      "npm:react-bootstrap@0.28.2/lib/Overlay.js",
+      "npm:react-bootstrap@0.28.2/lib/OverlayTrigger.js",
+      "npm:react-bootstrap@0.28.2/lib/PageHeader.js",
+      "npm:react-bootstrap@0.28.2/lib/PageItem.js",
+      "npm:react-bootstrap@0.28.2/lib/Pager.js",
+      "npm:react-bootstrap@0.28.2/lib/Pagination.js",
+      "npm:react-bootstrap@0.28.2/lib/Panel.js",
+      "npm:react-bootstrap@0.28.2/lib/PanelGroup.js",
+      "npm:react-bootstrap@0.28.2/lib/Popover.js",
+      "npm:react-bootstrap@0.28.2/lib/ProgressBar.js",
+      "npm:react-bootstrap@0.28.2/lib/ResponsiveEmbed.js",
+      "npm:react-bootstrap@0.28.2/lib/Row.js",
+      "npm:react-bootstrap@0.28.2/lib/SafeAnchor.js",
+      "npm:react-bootstrap@0.28.2/lib/SplitButton.js",
+      "npm:react-bootstrap@0.28.2/lib/Tab.js",
+      "npm:react-bootstrap@0.28.2/lib/Table.js",
+      "npm:react-bootstrap@0.28.2/lib/Tabs.js",
+      "npm:react-bootstrap@0.28.2/lib/Thumbnail.js",
+      "npm:react-bootstrap@0.28.2/lib/Tooltip.js",
+      "npm:react-bootstrap@0.28.2/lib/Well.js",
+      "npm:react-bootstrap@0.28.2/lib/Collapse.js",
+      "npm:react-bootstrap@0.28.2/lib/Fade.js",
+      "npm:react-bootstrap@0.28.2/lib/FormControls/index.js"
     ],
     "github:jspm/nodelibs-process@0.1.2.js": [
       "github:jspm/nodelibs-process@0.1.2/index.js"
@@ -303,28 +382,32 @@ System.config({
     "npm:invariant@2.2.0.js": [
       "npm:invariant@2.2.0/browser.js"
     ],
-    "npm:react-router@2.0.0-rc5/lib/getRouteParams.js": [
-      "npm:react-router@2.0.0-rc5/lib/PatternUtils.js"
+    "npm:react@0.14.7/lib/ReactReconciler.js": [
+      "npm:react@0.14.7/lib/ReactRef.js"
     ],
-    "npm:react@0.14.7/lib/ReactIsomorphic.js": [
-      "npm:react@0.14.7/lib/ReactChildren.js",
-      "npm:react@0.14.7/lib/ReactComponent.js",
-      "npm:react@0.14.7/lib/ReactClass.js",
-      "npm:react@0.14.7/lib/ReactDOMFactories.js",
-      "npm:react@0.14.7/lib/ReactElement.js",
-      "npm:react@0.14.7/lib/ReactElementValidator.js",
-      "npm:react@0.14.7/lib/ReactPropTypes.js",
-      "npm:react@0.14.7/lib/ReactVersion.js",
-      "npm:react@0.14.7/lib/Object.assign.js",
-      "npm:react@0.14.7/lib/onlyChild.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
+    "npm:react@0.14.7/lib/renderSubtreeIntoContainer.js": [
+      "npm:react@0.14.7/lib/ReactMount.js"
     ],
     "npm:react-router@2.0.0-rc5/lib/warning.js": [
       "npm:warning@2.1.0.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
-    "npm:react-router@2.0.0-rc5/lib/deprecateObjectProperties.js": [
-      "npm:react-router@2.0.0-rc5/lib/warning.js",
+    "npm:react@0.14.7/lib/ReactDOMTextComponent.js": [
+      "npm:react@0.14.7/lib/DOMChildrenOperations.js",
+      "npm:react@0.14.7/lib/DOMPropertyOperations.js",
+      "npm:react@0.14.7/lib/ReactComponentBrowserEnvironment.js",
+      "npm:react@0.14.7/lib/ReactMount.js",
+      "npm:react@0.14.7/lib/Object.assign.js",
+      "npm:react@0.14.7/lib/escapeTextContentForBrowser.js",
+      "npm:react@0.14.7/lib/setTextContent.js",
+      "npm:react@0.14.7/lib/validateDOMNesting.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react@0.14.7/lib/ReactPerf.js": [
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:fbjs@0.6.1/lib/warning.js": [
+      "npm:fbjs@0.6.1/lib/emptyFunction.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
     "npm:history@2.0.0/lib/createHashHistory.js": [
@@ -346,67 +429,8 @@ System.config({
       "npm:history@2.0.0/lib/deprecate.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
-    "npm:react@0.14.7/lib/deprecated.js": [
-      "npm:react@0.14.7/lib/Object.assign.js",
-      "npm:fbjs@0.6.1/lib/warning.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react-router@2.0.0-rc5/lib/createTransitionManager.js": [
-      "npm:react-router@2.0.0-rc5/lib/warning.js",
-      "npm:history@2.0.0/lib/Actions.js",
-      "npm:react-router@2.0.0-rc5/lib/computeChangedRoutes.js",
-      "npm:react-router@2.0.0-rc5/lib/TransitionUtils.js",
-      "npm:react-router@2.0.0-rc5/lib/isActive.js",
-      "npm:react-router@2.0.0-rc5/lib/getComponents.js",
-      "npm:react-router@2.0.0-rc5/lib/matchRoutes.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:history@2.0.0/lib/useBasename.js": [
-      "npm:history@2.0.0/lib/ExecutionEnvironment.js",
-      "npm:history@2.0.0/lib/PathUtils.js",
-      "npm:history@2.0.0/lib/runTransitionHook.js",
-      "npm:history@2.0.0/lib/deprecate.js"
-    ],
-    "npm:react@0.14.7/lib/ReactReconciler.js": [
-      "npm:react@0.14.7/lib/ReactRef.js"
-    ],
-    "npm:react-router@2.0.0-rc5/lib/createRouterHistory.js": [
-      "npm:react-router@2.0.0-rc5/lib/useRouterHistory.js"
-    ],
     "npm:react-router@2.0.0-rc5/lib/RouterUtils.js": [
       "npm:react-router@2.0.0-rc5/lib/deprecateObjectProperties.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:history@2.0.0/lib/createBrowserHistory.js": [
-      "npm:invariant@2.2.0.js",
-      "npm:history@2.0.0/lib/Actions.js",
-      "npm:history@2.0.0/lib/PathUtils.js",
-      "npm:history@2.0.0/lib/ExecutionEnvironment.js",
-      "npm:history@2.0.0/lib/DOMUtils.js",
-      "npm:history@2.0.0/lib/DOMStateStorage.js",
-      "npm:history@2.0.0/lib/createDOMHistory.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:history@2.0.0/lib/createMemoryHistory.js": [
-      "npm:warning@2.1.0.js",
-      "npm:invariant@2.2.0.js",
-      "npm:history@2.0.0/lib/PathUtils.js",
-      "npm:history@2.0.0/lib/Actions.js",
-      "npm:history@2.0.0/lib/createHistory.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react@0.14.7/lib/ReactDOMTextComponent.js": [
-      "npm:react@0.14.7/lib/DOMChildrenOperations.js",
-      "npm:react@0.14.7/lib/DOMPropertyOperations.js",
-      "npm:react@0.14.7/lib/ReactComponentBrowserEnvironment.js",
-      "npm:react@0.14.7/lib/ReactMount.js",
-      "npm:react@0.14.7/lib/Object.assign.js",
-      "npm:react@0.14.7/lib/escapeTextContentForBrowser.js",
-      "npm:react@0.14.7/lib/setTextContent.js",
-      "npm:react@0.14.7/lib/validateDOMNesting.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react@0.14.7/lib/ReactPerf.js": [
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
     "npm:react@0.14.7/lib/ReactDefaultInjection.js": [
@@ -434,6 +458,11 @@ System.config({
       "npm:react@0.14.7/lib/ReactDefaultPerf.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
+    "npm:react@0.14.7/lib/ReactInstanceHandles.js": [
+      "npm:react@0.14.7/lib/ReactRootIndex.js",
+      "npm:fbjs@0.6.1/lib/invariant.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
     "npm:react@0.14.7/lib/ReactMount.js": [
       "npm:react@0.14.7/lib/DOMProperty.js",
       "npm:react@0.14.7/lib/ReactBrowserEventEmitter.js",
@@ -459,11 +488,6 @@ System.config({
       "npm:fbjs@0.6.1/lib/warning.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
-    "npm:react@0.14.7/lib/ReactInstanceHandles.js": [
-      "npm:react@0.14.7/lib/ReactRootIndex.js",
-      "npm:fbjs@0.6.1/lib/invariant.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
     "npm:react@0.14.7/lib/ReactUpdates.js": [
       "npm:react@0.14.7/lib/CallbackQueue.js",
       "npm:react@0.14.7/lib/PooledClass.js",
@@ -482,16 +506,675 @@ System.config({
       "npm:fbjs@0.6.1/lib/warning.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
-    "npm:react@0.14.7/lib/renderSubtreeIntoContainer.js": [
-      "npm:react@0.14.7/lib/ReactMount.js"
-    ],
-    "npm:fbjs@0.6.1/lib/warning.js": [
-      "npm:fbjs@0.6.1/lib/emptyFunction.js",
+    "npm:react-router@2.0.0-rc5/lib/createTransitionManager.js": [
+      "npm:react-router@2.0.0-rc5/lib/warning.js",
+      "npm:history@2.0.0/lib/Actions.js",
+      "npm:react-router@2.0.0-rc5/lib/computeChangedRoutes.js",
+      "npm:react-router@2.0.0-rc5/lib/TransitionUtils.js",
+      "npm:react-router@2.0.0-rc5/lib/isActive.js",
+      "npm:react-router@2.0.0-rc5/lib/getComponents.js",
+      "npm:react-router@2.0.0-rc5/lib/matchRoutes.js",
       "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react@0.14.7/lib/ReactDOMServer.js": [
+      "npm:react@0.14.7/lib/ReactDefaultInjection.js",
+      "npm:react@0.14.7/lib/ReactServerRendering.js",
+      "npm:react@0.14.7/lib/ReactVersion.js"
+    ],
+    "npm:react-router@2.0.0-rc5/lib/getRouteParams.js": [
+      "npm:react-router@2.0.0-rc5/lib/PatternUtils.js"
+    ],
+    "npm:history@2.0.0/lib/useBasename.js": [
+      "npm:history@2.0.0/lib/ExecutionEnvironment.js",
+      "npm:history@2.0.0/lib/PathUtils.js",
+      "npm:history@2.0.0/lib/runTransitionHook.js",
+      "npm:history@2.0.0/lib/deprecate.js"
+    ],
+    "npm:react-router@2.0.0-rc5/lib/createRouterHistory.js": [
+      "npm:react-router@2.0.0-rc5/lib/useRouterHistory.js"
+    ],
+    "npm:react@0.14.7/lib/ReactIsomorphic.js": [
+      "npm:react@0.14.7/lib/ReactChildren.js",
+      "npm:react@0.14.7/lib/ReactComponent.js",
+      "npm:react@0.14.7/lib/ReactClass.js",
+      "npm:react@0.14.7/lib/ReactDOMFactories.js",
+      "npm:react@0.14.7/lib/ReactElement.js",
+      "npm:react@0.14.7/lib/ReactElementValidator.js",
+      "npm:react@0.14.7/lib/ReactPropTypes.js",
+      "npm:react@0.14.7/lib/ReactVersion.js",
+      "npm:react@0.14.7/lib/Object.assign.js",
+      "npm:react@0.14.7/lib/onlyChild.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react-router@2.0.0-rc5/lib/deprecateObjectProperties.js": [
+      "npm:react-router@2.0.0-rc5/lib/warning.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:history@2.0.0/lib/createBrowserHistory.js": [
+      "npm:invariant@2.2.0.js",
+      "npm:history@2.0.0/lib/Actions.js",
+      "npm:history@2.0.0/lib/PathUtils.js",
+      "npm:history@2.0.0/lib/ExecutionEnvironment.js",
+      "npm:history@2.0.0/lib/DOMUtils.js",
+      "npm:history@2.0.0/lib/DOMStateStorage.js",
+      "npm:history@2.0.0/lib/createDOMHistory.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react@0.14.7/lib/deprecated.js": [
+      "npm:react@0.14.7/lib/Object.assign.js",
+      "npm:fbjs@0.6.1/lib/warning.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:history@2.0.0/lib/createMemoryHistory.js": [
+      "npm:warning@2.1.0.js",
+      "npm:invariant@2.2.0.js",
+      "npm:history@2.0.0/lib/PathUtils.js",
+      "npm:history@2.0.0/lib/Actions.js",
+      "npm:history@2.0.0/lib/createHistory.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:core-js@1.2.6/library/modules/es6.object.set-prototype-of.js": [
+      "npm:core-js@1.2.6/library/modules/$.export.js",
+      "npm:core-js@1.2.6/library/modules/$.set-proto.js"
     ],
     "npm:core-js@1.2.6/library/modules/es6.object.get-own-property-descriptor.js": [
       "npm:core-js@1.2.6/library/modules/$.to-iobject.js",
       "npm:core-js@1.2.6/library/modules/$.object-sap.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/utils/childrenValueInputValidation.js": [
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-prop-types@0.3.0/lib/singlePropFrom.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/utils/ValidComponentChildren.js": [
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/styleMaps.js",
+      "npm:invariant@2.2.0.js",
+      "npm:warning@2.1.0.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Accordion.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/PanelGroup.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Alert.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/styleMaps.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Badge.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/ValidComponentChildren.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Breadcrumb.js": [
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/ValidComponentChildren.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/BreadcrumbItem.js": [
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/SafeAnchor.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Button.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-prop-types@0.3.0/lib/elementType.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/styleMaps.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/ButtonGroup.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-prop-types@0.3.0/lib/all.js",
+      "npm:react-bootstrap@0.28.2/lib/Button.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/ButtonInput.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/Button.js",
+      "npm:react-bootstrap@0.28.2/lib/FormGroup.js",
+      "npm:react-bootstrap@0.28.2/lib/InputBase.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/childrenValueInputValidation.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/ButtonToolbar.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/Button.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Carousel.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/ValidComponentChildren.js",
+      "npm:react-bootstrap@0.28.2/lib/Glyphicon.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/CarouselItem.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react@0.14.7.js",
+      "npm:react-dom@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/TransitionEvents.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Col.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/core-js/object/keys.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/styleMaps.js",
+      "npm:react-prop-types@0.3.0/lib/elementType.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/CollapsibleNav.js": [
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/Collapse.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/deprecationWarning.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/ValidComponentChildren.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/createChainedFunction.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Dropdown.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:classnames@2.2.3.js",
+      "npm:dom-helpers@2.4.0/activeElement.js",
+      "npm:dom-helpers@2.4.0/query/contains.js",
+      "npm:keycode@2.1.0.js",
+      "npm:lodash-compat@3.10.2/collection/find.js",
+      "npm:lodash-compat@3.10.2/object/omit.js",
+      "npm:react@0.14.7.js",
+      "npm:react-dom@0.14.7.js",
+      "npm:react-prop-types@0.3.0/lib/all.js",
+      "npm:react-prop-types@0.3.0/lib/elementType.js",
+      "npm:react-prop-types@0.3.0/lib/isRequiredForA11y.js",
+      "npm:uncontrollable@3.2.1.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/ButtonGroup.js",
+      "npm:react-bootstrap@0.28.2/lib/DropdownMenu.js",
+      "npm:react-bootstrap@0.28.2/lib/DropdownToggle.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/createChainedFunction.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/CustomPropTypes.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/ValidComponentChildren.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/DropdownButton.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/core-js/object/keys.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/Dropdown.js",
+      "npm:lodash-compat@3.10.2/object/omit.js",
+      "npm:lodash-compat@3.10.2/object/pick.js",
+      "npm:react-bootstrap@0.28.2/lib/Button.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Glyphicon.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Grid.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-prop-types@0.3.0/lib/elementType.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Input.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-wildcard.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/InputBase.js",
+      "npm:react-bootstrap@0.28.2/lib/FormControls/index.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/deprecationWarning.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Image.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Jumbotron.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-prop-types@0.3.0/lib/elementType.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Interpolate.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/ValidComponentChildren.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Label.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/styleMaps.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/ListGroup.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/ListGroupItem.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/ValidComponentChildren.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/MenuItem.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-prop-types@0.3.0/lib/all.js",
+      "npm:react-bootstrap@0.28.2/lib/SafeAnchor.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/createChainedFunction.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/ListGroupItem.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/styleMaps.js",
+      "npm:classnames@2.2.3.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Modal.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/core-js/object/keys.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react@0.14.7.js",
+      "npm:react-dom@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/styleMaps.js",
+      "npm:dom-helpers@2.4.0/util/scrollbarSize.js",
+      "npm:dom-helpers@2.4.0/util/inDOM.js",
+      "npm:dom-helpers@2.4.0/ownerDocument.js",
+      "npm:dom-helpers@2.4.0/events.js",
+      "npm:react-prop-types@0.3.0/lib/elementType.js",
+      "npm:react-bootstrap@0.28.2/lib/Fade.js",
+      "npm:react-bootstrap@0.28.2/lib/ModalDialog.js",
+      "npm:react-bootstrap@0.28.2/lib/ModalBody.js",
+      "npm:react-bootstrap@0.28.2/lib/ModalHeader.js",
+      "npm:react-bootstrap@0.28.2/lib/ModalTitle.js",
+      "npm:react-bootstrap@0.28.2/lib/ModalFooter.js",
+      "npm:react-overlays@0.5.4/lib/Modal.js",
+      "npm:react-overlays@0.5.4/lib/utils/isOverflowing.js",
+      "npm:lodash-compat@3.10.2/object/pick.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/ModalFooter.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/ModalBody.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/ModalHeader.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/createChainedFunction.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/ModalTitle.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Nav.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-prop-types@0.3.0/lib/all.js",
+      "npm:react-prop-types@0.3.0/lib/deprecated.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/ValidComponentChildren.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/createChainedFunction.js",
+      "npm:react-bootstrap@0.28.2/lib/Collapse.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/NavBrand.js": [
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react-bootstrap@0.28.2/lib/NavbarBrand.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/deprecationWarning.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Navbar.js": [
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:uncontrollable@3.2.1.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-prop-types@0.3.0/lib/elementType.js",
+      "npm:react-prop-types@0.3.0/lib/deprecated.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/deprecationWarning.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/ValidComponentChildren.js",
+      "npm:react-bootstrap@0.28.2/lib/Grid.js",
+      "npm:react-bootstrap@0.28.2/lib/deprecated/Navbar.js",
+      "npm:react-bootstrap@0.28.2/lib/NavbarBrand.js",
+      "npm:react-bootstrap@0.28.2/lib/NavbarHeader.js",
+      "npm:react-bootstrap@0.28.2/lib/NavbarToggle.js",
+      "npm:react-bootstrap@0.28.2/lib/NavbarCollapse.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/styleMaps.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/NavbarBrand.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/NavDropdown.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/Dropdown.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/NavItem.js": [
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/SafeAnchor.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/createChainedFunction.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Overlay.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-overlays@0.5.4/lib/Overlay.js",
+      "npm:react-prop-types@0.3.0/lib/elementType.js",
+      "npm:react-bootstrap@0.28.2/lib/Fade.js",
+      "npm:classnames@2.2.3.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/OverlayTrigger.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/core-js/object/keys.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:dom-helpers@2.4.0/query/contains.js",
+      "npm:lodash-compat@3.10.2/object/pick.js",
+      "npm:react@0.14.7.js",
+      "npm:react-dom@0.14.7.js",
+      "npm:warning@2.1.0.js",
+      "npm:react-bootstrap@0.28.2/lib/Overlay.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/createChainedFunction.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/PageHeader.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/PageItem.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/SafeAnchor.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Pager.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/ValidComponentChildren.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/createChainedFunction.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Pagination.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/PaginationButton.js",
+      "npm:react-prop-types@0.3.0/lib/elementType.js",
+      "npm:react-bootstrap@0.28.2/lib/SafeAnchor.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Panel.js": [
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/styleMaps.js",
+      "npm:react-bootstrap@0.28.2/lib/Collapse.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/PanelGroup.js": [
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/ValidComponentChildren.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Popover.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-prop-types@0.3.0/lib/isRequiredForA11y.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/ProgressBar.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/Interpolate.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/styleMaps.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/ValidComponentChildren.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/ResponsiveEmbed.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react@0.14.7.js",
+      "npm:warning@2.1.0.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Row.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-prop-types@0.3.0/lib/elementType.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/SafeAnchor.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/createChainedFunction.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/SplitButton.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/core-js/object/keys.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/Button.js",
+      "npm:react-bootstrap@0.28.2/lib/Dropdown.js",
+      "npm:react-bootstrap@0.28.2/lib/SplitToggle.js",
+      "npm:lodash-compat@3.10.2/object/omit.js",
+      "npm:lodash-compat@3.10.2/object/pick.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Tab.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-dom@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/TransitionEvents.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Table.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Tooltip.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-prop-types@0.3.0/lib/isRequiredForA11y.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Well.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/styleMaps.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Tabs.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/core-js/object/keys.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react@0.14.7.js",
+      "npm:react-dom@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/Col.js",
+      "npm:react-bootstrap@0.28.2/lib/Nav.js",
+      "npm:react-bootstrap@0.28.2/lib/NavItem.js",
+      "npm:react-bootstrap@0.28.2/lib/styleMaps.js",
+      "npm:keycode@2.1.0.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/createChainedFunction.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/ValidComponentChildren.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Collapse.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:dom-helpers@2.4.0/style.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-overlays@0.5.4/lib/Transition.js",
+      "npm:react-prop-types@0.3.0/lib/deprecated.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/createChainedFunction.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Fade.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-overlays@0.5.4/lib/Transition.js",
+      "npm:react-prop-types@0.3.0/lib/deprecated.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/FormControls/index.js": [
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react-bootstrap@0.28.2/lib/FormControls/Static.js"
     ],
     "npm:warning@2.1.0.js": [
       "npm:warning@2.1.0/browser.js"
@@ -499,12 +1182,38 @@ System.config({
     "npm:query-string@3.0.0.js": [
       "npm:query-string@3.0.0/index.js"
     ],
+    "npm:react@0.14.7/lib/ReactReconcileTransaction.js": [
+      "npm:react@0.14.7/lib/CallbackQueue.js",
+      "npm:react@0.14.7/lib/PooledClass.js",
+      "npm:react@0.14.7/lib/ReactBrowserEventEmitter.js",
+      "npm:react@0.14.7/lib/ReactDOMFeatureFlags.js",
+      "npm:react@0.14.7/lib/ReactInputSelection.js",
+      "npm:react@0.14.7/lib/Transaction.js",
+      "npm:react@0.14.7/lib/Object.assign.js"
+    ],
+    "npm:react@0.14.7/lib/ReactInjection.js": [
+      "npm:react@0.14.7/lib/DOMProperty.js",
+      "npm:react@0.14.7/lib/EventPluginHub.js",
+      "npm:react@0.14.7/lib/ReactComponentEnvironment.js",
+      "npm:react@0.14.7/lib/ReactClass.js",
+      "npm:react@0.14.7/lib/ReactEmptyComponent.js",
+      "npm:react@0.14.7/lib/ReactBrowserEventEmitter.js",
+      "npm:react@0.14.7/lib/ReactNativeComponent.js",
+      "npm:react@0.14.7/lib/ReactPerf.js",
+      "npm:react@0.14.7/lib/ReactRootIndex.js",
+      "npm:react@0.14.7/lib/ReactUpdates.js"
+    ],
+    "npm:react@0.14.7/lib/SVGDOMPropertyConfig.js": [
+      "npm:react@0.14.7/lib/DOMProperty.js"
+    ],
+    "npm:react@0.14.7/lib/ReactMarkupChecksum.js": [
+      "npm:react@0.14.7/lib/adler32.js"
+    ],
+    "npm:fbjs@0.6.1/lib/containsNode.js": [
+      "npm:fbjs@0.6.1/lib/isTextNode.js"
+    ],
     "npm:react-router@2.0.0-rc5/lib/computeChangedRoutes.js": [
       "npm:react-router@2.0.0-rc5/lib/PatternUtils.js"
-    ],
-    "npm:core-js@1.2.6/library/modules/es6.object.set-prototype-of.js": [
-      "npm:core-js@1.2.6/library/modules/$.export.js",
-      "npm:core-js@1.2.6/library/modules/$.set-proto.js"
     ],
     "npm:react-router@2.0.0-rc5/lib/isActive.js": [
       "npm:react-router@2.0.0-rc5/lib/PatternUtils.js"
@@ -518,10 +1227,13 @@ System.config({
     "npm:invariant@2.2.0/browser.js": [
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
-    "npm:react@0.14.7/lib/ReactElement.js": [
-      "npm:react@0.14.7/lib/ReactCurrentOwner.js",
-      "npm:react@0.14.7/lib/Object.assign.js",
-      "npm:react@0.14.7/lib/canDefineProperty.js",
+    "npm:react@0.14.7/lib/ReactRef.js": [
+      "npm:react@0.14.7/lib/ReactOwner.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react@0.14.7/lib/ReactComponentBrowserEnvironment.js": [
+      "npm:react@0.14.7/lib/ReactDOMIDOperations.js",
+      "npm:react@0.14.7/lib/ReactMount.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
     "npm:history@2.0.0/lib/PathUtils.js": [
@@ -547,135 +1259,7 @@ System.config({
       "npm:warning@2.1.0.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
-    "npm:react-router@2.0.0-rc5/lib/TransitionUtils.js": [
-      "npm:react-router@2.0.0-rc5/lib/AsyncUtils.js",
-      "npm:react-router@2.0.0-rc5/lib/warning.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react@0.14.7/lib/ReactChildren.js": [
-      "npm:react@0.14.7/lib/PooledClass.js",
-      "npm:react@0.14.7/lib/ReactElement.js",
-      "npm:fbjs@0.6.1/lib/emptyFunction.js",
-      "npm:react@0.14.7/lib/traverseAllChildren.js"
-    ],
-    "npm:react@0.14.7/lib/ReactComponent.js": [
-      "npm:react@0.14.7/lib/ReactNoopUpdateQueue.js",
-      "npm:react@0.14.7/lib/canDefineProperty.js",
-      "npm:fbjs@0.6.1/lib/emptyObject.js",
-      "npm:fbjs@0.6.1/lib/invariant.js",
-      "npm:fbjs@0.6.1/lib/warning.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react@0.14.7/lib/ReactClass.js": [
-      "npm:react@0.14.7/lib/ReactComponent.js",
-      "npm:react@0.14.7/lib/ReactElement.js",
-      "npm:react@0.14.7/lib/ReactPropTypeLocations.js",
-      "npm:react@0.14.7/lib/ReactPropTypeLocationNames.js",
-      "npm:react@0.14.7/lib/ReactNoopUpdateQueue.js",
-      "npm:react@0.14.7/lib/Object.assign.js",
-      "npm:fbjs@0.6.1/lib/emptyObject.js",
-      "npm:fbjs@0.6.1/lib/invariant.js",
-      "npm:fbjs@0.6.1/lib/keyMirror.js",
-      "npm:fbjs@0.6.1/lib/keyOf.js",
-      "npm:fbjs@0.6.1/lib/warning.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react@0.14.7/lib/ReactElementValidator.js": [
-      "npm:react@0.14.7/lib/ReactElement.js",
-      "npm:react@0.14.7/lib/ReactPropTypeLocations.js",
-      "npm:react@0.14.7/lib/ReactPropTypeLocationNames.js",
-      "npm:react@0.14.7/lib/ReactCurrentOwner.js",
-      "npm:react@0.14.7/lib/canDefineProperty.js",
-      "npm:react@0.14.7/lib/getIteratorFn.js",
-      "npm:fbjs@0.6.1/lib/invariant.js",
-      "npm:fbjs@0.6.1/lib/warning.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react@0.14.7/lib/ReactDOMFactories.js": [
-      "npm:react@0.14.7/lib/ReactElement.js",
-      "npm:react@0.14.7/lib/ReactElementValidator.js",
-      "npm:fbjs@0.6.1/lib/mapObject.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react@0.14.7/lib/ReactPropTypes.js": [
-      "npm:react@0.14.7/lib/ReactElement.js",
-      "npm:react@0.14.7/lib/ReactPropTypeLocationNames.js",
-      "npm:fbjs@0.6.1/lib/emptyFunction.js",
-      "npm:react@0.14.7/lib/getIteratorFn.js"
-    ],
-    "npm:react@0.14.7/lib/onlyChild.js": [
-      "npm:react@0.14.7/lib/ReactElement.js",
-      "npm:fbjs@0.6.1/lib/invariant.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react@0.14.7/lib/ReactServerRendering.js": [
-      "npm:react@0.14.7/lib/ReactDefaultBatchingStrategy.js",
-      "npm:react@0.14.7/lib/ReactElement.js",
-      "npm:react@0.14.7/lib/ReactInstanceHandles.js",
-      "npm:react@0.14.7/lib/ReactMarkupChecksum.js",
-      "npm:react@0.14.7/lib/ReactServerBatchingStrategy.js",
-      "npm:react@0.14.7/lib/ReactServerRenderingTransaction.js",
-      "npm:react@0.14.7/lib/ReactUpdates.js",
-      "npm:fbjs@0.6.1/lib/emptyObject.js",
-      "npm:react@0.14.7/lib/instantiateReactComponent.js",
-      "npm:fbjs@0.6.1/lib/invariant.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react@0.14.7/lib/ReactInjection.js": [
-      "npm:react@0.14.7/lib/DOMProperty.js",
-      "npm:react@0.14.7/lib/EventPluginHub.js",
-      "npm:react@0.14.7/lib/ReactComponentEnvironment.js",
-      "npm:react@0.14.7/lib/ReactClass.js",
-      "npm:react@0.14.7/lib/ReactEmptyComponent.js",
-      "npm:react@0.14.7/lib/ReactBrowserEventEmitter.js",
-      "npm:react@0.14.7/lib/ReactNativeComponent.js",
-      "npm:react@0.14.7/lib/ReactPerf.js",
-      "npm:react@0.14.7/lib/ReactRootIndex.js",
-      "npm:react@0.14.7/lib/ReactUpdates.js"
-    ],
-    "npm:react@0.14.7/lib/ReactReconcileTransaction.js": [
-      "npm:react@0.14.7/lib/CallbackQueue.js",
-      "npm:react@0.14.7/lib/PooledClass.js",
-      "npm:react@0.14.7/lib/ReactBrowserEventEmitter.js",
-      "npm:react@0.14.7/lib/ReactDOMFeatureFlags.js",
-      "npm:react@0.14.7/lib/ReactInputSelection.js",
-      "npm:react@0.14.7/lib/Transaction.js",
-      "npm:react@0.14.7/lib/Object.assign.js"
-    ],
-    "npm:react@0.14.7/lib/SVGDOMPropertyConfig.js": [
-      "npm:react@0.14.7/lib/DOMProperty.js"
-    ],
-    "npm:react@0.14.7/lib/ReactMarkupChecksum.js": [
-      "npm:react@0.14.7/lib/adler32.js"
-    ],
-    "npm:fbjs@0.6.1/lib/containsNode.js": [
-      "npm:fbjs@0.6.1/lib/isTextNode.js"
-    ],
-    "npm:react-router@2.0.0-rc5/lib/matchRoutes.js": [
-      "npm:react-router@2.0.0-rc5/lib/warning.js",
-      "npm:react-router@2.0.0-rc5/lib/AsyncUtils.js",
-      "npm:react-router@2.0.0-rc5/lib/PatternUtils.js",
-      "npm:react-router@2.0.0-rc5/lib/RouteUtils.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react@0.14.7/lib/ReactRef.js": [
-      "npm:react@0.14.7/lib/ReactOwner.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:history@2.0.0/lib/createHistory.js": [
-      "npm:warning@2.1.0.js",
-      "npm:deep-equal@1.0.1.js",
-      "npm:history@2.0.0/lib/PathUtils.js",
-      "npm:history@2.0.0/lib/AsyncUtils.js",
-      "npm:history@2.0.0/lib/Actions.js",
-      "npm:history@2.0.0/lib/createLocation.js",
-      "npm:history@2.0.0/lib/runTransitionHook.js",
-      "npm:history@2.0.0/lib/deprecate.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react@0.14.7/lib/ReactComponentBrowserEnvironment.js": [
-      "npm:react@0.14.7/lib/ReactDOMIDOperations.js",
-      "npm:react@0.14.7/lib/ReactMount.js",
+    "npm:fbjs@0.6.1/lib/invariant.js": [
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
     "npm:react@0.14.7/lib/ReactBrowserEventEmitter.js": [
@@ -689,11 +1273,34 @@ System.config({
       "npm:react@0.14.7/lib/isEventSupported.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
+    "npm:react@0.14.7/lib/ReactElement.js": [
+      "npm:react@0.14.7/lib/ReactCurrentOwner.js",
+      "npm:react@0.14.7/lib/Object.assign.js",
+      "npm:react@0.14.7/lib/canDefineProperty.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
     "npm:fbjs@0.6.1/lib/emptyObject.js": [
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
-    "npm:fbjs@0.6.1/lib/invariant.js": [
+    "npm:react-router@2.0.0-rc5/lib/TransitionUtils.js": [
+      "npm:react-router@2.0.0-rc5/lib/AsyncUtils.js",
+      "npm:react-router@2.0.0-rc5/lib/warning.js",
       "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react-router@2.0.0-rc5/lib/matchRoutes.js": [
+      "npm:react-router@2.0.0-rc5/lib/warning.js",
+      "npm:react-router@2.0.0-rc5/lib/AsyncUtils.js",
+      "npm:react-router@2.0.0-rc5/lib/PatternUtils.js",
+      "npm:react-router@2.0.0-rc5/lib/RouteUtils.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/Thumbnail.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/SafeAnchor.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js"
     ],
     "npm:react@0.14.7/lib/DOMChildrenOperations.js": [
       "npm:react@0.14.7/lib/Danger.js",
@@ -747,6 +1354,10 @@ System.config({
     "npm:react@0.14.7/lib/DefaultEventPluginOrder.js": [
       "npm:fbjs@0.6.1/lib/keyOf.js"
     ],
+    "npm:react@0.14.7/lib/HTMLDOMPropertyConfig.js": [
+      "npm:react@0.14.7/lib/DOMProperty.js",
+      "npm:fbjs@0.6.1/lib/ExecutionEnvironment.js"
+    ],
     "npm:react@0.14.7/lib/EnterLeaveEventPlugin.js": [
       "npm:react@0.14.7/lib/EventConstants.js",
       "npm:react@0.14.7/lib/EventPropagators.js",
@@ -760,9 +1371,11 @@ System.config({
       "npm:fbjs@0.6.1/lib/warning.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
-    "npm:react@0.14.7/lib/HTMLDOMPropertyConfig.js": [
-      "npm:react@0.14.7/lib/DOMProperty.js",
-      "npm:fbjs@0.6.1/lib/ExecutionEnvironment.js"
+    "npm:react@0.14.7/lib/ReactDefaultBatchingStrategy.js": [
+      "npm:react@0.14.7/lib/ReactUpdates.js",
+      "npm:react@0.14.7/lib/Transaction.js",
+      "npm:react@0.14.7/lib/Object.assign.js",
+      "npm:fbjs@0.6.1/lib/emptyFunction.js"
     ],
     "npm:react@0.14.7/lib/ReactDOMComponent.js": [
       "npm:react@0.14.7/lib/AutoFocusUtils.js",
@@ -793,12 +1406,6 @@ System.config({
       "npm:react@0.14.7/lib/validateDOMNesting.js",
       "npm:fbjs@0.6.1/lib/warning.js",
       "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react@0.14.7/lib/ReactDefaultBatchingStrategy.js": [
-      "npm:react@0.14.7/lib/ReactUpdates.js",
-      "npm:react@0.14.7/lib/Transaction.js",
-      "npm:react@0.14.7/lib/Object.assign.js",
-      "npm:fbjs@0.6.1/lib/emptyFunction.js"
     ],
     "npm:react@0.14.7/lib/ReactEventListener.js": [
       "npm:fbjs@0.6.1/lib/EventListener.js",
@@ -891,9 +1498,107 @@ System.config({
       "npm:fbjs@0.6.1/lib/invariant.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
-    "npm:core-js@1.2.6/library/modules/$.to-iobject.js": [
-      "npm:core-js@1.2.6/library/modules/$.iobject.js",
-      "npm:core-js@1.2.6/library/modules/$.defined.js"
+    "npm:react@0.14.7/lib/ReactChildren.js": [
+      "npm:react@0.14.7/lib/PooledClass.js",
+      "npm:react@0.14.7/lib/ReactElement.js",
+      "npm:fbjs@0.6.1/lib/emptyFunction.js",
+      "npm:react@0.14.7/lib/traverseAllChildren.js"
+    ],
+    "npm:react@0.14.7/lib/ReactServerRendering.js": [
+      "npm:react@0.14.7/lib/ReactDefaultBatchingStrategy.js",
+      "npm:react@0.14.7/lib/ReactElement.js",
+      "npm:react@0.14.7/lib/ReactInstanceHandles.js",
+      "npm:react@0.14.7/lib/ReactMarkupChecksum.js",
+      "npm:react@0.14.7/lib/ReactServerBatchingStrategy.js",
+      "npm:react@0.14.7/lib/ReactServerRenderingTransaction.js",
+      "npm:react@0.14.7/lib/ReactUpdates.js",
+      "npm:fbjs@0.6.1/lib/emptyObject.js",
+      "npm:react@0.14.7/lib/instantiateReactComponent.js",
+      "npm:fbjs@0.6.1/lib/invariant.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react@0.14.7/lib/ReactComponent.js": [
+      "npm:react@0.14.7/lib/ReactNoopUpdateQueue.js",
+      "npm:react@0.14.7/lib/canDefineProperty.js",
+      "npm:fbjs@0.6.1/lib/emptyObject.js",
+      "npm:fbjs@0.6.1/lib/invariant.js",
+      "npm:fbjs@0.6.1/lib/warning.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react@0.14.7/lib/ReactDOMFactories.js": [
+      "npm:react@0.14.7/lib/ReactElement.js",
+      "npm:react@0.14.7/lib/ReactElementValidator.js",
+      "npm:fbjs@0.6.1/lib/mapObject.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react@0.14.7/lib/ReactClass.js": [
+      "npm:react@0.14.7/lib/ReactComponent.js",
+      "npm:react@0.14.7/lib/ReactElement.js",
+      "npm:react@0.14.7/lib/ReactPropTypeLocations.js",
+      "npm:react@0.14.7/lib/ReactPropTypeLocationNames.js",
+      "npm:react@0.14.7/lib/ReactNoopUpdateQueue.js",
+      "npm:react@0.14.7/lib/Object.assign.js",
+      "npm:fbjs@0.6.1/lib/emptyObject.js",
+      "npm:fbjs@0.6.1/lib/invariant.js",
+      "npm:fbjs@0.6.1/lib/keyMirror.js",
+      "npm:fbjs@0.6.1/lib/keyOf.js",
+      "npm:fbjs@0.6.1/lib/warning.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react@0.14.7/lib/ReactElementValidator.js": [
+      "npm:react@0.14.7/lib/ReactElement.js",
+      "npm:react@0.14.7/lib/ReactPropTypeLocations.js",
+      "npm:react@0.14.7/lib/ReactPropTypeLocationNames.js",
+      "npm:react@0.14.7/lib/ReactCurrentOwner.js",
+      "npm:react@0.14.7/lib/canDefineProperty.js",
+      "npm:react@0.14.7/lib/getIteratorFn.js",
+      "npm:fbjs@0.6.1/lib/invariant.js",
+      "npm:fbjs@0.6.1/lib/warning.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react@0.14.7/lib/ReactPropTypes.js": [
+      "npm:react@0.14.7/lib/ReactElement.js",
+      "npm:react@0.14.7/lib/ReactPropTypeLocationNames.js",
+      "npm:fbjs@0.6.1/lib/emptyFunction.js",
+      "npm:react@0.14.7/lib/getIteratorFn.js"
+    ],
+    "npm:react@0.14.7/lib/onlyChild.js": [
+      "npm:react@0.14.7/lib/ReactElement.js",
+      "npm:fbjs@0.6.1/lib/invariant.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:history@2.0.0/lib/createHistory.js": [
+      "npm:warning@2.1.0.js",
+      "npm:deep-equal@1.0.1.js",
+      "npm:history@2.0.0/lib/PathUtils.js",
+      "npm:history@2.0.0/lib/AsyncUtils.js",
+      "npm:history@2.0.0/lib/Actions.js",
+      "npm:history@2.0.0/lib/createLocation.js",
+      "npm:history@2.0.0/lib/runTransitionHook.js",
+      "npm:history@2.0.0/lib/deprecate.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:classnames@2.2.3.js": [
+      "npm:classnames@2.2.3/index.js"
+    ],
+    "npm:dom-helpers@2.4.0/activeElement.js": [
+      "npm:dom-helpers@2.4.0/util/babelHelpers.js",
+      "npm:dom-helpers@2.4.0/ownerDocument.js"
+    ],
+    "npm:dom-helpers@2.4.0/query/contains.js": [
+      "npm:dom-helpers@2.4.0/util/inDOM.js"
+    ],
+    "npm:keycode@2.1.0.js": [
+      "npm:keycode@2.1.0/index.js"
+    ],
+    "npm:dom-helpers@2.4.0/util/scrollbarSize.js": [
+      "npm:dom-helpers@2.4.0/util/inDOM.js"
+    ],
+    "npm:dom-helpers@2.4.0/events.js": [
+      "npm:dom-helpers@2.4.0/events/index.js"
+    ],
+    "npm:dom-helpers@2.4.0/style.js": [
+      "npm:dom-helpers@2.4.0/style/index.js"
     ],
     "npm:core-js@1.2.6/library/modules/$.export.js": [
       "npm:core-js@1.2.6/library/modules/$.global.js",
@@ -906,48 +1611,213 @@ System.config({
       "npm:core-js@1.2.6/library/modules/$.an-object.js",
       "npm:core-js@1.2.6/library/modules/$.ctx.js"
     ],
-    "npm:process@0.11.2.js": [
-      "npm:process@0.11.2/browser.js"
+    "npm:core-js@1.2.6/library/modules/$.to-iobject.js": [
+      "npm:core-js@1.2.6/library/modules/$.iobject.js",
+      "npm:core-js@1.2.6/library/modules/$.defined.js"
     ],
     "npm:core-js@1.2.6/library/modules/$.object-sap.js": [
       "npm:core-js@1.2.6/library/modules/$.export.js",
       "npm:core-js@1.2.6/library/modules/$.core.js",
       "npm:core-js@1.2.6/library/modules/$.fails.js"
     ],
-    "npm:query-string@3.0.0/index.js": [
-      "npm:strict-uri-encode@1.1.0.js"
+    "npm:babel-runtime@5.8.35/helpers/extends.js": [
+      "npm:babel-runtime@5.8.35/core-js/object/assign.js"
     ],
-    "npm:warning@2.1.0/browser.js": [
+    "npm:react-prop-types@0.3.0/lib/elementType.js": [
+      "npm:react@0.14.7.js",
+      "npm:react-prop-types@0.3.0/lib/common.js"
+    ],
+    "npm:babel-runtime@5.8.35/core-js/object/keys.js": [
+      "npm:core-js@1.2.6/library/fn/object/keys.js"
+    ],
+    "npm:lodash-compat@3.10.2/collection/find.js": [
+      "npm:lodash-compat@3.10.2/internal/baseEach.js",
+      "npm:lodash-compat@3.10.2/internal/createFind.js"
+    ],
+    "npm:lodash-compat@3.10.2/object/omit.js": [
+      "npm:lodash-compat@3.10.2/internal/arrayMap.js",
+      "npm:lodash-compat@3.10.2/internal/baseDifference.js",
+      "npm:lodash-compat@3.10.2/internal/baseFlatten.js",
+      "npm:lodash-compat@3.10.2/internal/bindCallback.js",
+      "npm:lodash-compat@3.10.2/object/keysIn.js",
+      "npm:lodash-compat@3.10.2/internal/pickByArray.js",
+      "npm:lodash-compat@3.10.2/internal/pickByCallback.js",
+      "npm:lodash-compat@3.10.2/function/restParam.js"
+    ],
+    "npm:uncontrollable@3.2.1.js": [
+      "npm:uncontrollable@3.2.1/index.js"
+    ],
+    "npm:lodash-compat@3.10.2/object/pick.js": [
+      "npm:lodash-compat@3.10.2/internal/baseFlatten.js",
+      "npm:lodash-compat@3.10.2/internal/bindCallback.js",
+      "npm:lodash-compat@3.10.2/internal/pickByArray.js",
+      "npm:lodash-compat@3.10.2/internal/pickByCallback.js",
+      "npm:lodash-compat@3.10.2/function/restParam.js"
+    ],
+    "npm:react-overlays@0.5.4/lib/utils/isOverflowing.js": [
+      "npm:dom-helpers@2.4.0/query/isWindow.js",
+      "npm:dom-helpers@2.4.0/ownerDocument.js"
+    ],
+    "npm:react-prop-types@0.3.0/lib/deprecated.js": [
+      "npm:warning@2.1.0.js"
+    ],
+    "npm:react-overlays@0.5.4/lib/Transition.js": [
+      "npm:react@0.14.7.js",
+      "npm:react-dom@0.14.7.js",
+      "npm:dom-helpers@2.4.0/transition/properties.js",
+      "npm:dom-helpers@2.4.0/events/on.js",
+      "npm:classnames@2.2.3.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/styleMaps.js": [
+      "npm:babel-runtime@5.8.35/core-js/object/assign.js",
+      "npm:babel-runtime@5.8.35/core-js/object/create.js",
+      "npm:babel-runtime@5.8.35/core-js/object/keys.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/FormGroup.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/InputBase.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/FormGroup.js",
+      "npm:react-bootstrap@0.28.2/lib/Glyphicon.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/utils/deprecationWarning.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:warning@2.1.0.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
-    "npm:react@0.14.7/lib/canDefineProperty.js": [
-      "github:jspm/nodelibs-process@0.1.2.js"
+    "npm:react-bootstrap@0.28.2/lib/DropdownMenu.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:keycode@2.1.0.js",
+      "npm:react@0.14.7.js",
+      "npm:react-dom@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-overlays@0.5.4/lib/RootCloseWrapper.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/ValidComponentChildren.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/createChainedFunction.js"
     ],
-    "npm:react@0.14.7/lib/ReactPropTypeLocationNames.js": [
-      "github:jspm/nodelibs-process@0.1.2.js"
+    "npm:react-bootstrap@0.28.2/lib/utils/CustomPropTypes.js": [
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react-prop-types@0.3.0/lib/common.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/childrenToArray.js"
     ],
-    "npm:fbjs@0.6.1/lib/keyMirror.js": [
-      "npm:fbjs@0.6.1/lib/invariant.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
+    "npm:react-bootstrap@0.28.2/lib/DropdownToggle.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/Button.js",
+      "npm:react-bootstrap@0.28.2/lib/SafeAnchor.js"
     ],
-    "npm:react@0.14.7/lib/traverseAllChildren.js": [
-      "npm:react@0.14.7/lib/ReactCurrentOwner.js",
-      "npm:react@0.14.7/lib/ReactElement.js",
-      "npm:react@0.14.7/lib/ReactInstanceHandles.js",
-      "npm:react@0.14.7/lib/getIteratorFn.js",
-      "npm:fbjs@0.6.1/lib/invariant.js",
-      "npm:fbjs@0.6.1/lib/warning.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
+    "npm:react-bootstrap@0.28.2/lib/ModalDialog.js": [
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/styleMaps.js"
     ],
-    "npm:react@0.14.7/lib/ReactNoopUpdateQueue.js": [
-      "npm:fbjs@0.6.1/lib/warning.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
+    "npm:react-overlays@0.5.4/lib/Modal.js": [
+      "npm:react@0.14.7.js",
+      "npm:warning@2.1.0.js",
+      "npm:react-prop-types@0.2.2/lib/mountable.js",
+      "npm:react-prop-types@0.2.2/lib/elementType.js",
+      "npm:react-overlays@0.5.4/lib/Portal.js",
+      "npm:react-overlays@0.5.4/lib/ModalManager.js",
+      "npm:react-overlays@0.5.4/lib/utils/ownerDocument.js",
+      "npm:react-overlays@0.5.4/lib/utils/addEventListener.js",
+      "npm:react-overlays@0.5.4/lib/utils/addFocusListener.js",
+      "npm:dom-helpers@2.4.0/util/inDOM.js",
+      "npm:dom-helpers@2.4.0/activeElement.js",
+      "npm:dom-helpers@2.4.0/query/contains.js",
+      "npm:react-overlays@0.5.4/lib/utils/getContainer.js"
     ],
-    "npm:react@0.14.7/lib/ReactPropTypeLocations.js": [
-      "npm:fbjs@0.6.1/lib/keyMirror.js"
+    "npm:react-bootstrap@0.28.2/lib/deprecated/Navbar.js": [
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-prop-types@0.3.0/lib/deprecated.js",
+      "npm:react-prop-types@0.3.0/lib/elementType.js",
+      "npm:react-bootstrap@0.28.2/lib/Grid.js",
+      "npm:react-bootstrap@0.28.2/lib/NavBrand.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/styleMaps.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/createChainedFunction.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/ValidComponentChildren.js"
     ],
-    "npm:deep-equal@1.0.1.js": [
-      "npm:deep-equal@1.0.1/index.js"
+    "npm:react-bootstrap@0.28.2/lib/NavbarHeader.js": [
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/NavbarCollapse.js": [
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js",
+      "npm:react-bootstrap@0.28.2/lib/Collapse.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/NavbarToggle.js": [
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/bootstrapUtils.js"
+    ],
+    "npm:react-overlays@0.5.4/lib/Overlay.js": [
+      "npm:react@0.14.7.js",
+      "npm:react-overlays@0.5.4/lib/Portal.js",
+      "npm:react-overlays@0.5.4/lib/Position.js",
+      "npm:react-overlays@0.5.4/lib/RootCloseWrapper.js",
+      "npm:react-prop-types@0.2.2/lib/elementType.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/PaginationButton.js": [
+      "npm:babel-runtime@5.8.35/helpers/object-without-properties.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/createSelectedEvent.js",
+      "npm:react-prop-types@0.3.0/lib/elementType.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/SplitToggle.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:react-bootstrap@0.28.2/lib/DropdownToggle.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/FormControls/Static.js": [
+      "npm:babel-runtime@5.8.35/helpers/inherits.js",
+      "npm:babel-runtime@5.8.35/helpers/class-call-check.js",
+      "npm:babel-runtime@5.8.35/helpers/extends.js",
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-bootstrap@0.28.2/lib/InputBase.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/childrenValueInputValidation.js"
     ],
     "npm:react@0.14.7/lib/ReactEmptyComponent.js": [
       "npm:react@0.14.7/lib/ReactElement.js",
@@ -958,8 +1828,8 @@ System.config({
     "npm:fbjs@0.6.1/lib/isTextNode.js": [
       "npm:fbjs@0.6.1/lib/isNode.js"
     ],
-    "npm:react@0.14.7/lib/ReactEventEmitterMixin.js": [
-      "npm:react@0.14.7/lib/EventPluginHub.js"
+    "npm:process@0.11.2.js": [
+      "npm:process@0.11.2/browser.js"
     ],
     "npm:react@0.14.7/lib/quoteAttributeValueForBrowser.js": [
       "npm:react@0.14.7/lib/escapeTextContentForBrowser.js"
@@ -980,18 +1850,72 @@ System.config({
       "npm:react@0.14.7/lib/ViewportMetrics.js",
       "npm:react@0.14.7/lib/getEventModifierState.js"
     ],
-    "npm:history@2.0.0/lib/createLocation.js": [
-      "npm:warning@2.1.0.js",
-      "npm:history@2.0.0/lib/Actions.js",
-      "npm:history@2.0.0/lib/PathUtils.js",
+    "npm:react@0.14.7/lib/ReactEventEmitterMixin.js": [
+      "npm:react@0.14.7/lib/EventPluginHub.js"
+    ],
+    "npm:react@0.14.7/lib/SyntheticClipboardEvent.js": [
+      "npm:react@0.14.7/lib/SyntheticEvent.js"
+    ],
+    "npm:react@0.14.7/lib/SyntheticKeyboardEvent.js": [
+      "npm:react@0.14.7/lib/SyntheticUIEvent.js",
+      "npm:react@0.14.7/lib/getEventCharCode.js",
+      "npm:react@0.14.7/lib/getEventKey.js",
+      "npm:react@0.14.7/lib/getEventModifierState.js"
+    ],
+    "npm:react@0.14.7/lib/SyntheticFocusEvent.js": [
+      "npm:react@0.14.7/lib/SyntheticUIEvent.js"
+    ],
+    "npm:react@0.14.7/lib/SyntheticDragEvent.js": [
+      "npm:react@0.14.7/lib/SyntheticMouseEvent.js"
+    ],
+    "npm:react@0.14.7/lib/SyntheticTouchEvent.js": [
+      "npm:react@0.14.7/lib/SyntheticUIEvent.js",
+      "npm:react@0.14.7/lib/getEventModifierState.js"
+    ],
+    "npm:react@0.14.7/lib/SyntheticUIEvent.js": [
+      "npm:react@0.14.7/lib/SyntheticEvent.js",
+      "npm:react@0.14.7/lib/getEventTarget.js"
+    ],
+    "npm:react@0.14.7/lib/SyntheticWheelEvent.js": [
+      "npm:react@0.14.7/lib/SyntheticMouseEvent.js"
+    ],
+    "npm:react@0.14.7/lib/ReactDefaultPerfAnalysis.js": [
+      "npm:react@0.14.7/lib/Object.assign.js"
+    ],
+    "npm:fbjs@0.6.1/lib/performanceNow.js": [
+      "npm:fbjs@0.6.1/lib/performance.js"
+    ],
+    "npm:query-string@3.0.0/index.js": [
+      "npm:strict-uri-encode@1.1.0.js"
+    ],
+    "npm:warning@2.1.0/browser.js": [
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
-    "npm:react@0.14.7/lib/ReactServerRenderingTransaction.js": [
-      "npm:react@0.14.7/lib/PooledClass.js",
-      "npm:react@0.14.7/lib/CallbackQueue.js",
-      "npm:react@0.14.7/lib/Transaction.js",
-      "npm:react@0.14.7/lib/Object.assign.js",
-      "npm:fbjs@0.6.1/lib/emptyFunction.js"
+    "npm:react@0.14.7/lib/canDefineProperty.js": [
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react@0.14.7/lib/ReactMultiChild.js": [
+      "npm:react@0.14.7/lib/ReactComponentEnvironment.js",
+      "npm:react@0.14.7/lib/ReactMultiChildUpdateTypes.js",
+      "npm:react@0.14.7/lib/ReactCurrentOwner.js",
+      "npm:react@0.14.7/lib/ReactReconciler.js",
+      "npm:react@0.14.7/lib/ReactChildReconciler.js",
+      "npm:react@0.14.7/lib/flattenChildren.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:fbjs@0.6.1/lib/EventListener.js": [
+      "npm:fbjs@0.6.1/lib/emptyFunction.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react@0.14.7/lib/ReactInputSelection.js": [
+      "npm:react@0.14.7/lib/ReactDOMSelection.js",
+      "npm:fbjs@0.6.1/lib/containsNode.js",
+      "npm:fbjs@0.6.1/lib/focusNode.js",
+      "npm:fbjs@0.6.1/lib/getActiveElement.js"
+    ],
+    "npm:react@0.14.7/lib/ReactComponentEnvironment.js": [
+      "npm:fbjs@0.6.1/lib/invariant.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
     ],
     "npm:react@0.14.7/lib/EventPluginHub.js": [
       "npm:react@0.14.7/lib/EventPluginRegistry.js",
@@ -1002,16 +1926,6 @@ System.config({
       "npm:fbjs@0.6.1/lib/invariant.js",
       "npm:fbjs@0.6.1/lib/warning.js",
       "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react@0.14.7/lib/ReactComponentEnvironment.js": [
-      "npm:fbjs@0.6.1/lib/invariant.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react@0.14.7/lib/ReactInputSelection.js": [
-      "npm:react@0.14.7/lib/ReactDOMSelection.js",
-      "npm:fbjs@0.6.1/lib/containsNode.js",
-      "npm:fbjs@0.6.1/lib/focusNode.js",
-      "npm:fbjs@0.6.1/lib/getActiveElement.js"
     ],
     "npm:react@0.14.7/lib/ReactNativeComponent.js": [
       "npm:react@0.14.7/lib/Object.assign.js",
@@ -1059,6 +1973,13 @@ System.config({
       "npm:react@0.14.7/lib/forEachAccumulated.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
+    "npm:react@0.14.7/lib/SyntheticEvent.js": [
+      "npm:react@0.14.7/lib/PooledClass.js",
+      "npm:react@0.14.7/lib/Object.assign.js",
+      "npm:fbjs@0.6.1/lib/emptyFunction.js",
+      "npm:fbjs@0.6.1/lib/warning.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
     "npm:react@0.14.7/lib/AutoFocusUtils.js": [
       "npm:react@0.14.7/lib/ReactMount.js",
       "npm:react@0.14.7/lib/findDOMNode.js",
@@ -1072,13 +1993,6 @@ System.config({
       "npm:react@0.14.7/lib/dangerousStyleValue.js",
       "npm:fbjs@0.6.1/lib/hyphenateStyleName.js",
       "npm:fbjs@0.6.1/lib/memoizeStringOnly.js",
-      "npm:fbjs@0.6.1/lib/warning.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react@0.14.7/lib/SyntheticEvent.js": [
-      "npm:react@0.14.7/lib/PooledClass.js",
-      "npm:react@0.14.7/lib/Object.assign.js",
-      "npm:fbjs@0.6.1/lib/emptyFunction.js",
       "npm:fbjs@0.6.1/lib/warning.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
@@ -1115,51 +2029,6 @@ System.config({
       "npm:fbjs@0.6.1/lib/warning.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
-    "npm:react@0.14.7/lib/SyntheticFocusEvent.js": [
-      "npm:react@0.14.7/lib/SyntheticUIEvent.js"
-    ],
-    "npm:react@0.14.7/lib/SyntheticKeyboardEvent.js": [
-      "npm:react@0.14.7/lib/SyntheticUIEvent.js",
-      "npm:react@0.14.7/lib/getEventCharCode.js",
-      "npm:react@0.14.7/lib/getEventKey.js",
-      "npm:react@0.14.7/lib/getEventModifierState.js"
-    ],
-    "npm:react@0.14.7/lib/SyntheticDragEvent.js": [
-      "npm:react@0.14.7/lib/SyntheticMouseEvent.js"
-    ],
-    "npm:react@0.14.7/lib/SyntheticTouchEvent.js": [
-      "npm:react@0.14.7/lib/SyntheticUIEvent.js",
-      "npm:react@0.14.7/lib/getEventModifierState.js"
-    ],
-    "npm:react@0.14.7/lib/SyntheticUIEvent.js": [
-      "npm:react@0.14.7/lib/SyntheticEvent.js",
-      "npm:react@0.14.7/lib/getEventTarget.js"
-    ],
-    "npm:react@0.14.7/lib/SyntheticWheelEvent.js": [
-      "npm:react@0.14.7/lib/SyntheticMouseEvent.js"
-    ],
-    "npm:react@0.14.7/lib/ReactDefaultPerfAnalysis.js": [
-      "npm:react@0.14.7/lib/Object.assign.js"
-    ],
-    "npm:fbjs@0.6.1/lib/performanceNow.js": [
-      "npm:fbjs@0.6.1/lib/performance.js"
-    ],
-    "npm:react@0.14.7/lib/SyntheticClipboardEvent.js": [
-      "npm:react@0.14.7/lib/SyntheticEvent.js"
-    ],
-    "npm:react@0.14.7/lib/ReactMultiChild.js": [
-      "npm:react@0.14.7/lib/ReactComponentEnvironment.js",
-      "npm:react@0.14.7/lib/ReactMultiChildUpdateTypes.js",
-      "npm:react@0.14.7/lib/ReactCurrentOwner.js",
-      "npm:react@0.14.7/lib/ReactReconciler.js",
-      "npm:react@0.14.7/lib/ReactChildReconciler.js",
-      "npm:react@0.14.7/lib/flattenChildren.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:fbjs@0.6.1/lib/EventListener.js": [
-      "npm:fbjs@0.6.1/lib/emptyFunction.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
     "npm:react@0.14.7/lib/ReactCompositeComponent.js": [
       "npm:react@0.14.7/lib/ReactComponentEnvironment.js",
       "npm:react@0.14.7/lib/ReactCurrentOwner.js",
@@ -1177,8 +2046,61 @@ System.config({
       "npm:fbjs@0.6.1/lib/warning.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
-    "npm:core-js@1.2.6/library/modules/$.iobject.js": [
-      "npm:core-js@1.2.6/library/modules/$.cof.js"
+    "npm:fbjs@0.6.1/lib/keyMirror.js": [
+      "npm:fbjs@0.6.1/lib/invariant.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react@0.14.7/lib/ReactPropTypeLocationNames.js": [
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react@0.14.7/lib/traverseAllChildren.js": [
+      "npm:react@0.14.7/lib/ReactCurrentOwner.js",
+      "npm:react@0.14.7/lib/ReactElement.js",
+      "npm:react@0.14.7/lib/ReactInstanceHandles.js",
+      "npm:react@0.14.7/lib/getIteratorFn.js",
+      "npm:fbjs@0.6.1/lib/invariant.js",
+      "npm:fbjs@0.6.1/lib/warning.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react@0.14.7/lib/ReactNoopUpdateQueue.js": [
+      "npm:fbjs@0.6.1/lib/warning.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react@0.14.7/lib/ReactPropTypeLocations.js": [
+      "npm:fbjs@0.6.1/lib/keyMirror.js"
+    ],
+    "npm:react@0.14.7/lib/ReactServerRenderingTransaction.js": [
+      "npm:react@0.14.7/lib/PooledClass.js",
+      "npm:react@0.14.7/lib/CallbackQueue.js",
+      "npm:react@0.14.7/lib/Transaction.js",
+      "npm:react@0.14.7/lib/Object.assign.js",
+      "npm:fbjs@0.6.1/lib/emptyFunction.js"
+    ],
+    "npm:deep-equal@1.0.1.js": [
+      "npm:deep-equal@1.0.1/index.js"
+    ],
+    "npm:history@2.0.0/lib/createLocation.js": [
+      "npm:warning@2.1.0.js",
+      "npm:history@2.0.0/lib/Actions.js",
+      "npm:history@2.0.0/lib/PathUtils.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:dom-helpers@2.4.0/events/index.js": [
+      "npm:dom-helpers@2.4.0/events/on.js",
+      "npm:dom-helpers@2.4.0/events/off.js",
+      "npm:dom-helpers@2.4.0/events/filter.js"
+    ],
+    "npm:dom-helpers@2.4.0/style/index.js": [
+      "npm:dom-helpers@2.4.0/util/camelizeStyle.js",
+      "npm:dom-helpers@2.4.0/util/hyphenateStyle.js",
+      "npm:dom-helpers@2.4.0/style/getComputedStyle.js",
+      "npm:dom-helpers@2.4.0/style/removeStyle.js"
+    ],
+    "npm:dom-helpers@2.4.0/transition/properties.js": [
+      "npm:dom-helpers@2.4.0/util/inDOM.js"
+    ],
+    "npm:dom-helpers@2.4.0/events/on.js": [
+      "npm:dom-helpers@2.4.0/util/inDOM.js"
     ],
     "npm:core-js@1.2.6/library/modules/$.ctx.js": [
       "npm:core-js@1.2.6/library/modules/$.a-function.js"
@@ -1186,12 +2108,121 @@ System.config({
     "npm:core-js@1.2.6/library/modules/$.an-object.js": [
       "npm:core-js@1.2.6/library/modules/$.is-object.js"
     ],
+    "npm:core-js@1.2.6/library/modules/$.iobject.js": [
+      "npm:core-js@1.2.6/library/modules/$.cof.js"
+    ],
+    "npm:babel-runtime@5.8.35/core-js/object/assign.js": [
+      "npm:core-js@1.2.6/library/fn/object/assign.js"
+    ],
+    "npm:core-js@1.2.6/library/fn/object/keys.js": [
+      "npm:core-js@1.2.6/library/modules/es6.object.keys.js",
+      "npm:core-js@1.2.6/library/modules/$.core.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/baseEach.js": [
+      "npm:lodash-compat@3.10.2/internal/baseForOwn.js",
+      "npm:lodash-compat@3.10.2/internal/createBaseEach.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/baseDifference.js": [
+      "npm:lodash-compat@3.10.2/internal/baseIndexOf.js",
+      "npm:lodash-compat@3.10.2/internal/cacheIndexOf.js",
+      "npm:lodash-compat@3.10.2/internal/createCache.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/createFind.js": [
+      "npm:lodash-compat@3.10.2/internal/baseCallback.js",
+      "npm:lodash-compat@3.10.2/internal/baseFind.js",
+      "npm:lodash-compat@3.10.2/internal/baseFindIndex.js",
+      "npm:lodash-compat@3.10.2/lang/isArray.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/baseFlatten.js": [
+      "npm:lodash-compat@3.10.2/internal/arrayPush.js",
+      "npm:lodash-compat@3.10.2/lang/isArguments.js",
+      "npm:lodash-compat@3.10.2/lang/isArray.js",
+      "npm:lodash-compat@3.10.2/internal/isArrayLike.js",
+      "npm:lodash-compat@3.10.2/internal/isObjectLike.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/bindCallback.js": [
+      "npm:lodash-compat@3.10.2/utility/identity.js"
+    ],
+    "npm:lodash-compat@3.10.2/object/keysIn.js": [
+      "npm:lodash-compat@3.10.2/internal/arrayEach.js",
+      "npm:lodash-compat@3.10.2/lang/isArguments.js",
+      "npm:lodash-compat@3.10.2/lang/isArray.js",
+      "npm:lodash-compat@3.10.2/lang/isFunction.js",
+      "npm:lodash-compat@3.10.2/internal/isIndex.js",
+      "npm:lodash-compat@3.10.2/internal/isLength.js",
+      "npm:lodash-compat@3.10.2/lang/isObject.js",
+      "npm:lodash-compat@3.10.2/lang/isString.js",
+      "npm:lodash-compat@3.10.2/support.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/pickByArray.js": [
+      "npm:lodash-compat@3.10.2/internal/toObject.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/pickByCallback.js": [
+      "npm:lodash-compat@3.10.2/internal/baseForIn.js"
+    ],
+    "npm:uncontrollable@3.2.1/index.js": [
+      "npm:uncontrollable@3.2.1/createUncontrollable.js"
+    ],
+    "npm:react-prop-types@0.2.2/lib/elementType.js": [
+      "npm:react@0.14.7.js",
+      "npm:react-prop-types@0.2.2/lib/common.js"
+    ],
+    "npm:react-prop-types@0.2.2/lib/mountable.js": [
+      "npm:react-prop-types@0.2.2/lib/common.js"
+    ],
+    "npm:react-overlays@0.5.4/lib/ModalManager.js": [
+      "npm:dom-helpers@2.4.0/style.js",
+      "npm:dom-helpers@2.4.0/class.js",
+      "npm:dom-helpers@2.4.0/util/scrollbarSize.js",
+      "npm:react-overlays@0.5.4/lib/utils/isOverflowing.js",
+      "npm:react-overlays@0.5.4/lib/utils/manageAriaHidden.js"
+    ],
+    "npm:react-overlays@0.5.4/lib/utils/addEventListener.js": [
+      "npm:dom-helpers@2.4.0/events/on.js",
+      "npm:dom-helpers@2.4.0/events/off.js"
+    ],
+    "npm:react-overlays@0.5.4/lib/RootCloseWrapper.js": [
+      "npm:react@0.14.7.js",
+      "npm:react-dom@0.14.7.js",
+      "npm:react-overlays@0.5.4/lib/utils/addEventListener.js",
+      "npm:react-overlays@0.5.4/lib/utils/createChainedFunction.js",
+      "npm:react-overlays@0.5.4/lib/utils/ownerDocument.js"
+    ],
+    "npm:react-overlays@0.5.4/lib/utils/ownerDocument.js": [
+      "npm:react-dom@0.14.7.js",
+      "npm:dom-helpers@2.4.0/ownerDocument.js"
+    ],
+    "npm:react-overlays@0.5.4/lib/utils/getContainer.js": [
+      "npm:react-dom@0.14.7.js"
+    ],
+    "npm:react-bootstrap@0.28.2/lib/utils/childrenToArray.js": [
+      "npm:babel-runtime@5.8.35/helpers/interop-require-default.js",
+      "npm:react-bootstrap@0.28.2/lib/utils/ValidComponentChildren.js"
+    ],
+    "npm:react-overlays@0.5.4/lib/Portal.js": [
+      "npm:react@0.14.7.js",
+      "npm:react-dom@0.14.7.js",
+      "npm:react-prop-types@0.2.2/lib/mountable.js",
+      "npm:react-overlays@0.5.4/lib/utils/ownerDocument.js",
+      "npm:react-overlays@0.5.4/lib/utils/getContainer.js"
+    ],
+    "npm:react-overlays@0.5.4/lib/Position.js": [
+      "npm:react@0.14.7.js",
+      "npm:react-dom@0.14.7.js",
+      "npm:classnames@2.2.3.js",
+      "npm:react-overlays@0.5.4/lib/utils/ownerDocument.js",
+      "npm:react-overlays@0.5.4/lib/utils/getContainer.js",
+      "npm:react-overlays@0.5.4/lib/utils/overlayPositionUtils.js",
+      "npm:react-prop-types@0.2.2/lib/mountable.js"
+    ],
     "npm:strict-uri-encode@1.1.0.js": [
       "npm:strict-uri-encode@1.1.0/index.js"
     ],
-    "npm:deep-equal@1.0.1/index.js": [
-      "npm:deep-equal@1.0.1/lib/keys.js",
-      "npm:deep-equal@1.0.1/lib/is_arguments.js"
+    "npm:react@0.14.7/lib/getEventKey.js": [
+      "npm:react@0.14.7/lib/getEventCharCode.js"
+    ],
+    "npm:fbjs@0.6.1/lib/performance.js": [
+      "npm:fbjs@0.6.1/lib/ExecutionEnvironment.js"
     ],
     "npm:fbjs@0.6.1/lib/camelizeStyleName.js": [
       "npm:fbjs@0.6.1/lib/camelize.js"
@@ -1220,35 +2251,6 @@ System.config({
     "npm:react@0.14.7/lib/getTextContentAccessor.js": [
       "npm:fbjs@0.6.1/lib/ExecutionEnvironment.js"
     ],
-    "npm:react@0.14.7/lib/EventPluginUtils.js": [
-      "npm:react@0.14.7/lib/EventConstants.js",
-      "npm:react@0.14.7/lib/ReactErrorUtils.js",
-      "npm:fbjs@0.6.1/lib/invariant.js",
-      "npm:fbjs@0.6.1/lib/warning.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react@0.14.7/lib/accumulateInto.js": [
-      "npm:fbjs@0.6.1/lib/invariant.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react@0.14.7/lib/ReactDOMSelection.js": [
-      "npm:fbjs@0.6.1/lib/ExecutionEnvironment.js",
-      "npm:react@0.14.7/lib/getNodeForCharacterOffset.js",
-      "npm:react@0.14.7/lib/getTextContentAccessor.js"
-    ],
-    "npm:react@0.14.7/lib/LinkedValueUtils.js": [
-      "npm:react@0.14.7/lib/ReactPropTypes.js",
-      "npm:react@0.14.7/lib/ReactPropTypeLocations.js",
-      "npm:fbjs@0.6.1/lib/invariant.js",
-      "npm:fbjs@0.6.1/lib/warning.js",
-      "github:jspm/nodelibs-process@0.1.2.js"
-    ],
-    "npm:react@0.14.7/lib/getEventKey.js": [
-      "npm:react@0.14.7/lib/getEventCharCode.js"
-    ],
-    "npm:fbjs@0.6.1/lib/performance.js": [
-      "npm:fbjs@0.6.1/lib/ExecutionEnvironment.js"
-    ],
     "npm:react@0.14.7/lib/ReactChildReconciler.js": [
       "npm:react@0.14.7/lib/ReactReconciler.js",
       "npm:react@0.14.7/lib/instantiateReactComponent.js",
@@ -1262,12 +2264,302 @@ System.config({
       "npm:fbjs@0.6.1/lib/warning.js",
       "github:jspm/nodelibs-process@0.1.2.js"
     ],
+    "npm:react@0.14.7/lib/ReactDOMSelection.js": [
+      "npm:fbjs@0.6.1/lib/ExecutionEnvironment.js",
+      "npm:react@0.14.7/lib/getNodeForCharacterOffset.js",
+      "npm:react@0.14.7/lib/getTextContentAccessor.js"
+    ],
+    "npm:react@0.14.7/lib/EventPluginUtils.js": [
+      "npm:react@0.14.7/lib/EventConstants.js",
+      "npm:react@0.14.7/lib/ReactErrorUtils.js",
+      "npm:fbjs@0.6.1/lib/invariant.js",
+      "npm:fbjs@0.6.1/lib/warning.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react@0.14.7/lib/accumulateInto.js": [
+      "npm:fbjs@0.6.1/lib/invariant.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:react@0.14.7/lib/LinkedValueUtils.js": [
+      "npm:react@0.14.7/lib/ReactPropTypes.js",
+      "npm:react@0.14.7/lib/ReactPropTypeLocations.js",
+      "npm:fbjs@0.6.1/lib/invariant.js",
+      "npm:fbjs@0.6.1/lib/warning.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:deep-equal@1.0.1/index.js": [
+      "npm:deep-equal@1.0.1/lib/keys.js",
+      "npm:deep-equal@1.0.1/lib/is_arguments.js"
+    ],
+    "npm:dom-helpers@2.4.0/events/off.js": [
+      "npm:dom-helpers@2.4.0/util/inDOM.js"
+    ],
+    "npm:dom-helpers@2.4.0/util/camelizeStyle.js": [
+      "npm:dom-helpers@2.4.0/util/camelize.js"
+    ],
+    "npm:dom-helpers@2.4.0/util/hyphenateStyle.js": [
+      "npm:dom-helpers@2.4.0/util/hyphenate.js"
+    ],
+    "npm:dom-helpers@2.4.0/style/getComputedStyle.js": [
+      "npm:dom-helpers@2.4.0/util/babelHelpers.js",
+      "npm:dom-helpers@2.4.0/util/camelizeStyle.js"
+    ],
+    "npm:dom-helpers@2.4.0/events/filter.js": [
+      "npm:dom-helpers@2.4.0/query/contains.js",
+      "npm:dom-helpers@2.4.0/query/querySelectorAll.js"
+    ],
+    "npm:core-js@1.2.6/library/fn/object/assign.js": [
+      "npm:core-js@1.2.6/library/modules/es6.object.assign.js",
+      "npm:core-js@1.2.6/library/modules/$.core.js"
+    ],
+    "npm:core-js@1.2.6/library/modules/es6.object.keys.js": [
+      "npm:core-js@1.2.6/library/modules/$.to-object.js",
+      "npm:core-js@1.2.6/library/modules/$.object-sap.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/baseForOwn.js": [
+      "npm:lodash-compat@3.10.2/internal/baseFor.js",
+      "npm:lodash-compat@3.10.2/object/keys.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/createBaseEach.js": [
+      "npm:lodash-compat@3.10.2/internal/getLength.js",
+      "npm:lodash-compat@3.10.2/internal/isLength.js",
+      "npm:lodash-compat@3.10.2/internal/toObject.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/baseIndexOf.js": [
+      "npm:lodash-compat@3.10.2/internal/indexOfNaN.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/cacheIndexOf.js": [
+      "npm:lodash-compat@3.10.2/lang/isObject.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/createCache.js": [
+      "npm:lodash-compat@3.10.2/internal/SetCache.js",
+      "npm:lodash-compat@3.10.2/internal/getNative.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/baseCallback.js": [
+      "npm:lodash-compat@3.10.2/internal/baseMatches.js",
+      "npm:lodash-compat@3.10.2/internal/baseMatchesProperty.js",
+      "npm:lodash-compat@3.10.2/internal/bindCallback.js",
+      "npm:lodash-compat@3.10.2/utility/identity.js",
+      "npm:lodash-compat@3.10.2/utility/property.js"
+    ],
+    "npm:lodash-compat@3.10.2/lang/isArray.js": [
+      "npm:lodash-compat@3.10.2/internal/getNative.js",
+      "npm:lodash-compat@3.10.2/internal/isLength.js",
+      "npm:lodash-compat@3.10.2/internal/isObjectLike.js"
+    ],
+    "npm:dom-helpers@2.4.0/class.js": [
+      "npm:dom-helpers@2.4.0/class/index.js"
+    ],
+    "npm:lodash-compat@3.10.2/lang/isArguments.js": [
+      "npm:lodash-compat@3.10.2/internal/isArrayLike.js",
+      "npm:lodash-compat@3.10.2/internal/isObjectLike.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/isArrayLike.js": [
+      "npm:lodash-compat@3.10.2/internal/getLength.js",
+      "npm:lodash-compat@3.10.2/internal/isLength.js"
+    ],
+    "npm:lodash-compat@3.10.2/lang/isFunction.js": [
+      "npm:lodash-compat@3.10.2/lang/isObject.js"
+    ],
+    "npm:lodash-compat@3.10.2/lang/isString.js": [
+      "npm:lodash-compat@3.10.2/internal/isObjectLike.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/baseForIn.js": [
+      "npm:lodash-compat@3.10.2/internal/baseFor.js",
+      "npm:lodash-compat@3.10.2/object/keysIn.js"
+    ],
     "npm:fbjs@0.6.1/lib/createArrayFromMixed.js": [
       "npm:fbjs@0.6.1/lib/toArray.js"
+    ],
+    "npm:react-overlays@0.5.4/lib/utils/overlayPositionUtils.js": [
+      "npm:react-overlays@0.5.4/lib/utils/ownerDocument.js",
+      "npm:dom-helpers@2.4.0/query/offset.js",
+      "npm:dom-helpers@2.4.0/query/position.js",
+      "npm:dom-helpers@2.4.0/query/scrollTop.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/toObject.js": [
+      "npm:lodash-compat@3.10.2/lang/isObject.js",
+      "npm:lodash-compat@3.10.2/lang/isString.js",
+      "npm:lodash-compat@3.10.2/support.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:uncontrollable@3.2.1/createUncontrollable.js": [
+      "npm:react@0.14.7.js",
+      "npm:uncontrollable@3.2.1/utils.js"
+    ],
+    "npm:core-js@1.2.6/library/modules/es6.object.assign.js": [
+      "npm:core-js@1.2.6/library/modules/$.export.js",
+      "npm:core-js@1.2.6/library/modules/$.object-assign.js"
+    ],
+    "npm:core-js@1.2.6/library/modules/$.to-object.js": [
+      "npm:core-js@1.2.6/library/modules/$.defined.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/baseFor.js": [
+      "npm:lodash-compat@3.10.2/internal/createBaseFor.js"
+    ],
+    "npm:lodash-compat@3.10.2/object/keys.js": [
+      "npm:lodash-compat@3.10.2/internal/getNative.js",
+      "npm:lodash-compat@3.10.2/internal/isArrayLike.js",
+      "npm:lodash-compat@3.10.2/lang/isObject.js",
+      "npm:lodash-compat@3.10.2/internal/shimKeys.js",
+      "npm:lodash-compat@3.10.2/support.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/getLength.js": [
+      "npm:lodash-compat@3.10.2/internal/baseProperty.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/SetCache.js": [
+      "npm:lodash-compat@3.10.2/internal/cachePush.js",
+      "npm:lodash-compat@3.10.2/internal/getNative.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/getNative.js": [
+      "npm:lodash-compat@3.10.2/lang/isNative.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/baseMatches.js": [
+      "npm:lodash-compat@3.10.2/internal/baseIsMatch.js",
+      "npm:lodash-compat@3.10.2/internal/getMatchData.js",
+      "npm:lodash-compat@3.10.2/internal/toObject.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/baseMatchesProperty.js": [
+      "npm:lodash-compat@3.10.2/internal/baseGet.js",
+      "npm:lodash-compat@3.10.2/internal/baseIsEqual.js",
+      "npm:lodash-compat@3.10.2/internal/baseSlice.js",
+      "npm:lodash-compat@3.10.2/lang/isArray.js",
+      "npm:lodash-compat@3.10.2/internal/isKey.js",
+      "npm:lodash-compat@3.10.2/internal/isStrictComparable.js",
+      "npm:lodash-compat@3.10.2/array/last.js",
+      "npm:lodash-compat@3.10.2/internal/toObject.js",
+      "npm:lodash-compat@3.10.2/internal/toPath.js"
+    ],
+    "npm:lodash-compat@3.10.2/utility/property.js": [
+      "npm:lodash-compat@3.10.2/internal/baseProperty.js",
+      "npm:lodash-compat@3.10.2/internal/basePropertyDeep.js",
+      "npm:lodash-compat@3.10.2/internal/isKey.js"
+    ],
+    "npm:dom-helpers@2.4.0/class/index.js": [
+      "npm:dom-helpers@2.4.0/class/addClass.js",
+      "npm:dom-helpers@2.4.0/class/removeClass.js",
+      "npm:dom-helpers@2.4.0/class/hasClass.js"
+    ],
+    "npm:dom-helpers@2.4.0/query/offset.js": [
+      "npm:dom-helpers@2.4.0/query/contains.js",
+      "npm:dom-helpers@2.4.0/query/isWindow.js",
+      "npm:dom-helpers@2.4.0/ownerDocument.js"
+    ],
+    "npm:dom-helpers@2.4.0/query/position.js": [
+      "npm:dom-helpers@2.4.0/util/babelHelpers.js",
+      "npm:dom-helpers@2.4.0/query/offset.js",
+      "npm:dom-helpers@2.4.0/query/offsetParent.js",
+      "npm:dom-helpers@2.4.0/query/scrollTop.js",
+      "npm:dom-helpers@2.4.0/query/scrollLeft.js",
+      "npm:dom-helpers@2.4.0/style/index.js"
     ],
     "npm:fbjs@0.6.1/lib/toArray.js": [
       "npm:fbjs@0.6.1/lib/invariant.js",
       "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:dom-helpers@2.4.0/query/scrollTop.js": [
+      "npm:dom-helpers@2.4.0/query/isWindow.js"
+    ],
+    "npm:uncontrollable@3.2.1/utils.js": [
+      "npm:react@0.14.7.js",
+      "npm:invariant@2.2.0.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:core-js@1.2.6/library/modules/$.object-assign.js": [
+      "npm:core-js@1.2.6/library/modules/$.js",
+      "npm:core-js@1.2.6/library/modules/$.to-object.js",
+      "npm:core-js@1.2.6/library/modules/$.iobject.js",
+      "npm:core-js@1.2.6/library/modules/$.fails.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/shimKeys.js": [
+      "npm:lodash-compat@3.10.2/lang/isArguments.js",
+      "npm:lodash-compat@3.10.2/lang/isArray.js",
+      "npm:lodash-compat@3.10.2/internal/isIndex.js",
+      "npm:lodash-compat@3.10.2/internal/isLength.js",
+      "npm:lodash-compat@3.10.2/lang/isString.js",
+      "npm:lodash-compat@3.10.2/object/keysIn.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/baseProperty.js": [
+      "npm:lodash-compat@3.10.2/internal/toObject.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/createBaseFor.js": [
+      "npm:lodash-compat@3.10.2/internal/toObject.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/cachePush.js": [
+      "npm:lodash-compat@3.10.2/lang/isObject.js"
+    ],
+    "npm:lodash-compat@3.10.2/lang/isNative.js": [
+      "npm:lodash-compat@3.10.2/lang/isFunction.js",
+      "npm:lodash-compat@3.10.2/internal/isHostObject.js",
+      "npm:lodash-compat@3.10.2/internal/isObjectLike.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/baseIsMatch.js": [
+      "npm:lodash-compat@3.10.2/internal/baseIsEqual.js",
+      "npm:lodash-compat@3.10.2/internal/toObject.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/getMatchData.js": [
+      "npm:lodash-compat@3.10.2/internal/isStrictComparable.js",
+      "npm:lodash-compat@3.10.2/object/pairs.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/baseGet.js": [
+      "npm:lodash-compat@3.10.2/internal/toObject.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/baseIsEqual.js": [
+      "npm:lodash-compat@3.10.2/internal/baseIsEqualDeep.js",
+      "npm:lodash-compat@3.10.2/lang/isObject.js",
+      "npm:lodash-compat@3.10.2/internal/isObjectLike.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/isKey.js": [
+      "npm:lodash-compat@3.10.2/lang/isArray.js",
+      "npm:lodash-compat@3.10.2/internal/toObject.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/isStrictComparable.js": [
+      "npm:lodash-compat@3.10.2/lang/isObject.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/toPath.js": [
+      "npm:lodash-compat@3.10.2/internal/baseToString.js",
+      "npm:lodash-compat@3.10.2/lang/isArray.js",
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:dom-helpers@2.4.0/class/addClass.js": [
+      "npm:dom-helpers@2.4.0/class/hasClass.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/basePropertyDeep.js": [
+      "npm:lodash-compat@3.10.2/internal/baseGet.js",
+      "npm:lodash-compat@3.10.2/internal/toPath.js"
+    ],
+    "npm:dom-helpers@2.4.0/query/offsetParent.js": [
+      "npm:dom-helpers@2.4.0/util/babelHelpers.js",
+      "npm:dom-helpers@2.4.0/ownerDocument.js",
+      "npm:dom-helpers@2.4.0/style/index.js"
+    ],
+    "npm:dom-helpers@2.4.0/query/scrollLeft.js": [
+      "npm:dom-helpers@2.4.0/query/isWindow.js"
+    ],
+    "npm:lodash-compat@3.10.2/object/pairs.js": [
+      "npm:lodash-compat@3.10.2/object/keys.js",
+      "npm:lodash-compat@3.10.2/internal/toObject.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/baseIsEqualDeep.js": [
+      "npm:lodash-compat@3.10.2/internal/equalArrays.js",
+      "npm:lodash-compat@3.10.2/internal/equalByTag.js",
+      "npm:lodash-compat@3.10.2/internal/equalObjects.js",
+      "npm:lodash-compat@3.10.2/lang/isArray.js",
+      "npm:lodash-compat@3.10.2/internal/isHostObject.js",
+      "npm:lodash-compat@3.10.2/lang/isTypedArray.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/baseToString.js": [
+      "github:jspm/nodelibs-process@0.1.2.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/equalArrays.js": [
+      "npm:lodash-compat@3.10.2/internal/arraySome.js"
+    ],
+    "npm:lodash-compat@3.10.2/internal/equalObjects.js": [
+      "npm:lodash-compat@3.10.2/object/keys.js"
+    ],
+    "npm:lodash-compat@3.10.2/lang/isTypedArray.js": [
+      "npm:lodash-compat@3.10.2/internal/isLength.js",
+      "npm:lodash-compat@3.10.2/internal/isObjectLike.js"
     ]
   },
 
@@ -1287,6 +2579,7 @@ System.config({
     "jquery": "npm:jquery@2.2.0",
     "jspm-loader-jsx": "npm:jspm-loader-jsx@0.0.7",
     "react": "npm:react@0.14.7",
+    "react-bootstrap": "npm:react-bootstrap@0.28.2",
     "react-dom": "npm:react-dom@0.14.7",
     "react-redux": "npm:react-redux@4.3.0",
     "react-router": "npm:react-router@2.0.0-rc5",
@@ -2059,6 +3352,9 @@ System.config({
       "prelude-ls": "npm:prelude-ls@1.1.2",
       "type-check": "npm:type-check@0.3.2"
     },
+    "npm:lodash-compat@3.10.2": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
     "npm:lodash._baseassign@3.2.0": {
       "lodash._basecopy": "npm:lodash._basecopy@3.0.1",
       "lodash.keys": "npm:lodash.keys@3.1.2"
@@ -2288,8 +3584,37 @@ System.config({
       "crypto": "github:jspm/nodelibs-crypto@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
+    "npm:react-bootstrap@0.28.2": {
+      "babel-runtime": "npm:babel-runtime@5.8.35",
+      "classnames": "npm:classnames@2.2.3",
+      "dom-helpers": "npm:dom-helpers@2.4.0",
+      "invariant": "npm:invariant@2.2.0",
+      "keycode": "npm:keycode@2.1.0",
+      "lodash-compat": "npm:lodash-compat@3.10.2",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "react": "npm:react@0.14.7",
+      "react-dom": "npm:react-dom@0.14.7",
+      "react-overlays": "npm:react-overlays@0.5.4",
+      "react-prop-types": "npm:react-prop-types@0.3.0",
+      "uncontrollable": "npm:uncontrollable@3.2.1",
+      "warning": "npm:warning@2.1.0"
+    },
     "npm:react-dom@0.14.7": {
       "react": "npm:react@0.14.7"
+    },
+    "npm:react-overlays@0.5.4": {
+      "classnames": "npm:classnames@2.2.3",
+      "dom-helpers": "npm:dom-helpers@2.4.0",
+      "react": "npm:react@0.14.7",
+      "react-dom": "npm:react-dom@0.14.7",
+      "react-prop-types": "npm:react-prop-types@0.2.2",
+      "warning": "npm:warning@2.1.0"
+    },
+    "npm:react-prop-types@0.2.2": {
+      "warning": "npm:warning@2.1.0"
+    },
+    "npm:react-prop-types@0.3.0": {
+      "warning": "npm:warning@2.1.0"
     },
     "npm:react-redux@4.3.0": {
       "hoist-non-react-statics": "npm:hoist-non-react-statics@1.0.5",
@@ -2493,6 +3818,11 @@ System.config({
     "npm:uglify-to-browserify@1.0.2": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "stream": "github:jspm/nodelibs-stream@0.1.0"
+    },
+    "npm:uncontrollable@3.2.1": {
+      "invariant": "npm:invariant@2.2.0",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "react": "npm:react@0.14.7"
     },
     "npm:upper-case-first@1.1.2": {
       "upper-case": "npm:upper-case@1.1.3"

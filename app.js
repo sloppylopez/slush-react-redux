@@ -6,7 +6,6 @@ import main from 'stylesheets/main.css!css'
 import BootstrapCss from 'bootstrap/css/bootstrap.css!css'
 import FontAwesome from 'font-awesome/css/font-awesome.css!css'
 
-
 //import { render } from 'react-dom'
 import { Router, Route, IndexRoute, RouteHandler } from 'react-router'
 import { browserHistory } from 'react-router'

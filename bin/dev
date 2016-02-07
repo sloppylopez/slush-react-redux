@@ -1,4 +1,5 @@
 npm run cache-clear
 npm run unbundle
 npm run build-css
+npm run watch-css &
 livereload -p 3000
