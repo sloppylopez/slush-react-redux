@@ -11,7 +11,17 @@
     "bin/**",
     "LICENSE",
     "*.md",
-    ".eslintrc"
+    ".eslintrc",
+    ".travis.yml",
+    "microsites/**/firebase.json",
+    "microsites/**/package.json",
+    "microsites/**/server.js",
+    "microsites/**/**/.*",
+    "microsites/**/.*ignore",
+    "microsites/**/LICENSE",
+    "microsites/**/*.md",
+    "microsites/**/.eslintrc",
+    "microsites/**/.travis.yml"
   ],
   "cleanUrls": true,
   "trailingSlash": false,
@@ -20,7 +30,8 @@
     "source" : "/elephantseed",
     "destination" : "/microsites/elephantseed",
     "type" : 301
-  }],
+  }
+  ],
   "rewrites": [ {
     "source": "/elephantseed",
     "destination": "/microsites/elephantseed/index.html"
