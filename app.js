@@ -6,6 +6,14 @@ import main from 'stylesheets/main.css!css'
 import BootstrapCss from 'bootstrap/css/bootstrap.css!css'
 import FontAwesome from 'font-awesome/css/font-awesome.css!css'
 
+import injectTapEventPlugin from 'react-tap-event-plugin';
+
+//Needed for onTouchTap
+//Can go away when react 1.0 release
+//Check this repo:
+//https://github.com/zilverline/react-tap-event-plugin
+injectTapEventPlugin();
+
 
 //import { render } from 'react-dom'
 import { Router, Route, IndexRoute, RouteHandler } from 'react-router'
