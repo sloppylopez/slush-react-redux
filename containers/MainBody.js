@@ -87,7 +87,7 @@ class MainBody extends Component {
                             <p>
                                 My colleague also showed me <a href='http://slushjs.github.io/#/'>Slush</a>, it's a
                                 scaffolding tool like <a href='http://yeoman.io/'>Yeoman</a> based on Gulp, so I decided
-                                to create a seed for removing the boiler-plate of a front-end project using all this
+                                to create a seed for removing the boiler-plate of a front-end project using this
                                 technologies
                                 and including all the features developers like, for example live reloading, bundling,
                                 minifying
