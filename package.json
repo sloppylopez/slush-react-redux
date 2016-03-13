@@ -25,7 +25,9 @@
   "license": "MIT",
   "devDependencies": {
     "jspm": "^0.16.27",
-    "node-sass": "^3.4.2"
+    "livereload": "^0.4.1",
+    "node-sass": "^3.4.2",
+    "nodemon": "^1.9.1"
   },
   "jspm": {
     "dependencies": {
