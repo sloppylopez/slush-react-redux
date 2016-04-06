@@ -24,7 +24,7 @@
   "author": "Sergio Lopez <sloppy@sloppylopez.com> (https://sloppylopez.com)",
   "license": "MIT",
   "devDependencies": {
-    "jspm": "^0.16.27",
+    "jspm": "^0.16.32",
     "livereload": "^0.4.1",
     "node-sass": "^3.4.2",
     "nodemon": "^1.9.1"

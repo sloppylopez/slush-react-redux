@@ -14,7 +14,7 @@ class MainNav extends Component {
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav pullRight>
-                        <NavItem eventKey={1} href="/elephantseed">Elephant Seed</NavItem>
+                        <NavItem eventKey={1} href="https://elephantseed.firebaseapp.com/">Elephant Seed</NavItem>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

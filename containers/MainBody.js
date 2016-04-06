@@ -42,18 +42,18 @@ class MainBody extends Component {
                                 to work to scape the noise most of the day, my girlfriend wasn't that lucky.
                             </p>
                             <p>
-                                Nobody said it will be easy, I didn't have internet at home at all the first 2 months,
+                                When it rains it pours so I didn't have internet at home at all the first 2 months,
                                 imagine a Web Developer without internet connection in a new team with new technologies
                                 trying to catch up with his colleagues.
                                 Finally after all the problems I have a place to rest and work, so I decided
                                 to continue working where I left it before leaving.
                             </p>
                             <p>
-                                Despite all inconvenience, in this 3 months I had time to do 2 things, the first one is
-                                to migrate my website again to <a
+                                Despite all inconvenience, in this 3 months I had time to do 2 things, the first one was
+                                migrating my website (again) to <a
                                 href='https://webpack.github.io/'>Webpack</a> and <a
                                 href='https://facebook.github.io/react/'>React</a> / <a
-                                href='https://github.com/rackt/redux'>Redux</a>, but also I developed a NPM
+                                href='https://github.com/rackt/redux'>Redux</a>, the second was a NPM
                                 module called <a href='https://elephantseed.firebaseapp.com/'>Elephant Seed</a>.
                             </p>
                             <p>
