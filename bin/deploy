@@ -1,0 +1,2 @@
+echo -e "${FIREBASE_USER}\n${FIREBASE_PASSWORD}"| firebase login;
+firebase deploy;

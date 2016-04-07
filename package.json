@@ -19,7 +19,8 @@
     "lookup": "bin/lookup",
     "continuous": "bin/continuous",
     "clean-tree": "bin/clean-tree",
-    "start:noreload": "bin/noreload"
+    "start:noreload": "bin/noreload",
+    "deploy": "bin/deploy"
   },
   "author": "Sergio Lopez <sloppy@sloppylopez.com> (https://sloppylopez.com)",
   "license": "MIT",
