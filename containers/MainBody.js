@@ -13,6 +13,115 @@ class MainBody extends Component {
             <div className='container'>
                 <article>
                     <div>
+                        <h2>Self Defence and Programming</h2>
+                        <span>16/4/2016</span>
+
+                        <div>
+                            <p>
+                                I always wanted to write this article and today I'm bored so here we go.
+                                First of all what is self defence?, It is the skill to defend yourself when
+                                you are threatened by an aggressor, that's obvious right? what's not so obvious
+                                is that the aggressor must be stronger than you to be considered self defence,
+                                defending yourself from an unarmed boy it's not a challenge is it?, but what happens
+                                when the guy is bigger and badder than you?, then you have a problem, just like
+                                programming and finding a bug in that you don't know how to solve.
+                            </p>
+                            <p>
+                                Now to put ourselves in situation, what happens if a girl has to defend herself from a man?
+                                Well... her only chance is to kick him quick and to kick him hard, but how a girl it's going
+                                to knock out a guy with 1 hit?.
+                                The answer is playing dirty, 1 punch in the Adam's apple and/or 1 kick in the balls or even
+                                1 finger into the eye it's more than enough to buy time to run, that is the only possible
+                                way out which is much better than nothing.
+                            </p>
+                            <p>
+                                Even if you think the girl is so cool and should feel happy to scape her aggressor she will
+                                probably regret what happened because the guy it's very likely to die or
+                                get severely injured by the chin-chilla received and she will probably have some kind
+                                of judicial liability for the damage as a reward for her courage, which leads me to stress the best
+                                possible situations when dealing with and aggression.
+                            </p>
+                            <p>
+                                When an aggression comes the possible scenarios are roughly this ones by order of convenience:
+
+                                    <ul>
+                                        <li>
+                                            1)You run singing 'If I were a richman lalalalalala'
+                                        </li>
+                                        <li>
+                                            2)Can't flee, so you provide your aggressor a severe corrective as showed before and
+                                            then you go to court to explain what happened, that's a bell you can't unring
+                                        </li>
+                                        <li>
+                                            3)Both of you fight, you lose 2 teeth and have scars all over your face, but when they
+                                            ask 'What happened?' you answer 'You had to see how I left the other guy', this option is
+                                            not court safe either.
+                                        </li>
+                                        <li>
+                                            4)The guy kicks the shit out of you, period.
+                                        </li>
+                                    </ul>
+                                </p>
+                                <p>
+                                When a bug appears while developing this are the possible ones:
+                                    <ul>
+                                        <li>
+                                            1)It's not a bug but a false positive, lack of attention, multitasking, forgot to refresh
+                                            the browser etc etc.
+                                        </li>
+                                        <li>
+                                            2)You faced the bug before, with more of less effort gets solved hopefully with the optimal
+                                            solution
+                                        </li>
+                                        <li>
+                                            3)It's the first time you see it, so you Google it and find the solution after fighting
+                                            the problem
+                                        </li>
+                                        <li>
+                                            4)You find only 3 results about the bug in Google and they are in Japanese forums...
+                                            so you decide to move your ass from the chair and suffer the shame of having to ask your
+                                            team mates, they know the problem and it gets solved.
+                                        </li>
+                                        <li>
+                                            5)No one knows Jackshit about that bug, you are forever alone.
+                                        </li>
+                                    </ul>
+                            </p>
+                            <p>
+                                The difference is: when the moment of truth comes (Case 5), you still have 2 options left.
+                                Either you solve the problem, or you find a workaround, a different way of approaching it,
+                                some people call it lateral thinking.<br></br>
+                                99% of the time the workaround option is a lousy trick that will introduce a technical debt in the
+                                code, which will have to be solved later but sometimes there is room for genius magic, like
+                                when Einstein contradicted Sir Isaac Newton about gravity to put a plain example.
+                            </p>
+                            <p>
+                                The moral of the history is something that can be found in almost every single aspect of the
+                                Asian Culture, including Mangas and suchlike, which is:
+                                'When there is a problem, even if it looks impossible to solve you have to keep trying'.<br></br>
+                                But there is another lecture that can be extracted reading between the lines, you not only
+                                have to keep trying, do you really think keep trying to hit a gorilla it's going to make
+                                you succeed just because you are One Piece fanboy?, hell no, you have to play dirty, playing dirty
+                                means nothing but getting the maximum benefit with the minimum effort.
+                            </p>
+                            <p>
+                                Bruce Lee used to say that you don't need to know 1000 techniques for every possible situation,
+                                as instead you should have just few tricks under your sleeve, but those tricks have to be
+                                the sharpest in terms of reward/effort when we use them to solve problems, and then
+                                train until you master them, to be able to use those skills naturally.
+                            </p>
+                            <p>
+                                The wise man will be able to extract 1 more thing to remember from this story, in the end, the most
+                                important thing is to avoid conflicts in your real life, and to avoid having bugs in your everyday
+                                duty, so we don't have to confront them, unfortunately this is not always in our control, so we
+                                need to be prepared when the time to step up comes.
+                            </p>
+                            <footer><p className='pink'><b>ڪ.</b></p></footer>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div>
                         <h2>Good Bye London, Hello Amsterdam</h2>
                         <span>6/2/2016</span>
 
