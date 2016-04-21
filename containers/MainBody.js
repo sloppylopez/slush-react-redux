@@ -13,7 +13,7 @@ class MainBody extends Component {
             <div className='container'>
                 <article>
                     <div>
-                        <h2>Self Defence and Programming</h2>
+                        <h2>Programming and Self Defence</h2>
                         <span>16/4/2016</span>
 
                         <div>
@@ -24,7 +24,7 @@ class MainBody extends Component {
                                 is that the aggressor must be stronger than you to be considered self defence,
                                 defending yourself from an unarmed boy it's not a challenge is it?, but what happens
                                 when the guy is bigger and badder than you?, then you have a problem, just like
-                                programming and finding a bug in that you don't know how to solve.
+                                when you find a bug that you don't know how to solve.
                             </p>
                             <p>
                                 Now to put ourselves in situation, what happens if a girl has to defend herself from a man?
@@ -35,9 +35,9 @@ class MainBody extends Component {
                                 way out which is much better than nothing.
                             </p>
                             <p>
-                                Even if you think the girl is so cool and should feel happy to scape her aggressor she will
+                                Even if you think the girl is so cool for and should feel happy to scape her aggressor she will
                                 probably regret what happened because the guy it's very likely to die or
-                                get severely injured by the chin-chilla received and she will probably have some kind
+                                get severely injured by the chin-chilla received and most likely she will have some kind
                                 of judicial liability for the damage as a reward for her courage, which leads me to stress the best
                                 possible situations when dealing with and aggression.
                             </p>
@@ -46,15 +46,16 @@ class MainBody extends Component {
 
                                     <ul>
                                         <li>
-                                            1)You run singing 'If I were a richman lalalalalala'
+                                            1)You run singing 'If I were a richman lalalalalalaaaaaaaaaa'
                                         </li>
                                         <li>
-                                            2)Can't flee, so you provide your aggressor a severe corrective as showed before and
-                                            then you go to court to explain what happened, that's a bell you can't unring
+                                            2)Can't flee, so you provide your aggressor a severe corrective as detailed before,
+                                            then you go to court to explain what happened and face the consequences,
+                                            that's a bell you can't unring
                                         </li>
                                         <li>
-                                            3)Both of you fight, you lose 2 teeth and have scars all over your face, but when they
-                                            ask 'What happened?' you answer 'You had to see how I left the other guy', this option is
+                                            3)Both of you fight, you lose several teeth and bare scars all over your face, but when they
+                                            ask you 'What happened?' the answer is 'You had to see how I left the other guy', this option is
                                             not court safe either.
                                         </li>
                                         <li>
@@ -66,20 +67,19 @@ class MainBody extends Component {
                                 When a bug appears while developing this are the possible ones:
                                     <ul>
                                         <li>
-                                            1)It's not a bug but a false positive, lack of attention, multitasking, forgot to refresh
-                                            the browser etc etc.
+                                            1)It's not a bug it's a false positive, maybe lack of attention, multitasking or the all times famous
+                                             'forgot to refresh the browser'.
                                         </li>
                                         <li>
-                                            2)You faced the bug before, with more of less effort gets solved hopefully with the optimal
+                                            2)You faced the bug before or it's trivial, with more of less effort it gets solved, hopefully with the optimal
                                             solution
                                         </li>
                                         <li>
-                                            3)It's the first time you see it, so you Google it and find the solution after fighting
-                                            the problem
+                                            3)It's the first time you see it, so you Google it and the solution appears after fighting the problem
                                         </li>
                                         <li>
-                                            4)You find only 3 results about the bug in Google and they are in Japanese forums...
-                                            so you decide to move your ass from the chair and suffer the shame of having to ask your
+                                            4)You Google it but find only 3 entries talking about the bug in Japanese forums...
+                                            you decide to move your ass from the chair and suffer the shame of asking your
                                             team mates, they know the problem and it gets solved.
                                         </li>
                                         <li>
@@ -89,32 +89,32 @@ class MainBody extends Component {
                             </p>
                             <p>
                                 The difference is: when the moment of truth comes (Case 5), you still have 2 options left.
-                                Either you solve the problem, or you find a workaround, a different way of approaching it,
+                                Either you solve the problem, or you find a workaround, a different way of approaching the problem,
                                 some people call it lateral thinking.<br></br>
-                                99% of the time the workaround option is a lousy trick that will introduce a technical debt in the
-                                code, which will have to be solved later but sometimes there is room for genius magic, like
-                                when Einstein contradicted Sir Isaac Newton about gravity to put a plain example.
+                                99% of times the workaround option is a lousy trick that will introduce a technical debt in the
+                                code, which will have to be solved later, but sometimes there is room for genius magic, like
+                                when Einstein contradicted Sir Isaac Newton about gravity.
                             </p>
                             <p>
-                                The moral of the history is something that can be found in almost every single aspect of the
+                                The moral of the history can be found in almost every single aspect of the
                                 Asian Culture, including Mangas and suchlike, which is:
-                                'When there is a problem, even if it looks impossible to solve you have to keep trying'.<br></br>
-                                But there is another lecture that can be extracted reading between the lines, you not only
-                                have to keep trying, do you really think keep trying to hit a gorilla it's going to make
-                                you succeed just because you are One Piece fanboy?, hell no, you have to play dirty, playing dirty
+                                "When there's a problem, even if it looks impossible to solve and there is no hope left you have to keep trying".<br></br>
+                                But there is another lecture that can be extracted reading between the lines, keep trying is not enough,
+                                do you really think keep trying to hit a gorilla it's going to make
+                                you succeed just because you are a Manga fanboy?, hell no, you have to play dirty, playing dirty
                                 means nothing but getting the maximum benefit with the minimum effort.
                             </p>
                             <p>
                                 Bruce Lee used to say that you don't need to know 1000 techniques for every possible situation,
                                 as instead you should have just few tricks under your sleeve, but those tricks have to be
                                 the sharpest in terms of reward/effort when we use them to solve problems, and then
-                                train until you master them, to be able to use those skills naturally.
+                                you must train until you master them, so you can use those skills naturally.
                             </p>
                             <p>
                                 The wise man will be able to extract 1 more thing to remember from this story, in the end, the most
-                                important thing is to avoid conflicts in your real life, and to avoid having bugs in your everyday
-                                duty, so we don't have to confront them, unfortunately this is not always in our control, so we
-                                need to be prepared when the time to step up comes.
+                                important thing is to avoid conflicts in your real life, and to avoid by any means having bugs in
+                                your everyday duty, so we don't have to confront them, unfortunately this is not always in our control, so we
+                                need to be prepared when things go south.
                             </p>
                             <footer><p className='pink'><b>ڪ.</b></p></footer>
                         </div>
@@ -519,7 +519,7 @@ class MainBody extends Component {
                                 Analytics</a> gives the interesting possibility of measuring
                                 the business value added for that feature, in that particular pull request.
                                 We can measure how affects the performance of the web with tools like <a
-                                href='https://gtmetrix.com/reports/sloppylopez.com/MDmkiX0B'>GTmetrix</a> and how
+                                href='https://gtmetrix.com/reports/sloppylopez.com/uwTHPa7e'>GTmetrix</a> and how
                                 affects the <a href='https://codeclimate.com/github/sloppylopez/angulpar'>quality</a> of
                                 code.<br></br>
                                 if the pull
