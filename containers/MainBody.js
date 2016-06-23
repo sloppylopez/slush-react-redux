@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 
 //import { bindActionCreators } from 'redux'
 //import { connect } from 'react-redux'
@@ -27,93 +27,120 @@ class MainBody extends Component {
                                 when you find a bug that you don't know how to solve.
                             </p>
                             <p>
-                                Now to put ourselves in situation, what happens if a girl has to defend herself from a man?
-                                Well... her only chance is to kick him quick and to kick him hard, but how a girl it's going
+                                Now to put ourselves in situation, what happens if a girl has to defend herself from a
+                                man?
+                                Well... her only chance is to kick him quick and to kick him hard, but how a girl it's
+                                going
                                 to knock out a guy with 1 hit?.
-                                The answer is playing dirty, 1 punch in the Adam's apple and/or 1 kick in the balls or even
-                                1 finger into the eye it's more than enough to buy time to run, that is the only possible
+                                The answer is playing dirty, 1 punch in the Adam's apple and/or 1 kick in the balls or
+                                even
+                                1 finger into the eye it's more than enough to buy time to run, that is the only
+                                possible
                                 way out which is much better than nothing.
                             </p>
                             <p>
-                                Even if you think the girl is so cool for and should feel happy to scape her aggressor she will
+                                Even if you think the girl is so cool for and should feel happy to scape her aggressor
+                                she will
                                 probably regret what happened because the guy it's very likely to die or
                                 get severely injured by the chin-chilla received and most likely she will have some kind
-                                of judicial liability for the damage as a reward for her courage, which leads me to stress the best
+                                of judicial liability for the damage as a reward for her courage, which leads me to
+                                stress the best
                                 possible situations when dealing with and aggression.
                             </p>
-                            <p>
-                                When an aggression comes the possible scenarios are roughly this ones by order of convenience:
-
-                                    <ul>
-                                        <li>
-                                            1)You run singing 'If I were a richman lalalalalalaaaaaaaaaa'
-                                        </li>
-                                        <li>
-                                            2)Can't flee, so you provide your aggressor a severe corrective as detailed before,
-                                            then you go to court to explain what happened and face the consequences,
-                                            that's a bell you can't unring
-                                        </li>
-                                        <li>
-                                            3)Both of you fight, you lose several teeth and bare scars all over your face, but when they
-                                            ask you 'What happened?' the answer is 'You had to see how I left the other guy', this option is
-                                            not court safe either.
-                                        </li>
-                                        <li>
-                                            4)The guy kicks the shit out of you, period.
-                                        </li>
-                                    </ul>
-                                </p>
-                                <p>
+                            <span>
+                                When an aggression comes the possible scenarios are roughly this ones by order of
+                                convenience:
+                                <br></br>
+                                <ul>
+                                    <li>
+                                        1)You run singing 'If I were a richman lalalalalalaaaaaaaaaa'
+                                    </li>
+                                    <li>
+                                        2)Can't flee, so you provide your aggressor a severe corrective as detailed
+                                        before,
+                                        then you go to court to explain what happened and face the consequences,
+                                        that's a bell you can't unring
+                                    </li>
+                                    <li>
+                                        3)Both of you fight, you lose several teeth and bare scars all over your face,
+                                        but when they
+                                        ask you 'What happened?' the answer is 'You had to see how I left the other
+                                        guy', this option is
+                                        not court safe either.
+                                    </li>
+                                    <li>
+                                        4)The guy kicks the shit out of you, period.
+                                    </li>
+                                </ul>
+                            </span>
+                            <span>
                                 When a bug appears while developing this are the possible ones:
-                                    <ul>
-                                        <li>
-                                            1)It's not a bug it's a false positive, maybe lack of attention, multitasking or the all times famous
-                                             'forgot to refresh the browser'.
-                                        </li>
-                                        <li>
-                                            2)You faced the bug before or it's trivial, with more of less effort it gets solved, hopefully with the optimal
-                                            solution
-                                        </li>
-                                        <li>
-                                            3)It's the first time you see it, so you Google it and the solution appears after fighting the problem
-                                        </li>
-                                        <li>
-                                            4)You Google it but find only 3 entries talking about the bug in Japanese forums...
-                                            you decide to move your ass from the chair and suffer the shame of asking your
-                                            team mates, they know the problem and it gets solved.
-                                        </li>
-                                        <li>
-                                            5)No one knows Jackshit about that bug, you are forever alone.
-                                        </li>
-                                    </ul>
-                            </p>
+                                <br></br>
+                                <ul>
+                                    <li>
+                                        1)It's not a bug it's a false positive, maybe lack of attention, multitasking or
+                                        the all times famous
+                                        'forgot to refresh the browser'.
+                                    </li>
+                                    <li>
+                                        2)You faced the bug before or it's trivial, with more of less effort it gets
+                                        solved, hopefully with the optimal
+                                        solution
+                                    </li>
+                                    <li>
+                                        3)It's the first time you see it, so you Google it and the solution appears
+                                        after fighting the problem
+                                    </li>
+                                    <li>
+                                        4)You Google it but find only 3 entries talking about the bug in Japanese
+                                        forums...
+                                        you decide to move your ass from the chair and suffer the shame of asking your
+                                        team mates, they know the problem and it gets solved.
+                                    </li>
+                                    <li>
+                                        5)No one knows Jackshit about that bug, you are forever alone.
+                                    </li>
+                                </ul>
+                            </span>
                             <p>
-                                The difference is: when the moment of truth comes (Case 5), you still have 2 options left.
-                                Either you solve the problem, or you find a workaround, a different way of approaching the problem,
+                                The difference is: when the moment of truth comes (Case 5), you still have 2 options
+                                left.
+                                Either you solve the problem, or you find a workaround, a different way of approaching
+                                the problem,
                                 some people call it lateral thinking.<br></br>
-                                99% of times the workaround option is a lousy trick that will introduce a technical debt in the
-                                code, which will have to be solved later, but sometimes there is room for genius magic, like
+                                99% of times the workaround option is a lousy trick that will introduce a technical debt
+                                in the
+                                code, which will have to be solved later, but sometimes there is room for genius magic,
+                                like
                                 when Einstein contradicted Sir Isaac Newton about gravity.
                             </p>
                             <p>
                                 The moral of the history can be found in almost every single aspect of the
                                 Asian Culture, including Mangas and suchlike, which is:
-                                "When there's a problem, even if it looks impossible to solve and there is no hope left you have to keep trying".<br></br>
-                                But there is another lecture that can be extracted reading between the lines, keep trying is not enough,
+                                "When there's a problem, even if it looks impossible to solve and there is no hope left
+                                you have to keep trying".<br></br>
+                                But there is another lecture that can be extracted reading between the lines, keep
+                                trying is not enough,
                                 do you really think keep trying to hit a gorilla it's going to make
-                                you succeed just because you are a Manga fanboy?, hell no, you have to play dirty, playing dirty
+                                you succeed just because you are a Manga fanboy?, hell no, you have to play dirty,
+                                playing dirty
                                 means nothing but getting the maximum benefit with the minimum effort.
                             </p>
                             <p>
-                                Bruce Lee used to say that you don't need to know 1000 techniques for every possible situation,
-                                as instead you should have just few tricks under your sleeve, but those tricks have to be
+                                Bruce Lee used to say that you don't need to know 1000 techniques for every possible
+                                situation,
+                                as instead you should have just few tricks under your sleeve, but those tricks have to
+                                be
                                 the sharpest in terms of reward/effort when we use them to solve problems, and then
                                 you must train until you master them, so you can use those skills naturally.
                             </p>
                             <p>
-                                The wise man will be able to extract 1 more thing to remember from this story, in the end, the most
-                                important thing is to avoid conflicts in your real life, and to avoid by any means having bugs in
-                                your everyday duty, so we don't have to confront them, unfortunately this is not always in our control, so we
+                                The wise man will be able to extract 1 more thing to remember from this story, in the
+                                end, the most
+                                important thing is to avoid conflicts in your real life, and to avoid by any means
+                                having bugs in
+                                your everyday duty, so we don't have to confront them, unfortunately this is not always
+                                in our control, so we
                                 need to be prepared when things go south.
                             </p>
                             <footer><p className='pink'><b>ڪ.</b></p></footer>
