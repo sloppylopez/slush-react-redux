@@ -21,6 +21,8 @@
   "author": "Sergio Lopez <sloppy@sloppylopez.com> (https://sloppylopez.com)",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-google": "^0.6.0",
     "jspm": "^0.16.32",
     "node-sass": "^3.4.2"
   },

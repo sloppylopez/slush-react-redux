@@ -18,7 +18,6 @@ ratings:
   - "**.js"
   - "**.jsx"
   - "**.module"
-  - "**.php"
-  - "**.py"
-  - "**.rb"
-exclude_paths: []
+exclude_paths: [
+  "./assets", "./bin", "./dist"
+]
