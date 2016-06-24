@@ -1,2 +1,2 @@
-//Store action types here 
+//Store action types here
 //export const INIT = 'INIT'
