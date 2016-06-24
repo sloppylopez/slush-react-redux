@@ -1,2 +1,0 @@
-firebase deploy --token $FIREBASE_TOKEN
-echo "Deployed on Firebase https://sloppylopez.com"
