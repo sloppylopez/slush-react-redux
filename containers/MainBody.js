@@ -14,7 +14,7 @@ class MainBody extends Component {
                 <article>
                     <div>
                         <h2>Programming and Self Defence</h2>
-                        <span>16/4/2016</span>
+                        <span>16 / 4 / 2016</span>
 
                         <div>
                             <p>
@@ -328,7 +328,7 @@ class MainBody extends Component {
                 <article>
                     <div>
                         <h2>Javascript is the new Apache</h2>
-                        <span>6/9/2015</span>
+                        <span>6 / 9 / 2015</span>
                         <div>
                             <p>
                                 Well well, I'm finally back, I was stuck because of the holiday in Spain and problems
@@ -533,7 +533,7 @@ class MainBody extends Component {
                 <article>
                     <div>
                         <h2>Click &amp; Live, Bang!</h2>
-                        <span>6/6/2015</span>
+                        <span>6 / 6 / 2015</span>
                         <div>
                             <p>
                                 This is the brand new project I am working on lately, started on 23/04/2015, that's 9
