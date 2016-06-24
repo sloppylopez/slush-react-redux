@@ -46,62 +46,60 @@ class MainBody extends Component {
                                 of judicial liability for the damage as a reward for her courage, which leads me to
                                 stress the best
                                 possible situations when dealing with and aggression.
-                            </p>
-                            <span>
-                                When an aggression comes the possible scenarios are roughly this ones by order of
+                                <br></br>
+                                <br></br>
+                                When facing an aggression the possible scenarios are roughly this ones by order of
                                 convenience:
-                                <br></br>
-                                <ul>
-                                    <li>
-                                        1)You run singing 'If I were a richman lalalalalalaaaaaaaaaa'
-                                    </li>
-                                    <li>
-                                        2)Can't flee, so you provide your aggressor a severe corrective as detailed
-                                        before,
-                                        then you go to court to explain what happened and face the consequences,
-                                        that's a bell you can't unring
-                                    </li>
-                                    <li>
-                                        3)Both of you fight, you lose several teeth and bare scars all over your face,
-                                        but when they
-                                        ask you 'What happened?' the answer is 'You had to see how I left the other
-                                        guy', this option is
-                                        not court safe either.
-                                    </li>
-                                    <li>
-                                        4)The guy kicks the shit out of you, period.
-                                    </li>
-                                </ul>
-                            </span>
-                            <span>
+                            </p>
+                            <ul>
+                                <li>
+                                    1) You run singing 'If I were a richman lalalalalalaaaaaaaaaa'
+                                </li>
+                                <li>
+                                    2) Can't flee, so you provide your aggressor a severe corrective as detailed
+                                    before,
+                                    then you go to court to explain what happened and face the consequences,
+                                    that's a bell you can't unring
+                                </li>
+                                <li>
+                                    3) Both of you fight, you lose several teeth and bare scars all over your face,
+                                    but when they
+                                    ask you 'What happened?' the answer is 'You had to see how I left the other
+                                    guy', this option is
+                                    not court safe either.
+                                </li>
+                                <li>
+                                    4) The guy kicks the shit out of you, period.
+                                </li>
+                            </ul>
+                            <p>
                                 When a bug appears while developing this are the possible ones:
-                                <br></br>
-                                <ul>
-                                    <li>
-                                        1)It's not a bug it's a false positive, maybe lack of attention, multitasking or
-                                        the all times famous
-                                        'forgot to refresh the browser'.
-                                    </li>
-                                    <li>
-                                        2)You faced the bug before or it's trivial, with more of less effort it gets
-                                        solved, hopefully with the optimal
-                                        solution
-                                    </li>
-                                    <li>
-                                        3)It's the first time you see it, so you Google it and the solution appears
-                                        after fighting the problem
-                                    </li>
-                                    <li>
-                                        4)You Google it but find only 3 entries talking about the bug in Japanese
-                                        forums...
-                                        you decide to move your ass from the chair and suffer the shame of asking your
-                                        team mates, they know the problem and it gets solved.
-                                    </li>
-                                    <li>
-                                        5)No one knows Jackshit about that bug, you are forever alone.
-                                    </li>
-                                </ul>
-                            </span>
+                            </p>
+                            <ul>
+                                <li>
+                                    1) It's not a bug it's a false positive, maybe lack of attention, multitasking or
+                                    the all times famous
+                                    'forgot to refresh the browser'.
+                                </li>
+                                <li>
+                                    2) You faced the bug before or it's trivial, with more of less effort it gets
+                                    solved, hopefully with the optimal
+                                    solution
+                                </li>
+                                <li>
+                                    3) It's the first time you see it, so you Google it and the solution appears
+                                    after fighting the problem
+                                </li>
+                                <li>
+                                    4) You Google it but find only 3 entries talking about the bug in Japanese
+                                    forums...
+                                    you decide to move your ass from the chair and suffer the shame of asking your
+                                    team mates, they know the problem and it gets solved.
+                                </li>
+                                <li>
+                                    5) No one knows Jackshit about that bug, you are forever alone.
+                                </li>
+                            </ul>
                             <p>
                                 The difference is: when the moment of truth comes (Case 5), you still have 2 options
                                 left.
@@ -147,21 +145,85 @@ class MainBody extends Component {
                         </div>
                     </div>
                 </article>
-                <article>
-                    <div>
-                        <h2>Good Bye London, Hello Amsterdam</h2>
-                        <span>6/2/2016</span>
+                <
+                    article >
+                    < div >
+                        < h2 > Good
+                            Bye
+                            London, Hello
+                            Amsterdam
+                        </ h2 >
+                        < span > 6 / 2 / 2016 </ span >
 
-                        <div>
-                            <p>
-                                A big opportunity
-                                came to my life, I changed job, house and city all at the same time,
-                                it wasn't easy because I moved alone, even though my girl
-                                came a month after and helped my out.
-                                I have very good memories of London for the last 3 years, it's a marvelous
-                                city to live but I always wanted to live in Amsterdam ever since I came the
-                                first time. It took me more than 7 years programming to reach being offered
-                                a job here.
+                        < div >
+                            < p >
+                                A
+                                big
+                                opportunity
+                                came
+                                to
+                                my
+                                life, I
+                                changed
+                                job, house
+                                and
+                                city
+                                all
+                                at
+                                the
+                                same
+                                time,
+                                it
+                                wasn
+                                't easy because I moved alone, even though my girl
+                                came
+                                a
+                                month
+                                after
+                                and
+                                helped
+                                my
+                                out.I
+                                have
+                                very
+                                good
+                                memories
+                                of
+                                London
+                                for the last
+                                3
+                                years, it
+                                's a marvelous
+                                city
+                                to
+                                live
+                                but
+                                I
+                                always
+                                wanted
+                                to
+                                live in Amsterdam
+                                ever
+                                since
+                                I
+                                came
+                                the
+                                first
+                                time.It
+                                took
+                                me
+                                more
+                                than
+                                7
+                                years
+                                programming
+                                to
+                                reach
+                                being
+                                offered
+                                a
+                                job
+                                here.
                             </p>
                             <p>
                                 The first 3 weeks were hard knock life, It was challenging to find a house
