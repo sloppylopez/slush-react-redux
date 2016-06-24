@@ -53,7 +53,7 @@ class MainFooter extends Component {
                         <a href='https://twitter.com/sloppylopez' data-show-count='false'><i
                             className='fa fa-twitter'></i></a>
                         <a href='http://es.linkedin.com/in/sloppylopez'><i className='fa fa-linkedin'></i></a>
-                        <a href='http://sloppylopez.github.io/angulpar'><i className='fa fa-github'></i></a>
+                        <a href='https://github.com/sloppylopez'><i className='fa fa-github'></i></a>
 
                     </div>
 
