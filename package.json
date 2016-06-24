@@ -1,7 +1,7 @@
 {
   "name": "slush-react-redux",
-  "version": "0.1.1",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Sloppy Lopez Blog main Website",
   "main": "index.js",
   "scripts": {
     "start": "bin/dev",
