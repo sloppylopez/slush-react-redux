@@ -20,8 +20,6 @@ ratings:
   paths:
   - "**.css"
   - "**.inc"
-  - "**.js"
-  - "**.jsx"
   - "**.module"
   - "**.es6"
   - "**.js"
