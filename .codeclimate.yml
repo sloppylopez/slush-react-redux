@@ -25,6 +25,7 @@ ratings:
   - "**.js"
   - "**.jsx"
 exclude_paths:
-  - "./assets/*"
-  - "./bin/*"
-  - "./dist/*"
+  - "./assets/"
+  - "./bin/"
+  - "./dist/"
+  - "./config.js"
