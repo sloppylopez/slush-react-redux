@@ -25,7 +25,8 @@
     "eslint": "^2.13.1",
     "eslint-plugin-react": "^5.2.2",
     "jspm": "^0.16.32",
-    "node-sass": "^3.4.2"
+    "lite-server": "^2.2.2",
+    "node-sass": "^3.13.1"
   },
   "jspm": {
     "dependencies": {
