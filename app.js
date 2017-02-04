@@ -15,7 +15,7 @@ import App from './containers/App'
 import HomePage from './containers/HomePage'
 
 
-Toastr.warning('this website uses Cookies, please accept to continue reading', 'Sloppy Lopez',
+Toastr.warning('this website uses Cookies, please accept to continue reading', 'Achtung!',
     {
         'timeOut': 5000000,
         'closeButton': true
