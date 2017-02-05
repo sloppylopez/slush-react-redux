@@ -12,4 +12,4 @@ RUN npm rebuild node-sass
 #RUN ./node_modules/.bin/jspm i
 COPY . /usr/src/app
 RUN ls -thrall; pwd
-CMD sh init.sh
+CMD sh ./init.sh
