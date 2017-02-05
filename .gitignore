@@ -16,3 +16,4 @@ jspm_packages
 dist
 .travis.yml
 *.log
+.iml
