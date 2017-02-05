@@ -18,16 +18,16 @@ class MainBody extends Component {
                         <div>
                             <p>
                                 I always wanted to write this article and today I'm bored so here we go.
-                                First of all what is self defence?, It is the skill to defend yourself when
-                                you are threatened by an aggressor, that's obvious right? what's not so obvious
-                                is that the aggressor must be stronger than you to be considered self defence,
-                                defending yourself from an unarmed boy it's not a challenge is it?, but what happens
+                                First of all, what is self defence?, It's the opportunity to defend yourself when
+                                you are threatened by an aggressor, that's obvious right? not so obvious is the
+                                fact that an aggressor must be stronger than you to be considered self defence,
+                                defending yourself from an unarmed boy it's not a really a challenge, but what happens
                                 when the guy is bigger and badder than you?, then you have a problem, just like
                                 when you find a bug that you don't know how to solve.
                             </p>
                             <p>
-                                Now to put ourselves in situation, what happens if a girl has to defend herself from a
-                                man?
+                                Now to put ourselves in situation, what happens if a girl has to defend herself from an
+                                aggressor?
                                 Well... her only chance is to kick him quick and to kick him hard, but how a girl it's
                                 going
                                 to knock out a guy with 1 hit?.
@@ -38,10 +38,10 @@ class MainBody extends Component {
                                 way out which is much better than nothing.
                             </p>
                             <p>
-                                Even if you think the girl is so cool for and should feel happy to scape her aggressor
+                                Even if you think the girl is so cool because she won and should feel happy to scape her aggressor
                                 she will
                                 probably regret what happened because the guy it's very likely to die or
-                                get severely injured by the chin-chilla received and most likely she will have some kind
+                                get severely injured by the chin-chilla received, most likely she will have some kind
                                 of judicial liability for the damage as a reward for her courage, which leads me to
                                 stress the best
                                 possible situations when dealing with and aggression.
@@ -52,7 +52,7 @@ class MainBody extends Component {
                             </p>
                             <ul>
                                 <li>
-                                    1) You run singing 'If I were a richman lalalalalalaaaaaaaaaa'
+                                    1) You run singing 'If I were a rich man lalalalalalaaaaaaaaaa'
                                 </li>
                                 <li>
                                     2) Can't flee, so you provide your aggressor a severe corrective as detailed
@@ -76,7 +76,7 @@ class MainBody extends Component {
                             </p>
                             <ul>
                                 <li>
-                                    1) It's not a bug it's a false positive, maybe lack of attention, multitasking or
+                                    1) It's not a bug, it's a false positive, maybe lack of attention, multitasking or
                                     the all times famous
                                     'forgot to refresh the browser'.
                                 </li>
