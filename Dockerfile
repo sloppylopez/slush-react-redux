@@ -2,15 +2,10 @@
 FROM node:6.9.1
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
-RUN ls -thrall; pwd
 COPY package.json /usr/src/app/
-COPY app.json /usr/src/app/
-COPY config.json /usr/src/app/
-RUN ls -thrall; pwd
+RUN npm i -g  firebase-tools --silent
 RUN npm install --silent
-RUN ls -thrall; pwd
-RUN ./node_modules/.bin/jspm i
+RUN npm rebuild node-sass
 COPY . /usr/src/app
 RUN ls -thrall; pwd
-RUN echo "FINISHING!!!!!!!!!!!!!!!"
 CMD [ "npm", "start" ]
