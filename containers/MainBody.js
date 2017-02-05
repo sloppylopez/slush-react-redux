@@ -12,6 +12,22 @@ class MainBody extends Component {
             <div className='container'>
                 <article>
                     <div>
+                        <h2>CodefreshIO CI ROCKS!!!!!</h2>
+                        <span>5 / 2 / 2017</span>
+
+                        <div>
+                            <p>
+                                IF you can read this means this website is working with a new CI/CD cycle using the recently
+                                discovered Codefresh.io, it's free, it let's you run Docker containers, it has a lot of nice
+                                features, easy to use, I mounted the whole pipeline in 1 day, and I will be able to do a dynamic
+                                pipeline which was my next challenge, a free home made enterprise ready dynamic CI/CD pipeline.
+                            </p>
+                            <footer><p className='pink'><b>ڪ.</b></p></footer>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div>
                         <h2>Programming and Self Defence</h2>
                         <span>16 / 4 / 2016</span>
 
