@@ -8,8 +8,8 @@ COPY package.json /usr/src/app/
 RUN npm i -g  firebase-tools --silent
 RUN npm install --silent
 RUN npm rebuild node-sass
-RUN ./node_modules/.bin/jspm config registries.github.auth $JSPM_GITHUB_AUTH_TOKEN
-RUN ./node_modules/.bin/jspm i
+#RUN ./node_modules/.bin/jspm config registries.github.auth $JSPM_GITHUB_AUTH_TOKEN
+#RUN ./node_modules/.bin/jspm i
 COPY . /usr/src/app
 RUN ls -thrall; pwd
-CMD [ "npm", "start" ]
+CMD sh init.sh
